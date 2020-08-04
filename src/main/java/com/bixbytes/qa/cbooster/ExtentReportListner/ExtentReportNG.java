@@ -1,3 +1,4 @@
+
 package com.bixbytes.qa.cbooster.ExtentReportListner;
 
 import java.io.File;
@@ -18,6 +19,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
+/* This code is for Extent Report Generation, Listener is added in testng.xml file */
 
 	public class ExtentReportNG implements IReporter {
 		private ExtentReports extent;

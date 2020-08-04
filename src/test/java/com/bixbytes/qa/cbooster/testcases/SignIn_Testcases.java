@@ -1,3 +1,7 @@
+/**
+ * @author:Avaneesha K
+   @Company: Bixbytes Solutions
+ */
 package com.bixbytes.qa.cbooster.testcases;
 
 import org.testng.annotations.Test;
@@ -16,6 +20,7 @@ import com.bixbytes.qa.cbooster.pagesactions.SignInPage;
 public class SignIn_Testcases extends Base_Main
 {
 
+	/* TestNG annotations are used in below test cases */
 	SignInPage si;
 	DashBoard db;
 	
