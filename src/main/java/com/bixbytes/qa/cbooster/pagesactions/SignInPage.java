@@ -7,7 +7,6 @@ package com.bixbytes.qa.cbooster.pagesactions;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import com.bixbytes.qa.cbooster.base.Base_Main;
 
 public class SignInPage extends Base_Main {
@@ -25,7 +24,7 @@ public class SignInPage extends Base_Main {
 	@FindBy(linkText = "//a[contains(text(),\"Forgot Your Password?)]")
 	WebElement forgotpwd;
 
-	/* Initializing the pagefactory */
+	/* Initializing the Pagefactory */
 	public SignInPage() {
 		PageFactory.initElements(dr, this);
 

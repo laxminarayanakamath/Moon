@@ -17,14 +17,15 @@ import com.bixbytes.qa.cbooster.base.Base_Main;
 import com.bixbytes.qa.cbooster.pagesactions.DashBoard;
 import com.bixbytes.qa.cbooster.pagesactions.SignInPage;
 
-public class SignIn_Testcases extends Base_Main
-{
-
+ 
+public class SignIn_Positive_Testcases extends Base_Main {
+	
 	/* TestNG annotations are used in below test cases */
 	SignInPage si;
 	DashBoard db;
 	
-	SignIn_Testcases()
+	/*Constructor which points to Base_Main() super class methods*/
+public SignIn_Positive_Testcases()
 	{
 		super();
 		
@@ -33,9 +34,10 @@ public class SignIn_Testcases extends Base_Main
 	@BeforeMethod
 	public void setup()
 	{
+	
 		browsersetups();
 		si=new SignInPage();
-		System.out.println("Hi");
+		
 	}
 	
 	@Test(priority=1)
@@ -43,16 +45,18 @@ public class SignIn_Testcases extends Base_Main
 	{
 		Thread.sleep(1000);
 		String title=si.checktitle_action();
-		AssertJUnit.assertEquals(title, "CBooster PM Tool");
+		Assert.assertEquals(title, "CBooster PM Tool");
+		// AssertJUnit.assertEquals(title, "CBooster PM Tool");
 	}
 	
 	@Test(priority=2)
 	public void login_case() throws InterruptedException
 	{
 		Thread.sleep(1000);
-		String un=System.getProperty("username");
-		String pawd=System.getProperty("password");
-		db=si.login_action("usha.karanth@bixbytessolutions.com", "Aa12345678!");
+		String un=prop.getProperty("username");
+		String pawd=prop.getProperty("password");
+		
+		db=si.login_action(un,pawd);
 		
 	}
 	
@@ -61,5 +65,5 @@ public class SignIn_Testcases extends Base_Main
 	{
 		dr.quit();
 	}
-	
+
 }

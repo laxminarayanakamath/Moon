@@ -1,37 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="37280" started-at="2020-08-04T13:21:23 IST" finished-at="2020-08-04T13:22:00 IST">
+  <suite started-at="2020-08-06T10:41:57 IST" name="Cbooster_Test_Suite" finished-at="2020-08-06T10:43:19 IST" duration-ms="82695">
     <groups>
     </groups>
-    <test name="Admin Cases" duration-ms="37280" started-at="2020-08-04T13:21:23 IST" finished-at="2020-08-04T13:22:00 IST">
-      <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Testcases">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Testcases@1d29cf23]" name="setup" is-config="true" duration-ms="12476" started-at="2020-08-04T13:21:23 IST" finished-at="2020-08-04T13:21:35 IST">
+    <test started-at="2020-08-06T10:41:57 IST" name="Sign In Cases" finished-at="2020-08-06T10:42:52 IST" duration-ms="55817">
+      <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@18ce0030]" started-at="2020-08-06T10:41:57 IST" name="setup" finished-at="2020-08-06T10:42:27 IST" duration-ms="30427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="checktitle_action_case()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Testcases@1d29cf23]" name="checktitle_action_case" duration-ms="2027" started-at="2020-08-04T13:21:35 IST" finished-at="2020-08-04T13:21:37 IST">
+        <test-method signature="checktitle_action_case()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@18ce0030]" started-at="2020-08-06T10:42:27 IST" name="checktitle_action_case" finished-at="2020-08-06T10:42:29 IST" duration-ms="2280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checktitle_action_case -->
-        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Testcases@1d29cf23]" name="exitbrowser" is-config="true" duration-ms="3876" started-at="2020-08-04T13:21:37 IST" finished-at="2020-08-04T13:21:41 IST">
+        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@18ce0030]" started-at="2020-08-06T10:42:29 IST" name="exitbrowser" finished-at="2020-08-06T10:42:30 IST" duration-ms="756" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitbrowser -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Testcases@1d29cf23]" name="setup" is-config="true" duration-ms="11467" started-at="2020-08-04T13:21:41 IST" finished-at="2020-08-04T13:21:53 IST">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@18ce0030]" started-at="2020-08-06T10:42:30 IST" name="setup" finished-at="2020-08-06T10:42:44 IST" duration-ms="13715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login_case()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Testcases@1d29cf23]" name="login_case" duration-ms="3240" started-at="2020-08-04T13:21:53 IST" finished-at="2020-08-04T13:21:56 IST">
+        <test-method signature="login_case()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@18ce0030]" started-at="2020-08-06T10:42:44 IST" name="login_case" finished-at="2020-08-06T10:42:51 IST" duration-ms="6910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_case -->
-        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Testcases@1d29cf23]" name="exitbrowser" is-config="true" duration-ms="4053" started-at="2020-08-04T13:21:56 IST" finished-at="2020-08-04T13:22:00 IST">
+        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@18ce0030]" started-at="2020-08-06T10:42:51 IST" name="exitbrowser" finished-at="2020-08-06T10:42:52 IST" duration-ms="1603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitbrowser -->
-      </class> <!-- com.bixbytes.qa.cbooster.testcases.SignIn_Testcases -->
-    </test> <!-- Admin Cases -->
-  </suite> <!-- Test Suite -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases -->
+    </test> <!-- Sign In Cases -->
+    <test started-at="2020-08-06T10:42:55 IST" name="Dashboard In Cases" finished-at="2020-08-06T10:43:19 IST" duration-ms="24348">
+      <class name="com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases@5ccddd20]" started-at="2020-08-06T10:42:55 IST" name="setup" finished-at="2020-08-06T10:43:08 IST" duration-ms="12960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checktitle_action_case()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases@5ccddd20]" started-at="2020-08-06T10:43:08 IST" name="checktitle_action_case" finished-at="2020-08-06T10:43:18 IST" duration-ms="10460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checktitle_action_case -->
+        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases@5ccddd20]" started-at="2020-08-06T10:43:18 IST" name="exitbrowser" finished-at="2020-08-06T10:43:19 IST" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases -->
+    </test> <!-- Dashboard In Cases -->
+  </suite> <!-- Cbooster_Test_Suite -->
 </testng-results>

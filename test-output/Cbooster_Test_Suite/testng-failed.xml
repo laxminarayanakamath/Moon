@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Cbooster_Test_Suite]">
+  <listeners>
+    <listener class-name="com.bixbytes.qa.cbooster.ExtentReportListner.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="1" name="Admin Cases(failed)">
+    <classes>
+      <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases">
+        <methods>
+          <include name="login_case"/>
+          <include name="setup"/>
+          <include name="exitbrowser"/>
+        </methods>
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases -->
+    </classes>
+  </test> <!-- Admin Cases(failed) -->
+</suite> <!-- Failed suite [Cbooster_Test_Suite] -->
