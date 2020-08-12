@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -23,26 +24,27 @@ public class DashBoard_Positive_Testcases extends Base_Main {
 		super();
 	}
 
-	@BeforeMethod
+
+	@BeforeMethod(alwaysRun=true)
 	public void setup() throws InterruptedException {
 		browsersetups();
 		sp = new SignInPage();
 		String un = prop.getProperty("username");
 		String pawd = prop.getProperty("password");
-		sp.login_action(un,pawd);
+		sp.login_action(un, pawd);
 	}
 
-	@Test(priority=1)
-	public void checktitle_action_case() throws InterruptedException {
-	
+	@Test(priority = 1,groups= {"SmokeTest"})
+	public void dashboard_checktitle_action_case() throws InterruptedException {
+
 		Thread.sleep(5000);
-		db1=new DashBoard();
+		db1 = new DashBoard();
 		Boolean text_displayed = db1.check_title_action();
-		String actual=Boolean.toString(text_displayed);
-		Assert.assertEquals(actual,"true");
+		String actual = Boolean.toString(text_displayed);
+		Assert.assertEquals(actual, "true");
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void exitbrowser() {
 		dr.quit();
 	}

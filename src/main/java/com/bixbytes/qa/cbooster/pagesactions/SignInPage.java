@@ -4,9 +4,13 @@
  */
 package com.bixbytes.qa.cbooster.pagesactions;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+
 import com.bixbytes.qa.cbooster.base.Base_Main;
 
 public class SignInPage extends Base_Main {
@@ -24,33 +28,52 @@ public class SignInPage extends Base_Main {
 	@FindBy(linkText = "//a[contains(text(),\"Forgot Your Password?)]")
 	WebElement forgotpwd;
 
+	@FindBy(xpath = "//span[contains(text(),'Dashboard')]")
+	WebElement dashboard_page_ele;
+
+	@FindBy(xpath = "//p[contains(text(),'Invalid Credentials')][2]")
+	
+	WebElement invalid_cred;
+
 	/* Initializing the Pagefactory */
 	public SignInPage() {
 		PageFactory.initElements(dr, this);
 
 	}
 
-	/* Actions */
+	/* Actions Postive Case */
 	public String checktitle_action() throws InterruptedException {
 		Thread.sleep(1000);
 		return dr.getTitle();
 	}
 
-	public DashBoard login_action(String un, String pawd) throws InterruptedException {
+	public void login_action(String un, String pawd) throws InterruptedException {
 
 		Thread.sleep(1000);
 		id.sendKeys(un);
 		pwd.sendKeys(pawd);
 		loginbtn.click();
 
-		return new DashBoard();
+	}
+
+	public boolean check_title_action_dashboard() {
+
+		dr.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		boolean textdisplayed = dashboard_page_ele.isDisplayed();
+		return textdisplayed;
 
 	}
 
-	public Forgotpassword Forgotpwd_Action() throws InterruptedException {
+	public void forgotpwd_Action() throws InterruptedException {
 		Thread.sleep(1000);
 		forgotpwd.click();
-		return new Forgotpassword();
+
 	}
 
+	/* Actions for Negative case */
+
+	public boolean check_ivalidlogin_alert() {
+		Boolean check_alert = invalid_cred.isDisplayed();
+		return check_alert;
+	}
 }

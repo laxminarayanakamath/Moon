@@ -6,6 +6,7 @@ package com.bixbytes.qa.cbooster.pagesactions;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -16,7 +17,8 @@ public class DashBoard extends Base_Main {
 	@FindBy(xpath = "//span[contains(text(),'Dashboard')]")
 	WebElement dashboard_page_ele;
 
-	public DashBoard() {
+	public DashBoard() 
+	{
 		PageFactory.initElements(dr, this);
 	}
 

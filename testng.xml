@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="1" name="Cbooster_Test_Suite">
+<suite parallel="classes" name="Suite">
+
 	<listeners>
 		<listener class-name="com.bixbytes.qa.cbooster.ExtentReportListner.ExtentReportNG" />
 	</listeners>
-  <test thread-count="1" name="Sign In Cases">
-   <classes>
-      <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases"/>
+<groups>
+<run>
+<exclude name="SmokeTest" />
+<exclude name="FunctionalPositive" />
+<include name="FunctionalNegative" />
+</run>
+</groups>
+  <test  name="SignInPagePositive">
+    <classes>
+         <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases"/>
     </classes>
-     </test> 
-    <test thread-count="1" name="Dashboard In Cases">
-   <classes>
-      <class name="com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases"/>
+  </test>
+  
+  <test name="SignInNegative">
+  <classes>
+      <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases"/>
+  </classes>
+  </test>
+  
+  <test name="DashBoardPositive">
+  <classes>
+       <class name="com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases"/>
     </classes>
-  </test> 
-</suite> 
-
-
+  </test>
+</suite>
