@@ -16,6 +16,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.bixbytes.qa.cbooster.base.Base_Main;
+import com.bixbytes.qa.cbooster.pagesactions.DashBoard;
 import com.bixbytes.qa.cbooster.pagesactions.SignInPage;
 
 public class SignIn_Negative_Cases extends Base_Main {
@@ -44,7 +45,7 @@ public class SignIn_Negative_Cases extends Base_Main {
 		Thread.sleep(1000);
 		String title = si.checktitle_action();
 		Assert.assertEquals(title, "CBooster PM Tool");
-		// AssertJUnit.assertEquals(title, "CBooster PM Tool");
+		
 	}
 
 	@Test(priority = 2,groups= {"FunctionalNegative"})
@@ -53,15 +54,17 @@ public class SignIn_Negative_Cases extends Base_Main {
 		dr.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		String un = prop.getProperty("invalid_username");
 		String pawd = prop.getProperty("invalid_password");
-		si.login_action(un, pawd);
+		DashBoard db=si.login_action(un, pawd);
 
-
-		Thread.sleep(9000);
-			String myWindowHandle = dr.getWindowHandle();
-			dr.switchTo().window(myWindowHandle);
-			Boolean check_alert = si.check_ivalidlogin_alert();
-			String check_alert_value=Boolean.toString(check_alert);
-			Assert.assertEquals(check_alert_value, "true");
+	}
+	
+	@Test(priority = 3,groups= {"FunctionalNegative"})
+	public void signin_invalid_unpwd_checkalert()
+	{
+		
+		Boolean check_alert = si.check_ivalidlogin_alert();
+		String check_alert_value=Boolean.toString(check_alert);
+		Assert.assertEquals(check_alert_value, "true");
 			
 
 	}
@@ -73,14 +76,14 @@ public class SignIn_Negative_Cases extends Base_Main {
 		String un = prop.getProperty("username");
 		String pawd = prop.getProperty("invalid_password");
 		si.login_action(un, pawd);
+	}
 
-
-		Thread.sleep(9000);
-			String myWindowHandle = dr.getWindowHandle();
-			dr.switchTo().window(myWindowHandle);
-			Boolean check_alert = si.check_ivalidlogin_alert();
-			String check_alert_value=Boolean.toString(check_alert);
-			Assert.assertEquals(check_alert_value, "true");
+	@Test(priority = 4,groups= {"FunctionalNegative"})
+	public void signin_invalid_pwd_checkalert()
+	{
+		Boolean check_alert = si.check_ivalidlogin_alert();
+		String check_alert_value=Boolean.toString(check_alert);
+		Assert.assertEquals(check_alert_value, "true");
 
 	}
 	

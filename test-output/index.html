@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-CBoosterTestSuite" class="navigator-link">
+              <span class="suite-name border-failed">CBoosterTestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\OFFICE\AppData\Local\Temp\testng-eclipse--152884861\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-CBoosterTestSuite" class="navigator-link ">
+                    <span>D:\Workspace\CBooster Project\cboostertest\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-CBoosterTestSuite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>2 groups</span>
+                  <a href="#" panel-name="group-CBoosterTestSuite" class="navigator-link ">
+                    <span>3 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-CBoosterTestSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-CBoosterTestSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-CBoosterTestSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-CBoosterTestSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,31 +93,55 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CBoosterTestSuite" class="hide-methods failed suite-CBoosterTestSuite"> (hide)</a> <!-- hide-methods failed suite-CBoosterTestSuite -->
+                      <a href="#" panel-name="suite-CBoosterTestSuite" class="show-methods failed suite-CBoosterTestSuite"> (show)</a> <!-- show-methods failed suite-CBoosterTestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-CBoosterTestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CBoosterTestSuite" title="com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases" class="method navigator-link" hash-for-method="dashboard_checktitle_action_case">dashboard_checktitle_action_case</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CBoosterTestSuite" title="com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases" class="method navigator-link" hash-for-method="sign_case_valid">sign_case_valid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CBoosterTestSuite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-CBoosterTestSuite" class="hide-methods passed suite-CBoosterTestSuite"> (hide)</a> <!-- hide-methods passed suite-CBoosterTestSuite -->
+                      <a href="#" panel-name="suite-CBoosterTestSuite" class="show-methods passed suite-CBoosterTestSuite"> (show)</a> <!-- show-methods passed suite-CBoosterTestSuite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-CBoosterTestSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases" class="method navigator-link" hash-for-method="signin_case_invalid_pwd">signin_case_invalid_pwd</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-CBoosterTestSuite" title="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases" class="method navigator-link" hash-for-method="signin_case_invalid_pwd">signin_case_invalid_pwd</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases" class="method navigator-link" hash-for-method="signin_case_invalid_unpwd">signin_case_invalid_unpwd</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-CBoosterTestSuite" title="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases" class="method navigator-link" hash-for-method="signin_case_invalid_unpwd">signin_case_invalid_unpwd</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases" class="method navigator-link" hash-for-method="signin_checktitle_action_case">signin_checktitle_action_case</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-CBoosterTestSuite" title="com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases" class="method navigator-link" hash-for-method="signin_checktitle_action_case">signin_checktitle_action_case</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CBoosterTestSuite" title="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases" class="method navigator-link" hash-for-method="signin_checktitle_action_case">signin_checktitle_action_case</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CBoosterTestSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -128,8 +152,96 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-CBoosterTestSuite" class="panel CBoosterTestSuite">
+          <div class="suite-CBoosterTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign_case_valid">
+                  </a> <!-- sign_case_valid -->
+                  <span class="method-name">sign_case_valid</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Dashboard&apos;)]&quot;}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AVANEESH-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\OFFICE\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e135457daede097cb4a601ce58bd8f62
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Dashboard&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at com.bixbytes.qa.cbooster.pagesactions.SignInPage.check_title_action_dashboard(SignInPage.java:62)
+	at com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases.sign_case_valid(SignIn_Positive_Testcases.java:59)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CBoosterTestSuite-class-failed -->
+          <div class="suite-CBoosterTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dashboard_checktitle_action_case">
+                  </a> <!-- dashboard_checktitle_action_case -->
+                  <span class="method-name">dashboard_checktitle_action_case</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Dashboard&apos;)]&quot;}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AVANEESH-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\OFFICE\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7c22c9108017e0f56c0a54533c39d5a5
+*** Element info: {Using=xpath, value=//span[contains(text(),&apos;Dashboard&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at com.bixbytes.qa.cbooster.pagesactions.DashBoard.check_title_action(DashBoard.java:27)
+	at com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases.dashboard_checktitle_action_case(DashBoard_Positive_Testcases.java:42)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CBoosterTestSuite-class-failed -->
+          <div class="suite-CBoosterTestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases</span>
@@ -157,41 +269,83 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-CBoosterTestSuite-class-passed -->
+          <div class="suite-CBoosterTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signin_checktitle_action_case">
+                  </a> <!-- signin_checktitle_action_case -->
+                  <span class="method-name">signin_checktitle_action_case</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CBoosterTestSuite-class-passed -->
+        </div> <!-- panel CBoosterTestSuite -->
+        <div panel-name="test-xml-CBoosterTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\OFFICE\AppData\Local\Temp\testng-eclipse--152884861\testng-customsuite.xml</span>
+            <span class="header-content">D:\Workspace\CBooster Project\cboostertest\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;CBoosterTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;SmokeTest&quot;/&gt;
+      &lt;include name=&quot;FunctionalPositive&quot;/&gt;
+      &lt;include name=&quot;FunctionalNegative&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.bixbytes.qa.cbooster.ExtentReportListner.ExtentReportNG&quot;/&gt;
+    &lt;listener class-name=&quot;com.bixbytes.qa.cbooster.utilities.ITestListner&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;SignInPagePositive&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignInPagePositive --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;SignInNegative&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- SignInNegative --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;DashBoardPositive&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DashBoardPositive --&gt;
+&lt;/suite&gt; &lt;!-- CBoosterTestSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-CBoosterTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for CBoosterTestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">SignInPagePositive (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SignInNegative (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DashBoardPositive (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-CBoosterTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for CBoosterTestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
@@ -207,8 +361,20 @@
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
+              <span class="test-group-name">FunctionalPositive</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">sign_case_valid</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
               <span class="test-group-name">SmokeTest</span>
               <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">dashboard_checktitle_action_case</span>
+                <br/>
+              </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">signin_checktitle_action_case</span>
                 <br/>
@@ -216,99 +382,157 @@
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-CBoosterTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for CBoosterTestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_CBoosterTestSuite');
+function tableData_CBoosterTestSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'signin_case_invalid_unpwd')
-data.setCell(0, 2, 'com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases')
-data.setCell(0, 3, 13079);
+data.setCell(0, 1, 'dashboard_checktitle_action_case')
+data.setCell(0, 2, 'com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases')
+data.setCell(0, 3, 40053);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'signin_case_invalid_pwd')
-data.setCell(1, 2, 'com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases')
-data.setCell(1, 3, 11388);
+data.setCell(1, 1, 'sign_case_valid')
+data.setCell(1, 2, 'com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases')
+data.setCell(1, 3, 22317);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'signin_checktitle_action_case')
+data.setCell(2, 1, 'signin_case_invalid_unpwd')
 data.setCell(2, 2, 'com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases')
-data.setCell(2, 3, 2220);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(2, 3, 11526);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'signin_case_invalid_pwd')
+data.setCell(3, 2, 'com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases')
+data.setCell(3, 3, 11394);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'signin_checktitle_action_case')
+data.setCell(4, 2, 'com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases')
+data.setCell(4, 3, 2057);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'signin_checktitle_action_case')
+data.setCell(5, 2, 'com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases')
+data.setCell(5, 3, 2022);
+window.suiteTableData['CBoosterTestSuite']= { tableData: data, tableDiv: 'times-div-CBoosterTestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-CBoosterTestSuite">
+              </div> <!-- times-div-CBoosterTestSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-CBoosterTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for CBoosterTestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-CBoosterTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-CBoosterTestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">signin_checktitle_action_case</span>
-                <span class="method-start">58036 ms</span>
+                <span class="method-start">14410 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">exitbrowser</span>
-                <span class="method-start">60281 ms</span>
+                <span class="method-start">17094 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">62225 ms</span>
+                <span class="method-start">17839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sign_case_valid</span>
+                <span class="method-start">28157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">exitbrowser</span>
+                <span class="method-start">50870 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">51761 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signin_checktitle_action_case</span>
+                <span class="method-start">64092 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">exitbrowser</span>
+                <span class="method-start">66665 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">67843 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">signin_case_invalid_unpwd</span>
-                <span class="method-start">84574 ms</span>
+                <span class="method-start">80771 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">exitbrowser</span>
-                <span class="method-start">97657 ms</span>
+                <span class="method-start">92792 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">98863 ms</span>
+                <span class="method-start">93510 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">signin_case_invalid_pwd</span>
-                <span class="method-start">119355 ms</span>
+                <span class="method-start">105559 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">exitbrowser</span>
-                <span class="method-start">130746 ms</span>
+                <span class="method-start">117608 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">118590 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dashboard_checktitle_action_case</span>
+                <span class="method-start">133327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">exitbrowser</span>
+                <span class="method-start">173958 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

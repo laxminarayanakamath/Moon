@@ -25,7 +25,7 @@ public class SignInPage extends Base_Main {
 	@FindBy(xpath = "//button[contains(text(),'Login')]")
 	WebElement loginbtn;
 
-	@FindBy(linkText = "//a[contains(text(),\"Forgot Your Password?)]")
+	@FindBy(linkText = "//a[contains(text(),'Forgot Your Password?')]")
 	WebElement forgotpwd;
 
 	@FindBy(xpath = "//span[contains(text(),'Dashboard')]")
@@ -41,19 +41,21 @@ public class SignInPage extends Base_Main {
 
 	}
 
-	/* Actions Postive Case */
+	/* Actions Positive Case */
 	public String checktitle_action() throws InterruptedException {
 		Thread.sleep(1000);
 		return dr.getTitle();
 	}
 
-	public void login_action(String un, String pawd) throws InterruptedException {
+	public DashBoard login_action(String un, String pawd) throws InterruptedException {
 
 		Thread.sleep(1000);
 		id.sendKeys(un);
 		pwd.sendKeys(pawd);
 		loginbtn.click();
+		return new DashBoard();
 
+		
 	}
 
 	public boolean check_title_action_dashboard() {
@@ -64,15 +66,14 @@ public class SignInPage extends Base_Main {
 
 	}
 
-	public void forgotpwd_Action() throws InterruptedException {
-		Thread.sleep(1000);
-		forgotpwd.click();
-
-	}
+	
 
 	/* Actions for Negative case */
 
 	public boolean check_ivalidlogin_alert() {
+	
+		String myWindowHandle = dr.getWindowHandle();
+		dr.switchTo().window(myWindowHandle);
 		Boolean check_alert = invalid_cred.isDisplayed();
 		return check_alert;
 	}

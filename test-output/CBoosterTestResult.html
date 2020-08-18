@@ -55,7 +55,7 @@
 					<i class='mdi-hardware-desktop-windows'></i>
 				</li>
 				<li>
-					<span class='suite-started-time'>2020-08-11 18:34:05</span>
+					<span class='suite-started-time'>2020-08-17 20:05:22</span>
 				</li>
 				<li>
 					<span>v2.41.1</span>
@@ -85,25 +85,25 @@
 					<div class='col l2 m4 s12'>
 						<div class='card suite-total-time-current'> 
 							<span class='panel-name'>Total Time Taken (Current Run)</span> 
-							<span class='suite-total-time-current-value panel-lead'>0h 0m 55s+660ms</span> 
+							<span class='suite-total-time-current-value panel-lead'>0h 2m 41s+761ms</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s12'>
 						<div class='card suite-total-time-overall'> 
 							<span class='panel-name'>Total Time Taken (Overall)</span> 
-							<span class='suite-total-time-overall-value panel-lead'>0h 0m 55s+660ms</span> 
+							<span class='suite-total-time-overall-value panel-lead'>0h 2m 41s+761ms</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s6 suite-start-time'>
 						<div class='card accent green-accent'> 
 							<span class='panel-name'>Start</span> 
-							<span class='panel-lead suite-started-time'>2020-08-11 18:33:09</span> 
+							<span class='panel-lead suite-started-time'>2020-08-17 20:02:41</span> 
 						</div> 
 					</div>
 					<div class='col l2 m4 s6 suite-end-time'>
 						<div class='card accent pink-accent'> 
 							<span class='panel-name'>End</span> 
-							<span class='panel-lead suite-ended-time'>2020-08-11 18:34:05</span> 
+							<span class='panel-lead suite-ended-time'>2020-08-17 20:05:22</span> 
 						</div> 
 					</div>
 				</div>
@@ -205,6 +205,16 @@
 													FunctionalNegative
 												</td>
 											</tr>
+											<tr>
+												<td>
+													FunctionalPositive
+												</td>
+											</tr>
+											<tr>
+												<td>
+													SmokeTest
+												</td>
+											</tr>
 									</tbody>
 								</table>
 							</div>
@@ -239,6 +249,8 @@
 									</a>
 									<ul id='category-toggle' class='dropdown-content'>
 											<li class='FunctionalNegative'><a href='#!'>FunctionalNegative</a></li>
+											<li class='FunctionalPositive'><a href='#!'>FunctionalPositive</a></li>
+											<li class='SmokeTest'><a href='#!'>SmokeTest</a></li>
 										<li class='divider'></li>
 										<li class='clear'><a href='#!'>Clear Filters</a></li>
 									</ul>
@@ -270,22 +282,62 @@
 						<div class='card-panel no-padding-h no-padding-v no-margin-v'>
 							<div class='wrapper'>
 								<ul id='test-collection' class='test-collection'>
-										<li class='collection-item test displayed active fail ' extentid='b4428135-8976-4327-9d18-55c5215223f0'>
+										<li class='collection-item test displayed active pass ' extentid='02b1e667-b9e7-400c-adfa-3193f6714de1'>
 											<div class='test-head'>
-												<span class='test-name'>signin_case_invalid_unpwd </span>
-												<span class='test-status label right outline capitalize fail'>fail</span>
-												<span class='category-assigned hide  functionalnegative'></span>
+												<span class='test-name'>signin_checktitle_action_case </span>
+												<span class='test-status label right outline capitalize pass'>pass</span>
+												<span class='category-assigned hide  smoketest'></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2020-08-11 18:33:09</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2020-08-11 18:33:21</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 11s+833ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2020-08-17 20:02:41</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2020-08-17 20:02:43</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 2s+57ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
 														<div class='categories'>
-																<span class='category text-white'>FunctionalNegative</span>
+																<span class='category text-white'>SmokeTest</span>
+														</div>
+												</div>
+												<div class='test-steps'>
+													<table class='bordered table-results'>
+														<thead>
+															<tr>
+																<th>Status</th>
+																<th>Timestamp</th>
+																<th>Details</th>
+															</tr>
+														</thead>
+														<tbody>
+																<tr>
+																	<td class='status pass' title='pass' alt='pass'><i class='mdi-action-check-circle'></i></td>
+																	<td class='timestamp'>20:02:43</td>
+																	<td class='step-details'>Test passed</td>
+																</tr>
+														</tbody>
+													</table>
+													<ul class='collapsible node-list' data-collapsible='accordion'>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class='collection-item test displayed active fail ' extentid='bbd9f86b-4971-4d9c-9f63-dd083fb27140'>
+											<div class='test-head'>
+												<span class='test-name'>sign_case_valid </span>
+												<span class='test-status label right outline capitalize fail'>fail</span>
+												<span class='category-assigned hide  functionalpositive'></span>
+											</div>
+											<div class='test-body'>
+												<div class='test-info'>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2020-08-17 20:02:54</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2020-08-17 20:03:17</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 22s+317ms</span>
+												</div>
+												<div class='test-desc'></div>
+												<div class='test-attributes'>
+														<div class='categories'>
+																<span class='category text-white'>FunctionalPositive</span>
 														</div>
 												</div>
 												<div class='test-steps'>
@@ -300,13 +352,36 @@
 														<tbody>
 																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>18:33:21</td>
-																	<td class='step-details'><pre>java.lang.AssertionError: expected [true] but found [true]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:563)
-	at com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases.signin_case_invalid_unpwd(SignIn_Negative_Cases.java:65)
+																	<td class='timestamp'>20:03:17</td>
+																	<td class='step-details'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Dashboard')]"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AVANEESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\OFFICE\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e135457daede097cb4a601ce58bd8f62
+*** Element info: {Using=xpath, value=//span[contains(text(),'Dashboard')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at com.bixbytes.qa.cbooster.pagesactions.SignInPage.check_title_action_dashboard(SignInPage.java:62)
+	at com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases.sign_case_valid(SignIn_Positive_Testcases.java:59)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -331,17 +406,57 @@
 												</div>
 											</div>
 										</li>
-										<li class='collection-item test displayed active fail ' extentid='9f018297-aaf7-40d1-ba6c-462689109bd9'>
+										<li class='collection-item test displayed active pass ' extentid='29922ddd-19db-47dc-8279-fa22c7898f08'>
 											<div class='test-head'>
-												<span class='test-name'>signin_case_invalid_pwd </span>
-												<span class='test-status label right outline capitalize fail'>fail</span>
+												<span class='test-name'>signin_checktitle_action_case </span>
+												<span class='test-status label right outline capitalize pass'>pass</span>
+												<span class='category-assigned hide  smoketest'></span>
+											</div>
+											<div class='test-body'>
+												<div class='test-info'>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2020-08-17 20:03:30</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2020-08-17 20:03:32</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 2s+22ms</span>
+												</div>
+												<div class='test-desc'></div>
+												<div class='test-attributes'>
+														<div class='categories'>
+																<span class='category text-white'>SmokeTest</span>
+														</div>
+												</div>
+												<div class='test-steps'>
+													<table class='bordered table-results'>
+														<thead>
+															<tr>
+																<th>Status</th>
+																<th>Timestamp</th>
+																<th>Details</th>
+															</tr>
+														</thead>
+														<tbody>
+																<tr>
+																	<td class='status pass' title='pass' alt='pass'><i class='mdi-action-check-circle'></i></td>
+																	<td class='timestamp'>20:03:32</td>
+																	<td class='step-details'>Test passed</td>
+																</tr>
+														</tbody>
+													</table>
+													<ul class='collapsible node-list' data-collapsible='accordion'>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class='collection-item test displayed active pass ' extentid='fbd3f68c-fdfe-4100-803c-f9f48253e35e'>
+											<div class='test-head'>
+												<span class='test-name'>signin_case_invalid_unpwd </span>
+												<span class='test-status label right outline capitalize pass'>pass</span>
 												<span class='category-assigned hide  functionalnegative'></span>
 											</div>
 											<div class='test-body'>
 												<div class='test-info'>
-													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2020-08-11 18:33:42</span>
-													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2020-08-11 18:33:54</span>
-													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 11s+372ms</span>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2020-08-17 20:03:47</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2020-08-17 20:03:58</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 11s+526ms</span>
 												</div>
 												<div class='test-desc'></div>
 												<div class='test-attributes'>
@@ -360,14 +475,117 @@
 														</thead>
 														<tbody>
 																<tr>
+																	<td class='status pass' title='pass' alt='pass'><i class='mdi-action-check-circle'></i></td>
+																	<td class='timestamp'>20:03:58</td>
+																	<td class='step-details'>Test passed</td>
+																</tr>
+														</tbody>
+													</table>
+													<ul class='collapsible node-list' data-collapsible='accordion'>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class='collection-item test displayed active pass ' extentid='427d3af0-413c-4561-93aa-267b08ca06dc'>
+											<div class='test-head'>
+												<span class='test-name'>signin_case_invalid_pwd </span>
+												<span class='test-status label right outline capitalize pass'>pass</span>
+												<span class='category-assigned hide  functionalnegative'></span>
+											</div>
+											<div class='test-body'>
+												<div class='test-info'>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2020-08-17 20:04:12</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2020-08-17 20:04:23</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 11s+394ms</span>
+												</div>
+												<div class='test-desc'></div>
+												<div class='test-attributes'>
+														<div class='categories'>
+																<span class='category text-white'>FunctionalNegative</span>
+														</div>
+												</div>
+												<div class='test-steps'>
+													<table class='bordered table-results'>
+														<thead>
+															<tr>
+																<th>Status</th>
+																<th>Timestamp</th>
+																<th>Details</th>
+															</tr>
+														</thead>
+														<tbody>
+																<tr>
+																	<td class='status pass' title='pass' alt='pass'><i class='mdi-action-check-circle'></i></td>
+																	<td class='timestamp'>20:04:23</td>
+																	<td class='step-details'>Test passed</td>
+																</tr>
+														</tbody>
+													</table>
+													<ul class='collapsible node-list' data-collapsible='accordion'>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class='collection-item test displayed active fail ' extentid='1a762769-1f95-4fff-b264-924d3b30d7a5'>
+											<div class='test-head'>
+												<span class='test-name'>dashboard_checktitle_action_case </span>
+												<span class='test-status label right outline capitalize fail'>fail</span>
+												<span class='category-assigned hide  smoketest'></span>
+											</div>
+											<div class='test-body'>
+												<div class='test-info'>
+													<span title='Test started time' alt='Test started time' class='test-started-time label green lighten-1 text-white'>2020-08-17 20:04:39</span>
+													<span title='Test ended time' alt='Test ended time' class='test-ended-time label red lighten-1 text-white'>2020-08-17 20:05:20</span>
+													<span title='Time taken to finish' alt='Time taken to finish' class='test-time-taken label blue-grey lighten-3 text-white'>0h 0m 40s+53ms</span>
+												</div>
+												<div class='test-desc'></div>
+												<div class='test-attributes'>
+														<div class='categories'>
+																<span class='category text-white'>SmokeTest</span>
+														</div>
+												</div>
+												<div class='test-steps'>
+													<table class='bordered table-results'>
+														<thead>
+															<tr>
+																<th>Status</th>
+																<th>Timestamp</th>
+																<th>Details</th>
+															</tr>
+														</thead>
+														<tbody>
+																<tr>
 																	<td class='status fail' title='fail' alt='fail'><i class='mdi-navigation-cancel'></i></td>
-																	<td class='timestamp'>18:33:54</td>
-																	<td class='step-details'><pre>java.lang.AssertionError: expected [true] but found [true]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:563)
-	at com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases.signin_case_invalid_pwd(SignIn_Negative_Cases.java:84)
+																	<td class='timestamp'>20:05:20</td>
+																	<td class='step-details'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Dashboard')]"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AVANEESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\OFFICE\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7c22c9108017e0f56c0a54533c39d5a5
+*** Element info: {Using=xpath, value=//span[contains(text(),'Dashboard')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at com.bixbytes.qa.cbooster.pagesactions.DashBoard.check_title_action(DashBoard.java:27)
+	at com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases.dashboard_checktitle_action_case(DashBoard_Positive_Testcases.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -444,13 +662,53 @@
 													<span class='category-name'>FunctionalNegative</span>
 												</div>
 												<div class='category-status-counts'>
-														<span class='fail label dot'>Fail: 2</span>
+														<span class='pass label dot'>Pass: 2</span>
+												</div>
+												<div class='cat-body'>
+													<div class='category-status-counts'>
+														<div class='button-group'>
+															<a href='#!' class='pass label filter'>Pass <span class='icon'>2</span></a>
+															<a href='#!' class='fail label filter'>Fail <span class='icon'>0</span></a>
+															<a href='#!' class='other label filter'>Others <span class='icon'>0</span></a>
+														</div>
+													</div>
+													<div class='cat-tests'>
+														<table class='bordered'>
+															<thead>
+																<tr>
+																	<th>RunDate</th>
+																	<th>Test Name</th>
+																	<th>Status</th>
+																</tr>
+															</thead>
+															<tbody>
+																	<tr class='pass'>
+																		<td>2020-08-17 20:03:47</td>
+																		<td><span class='category-link linked' extentid='fbd3f68c-fdfe-4100-803c-f9f48253e35e'>signin_case_invalid_unpwd</span></td>
+																		<td><div class='status label capitalize pass'>pass</div></td>
+																	</tr>
+																	<tr class='pass'>
+																		<td>2020-08-17 20:04:12</td>
+																		<td><span class='category-link linked' extentid='427d3af0-413c-4561-93aa-267b08ca06dc'>signin_case_invalid_pwd</span></td>
+																		<td><div class='status label capitalize pass'>pass</div></td>
+																	</tr>
+															<tbody>
+														</table>
+													</div>
+												</div> 
+											</li>
+											<li class='category-item displayed'>
+												<div class='cat-head'>
+													<span class='category-name'>FunctionalPositive</span>
+												</div>
+												<div class='category-status-counts'>
+														<span class='fail label dot'>Fail: 1</span>
 												</div>
 												<div class='cat-body'>
 													<div class='category-status-counts'>
 														<div class='button-group'>
 															<a href='#!' class='pass label filter'>Pass <span class='icon'>0</span></a>
-															<a href='#!' class='fail label filter'>Fail <span class='icon'>2</span></a>
+															<a href='#!' class='fail label filter'>Fail <span class='icon'>1</span></a>
 															<a href='#!' class='other label filter'>Others <span class='icon'>0</span></a>
 														</div>
 													</div>
@@ -465,13 +723,54 @@
 															</thead>
 															<tbody>
 																	<tr class='fail'>
-																		<td>2020-08-11 18:33:09</td>
-																		<td><span class='category-link linked' extentid='b4428135-8976-4327-9d18-55c5215223f0'>signin_case_invalid_unpwd</span></td>
+																		<td>2020-08-17 20:02:54</td>
+																		<td><span class='category-link linked' extentid='bbd9f86b-4971-4d9c-9f63-dd083fb27140'>sign_case_valid</span></td>
 																		<td><div class='status label capitalize fail'>fail</div></td>
 																	</tr>
+															<tbody>
+														</table>
+													</div>
+												</div> 
+											</li>
+											<li class='category-item displayed'>
+												<div class='cat-head'>
+													<span class='category-name'>SmokeTest</span>
+												</div>
+												<div class='category-status-counts'>
+														<span class='pass label dot'>Pass: 2</span>
+														<span class='fail label dot'>Fail: 1</span>
+												</div>
+												<div class='cat-body'>
+													<div class='category-status-counts'>
+														<div class='button-group'>
+															<a href='#!' class='pass label filter'>Pass <span class='icon'>2</span></a>
+															<a href='#!' class='fail label filter'>Fail <span class='icon'>1</span></a>
+															<a href='#!' class='other label filter'>Others <span class='icon'>0</span></a>
+														</div>
+													</div>
+													<div class='cat-tests'>
+														<table class='bordered'>
+															<thead>
+																<tr>
+																	<th>RunDate</th>
+																	<th>Test Name</th>
+																	<th>Status</th>
+																</tr>
+															</thead>
+															<tbody>
+																	<tr class='pass'>
+																		<td>2020-08-17 20:02:41</td>
+																		<td><span class='category-link linked' extentid='02b1e667-b9e7-400c-adfa-3193f6714de1'>signin_checktitle_action_case</span></td>
+																		<td><div class='status label capitalize pass'>pass</div></td>
+																	</tr>
+																	<tr class='pass'>
+																		<td>2020-08-17 20:03:30</td>
+																		<td><span class='category-link linked' extentid='29922ddd-19db-47dc-8279-fa22c7898f08'>signin_checktitle_action_case</span></td>
+																		<td><div class='status label capitalize pass'>pass</div></td>
+																	</tr>
 																	<tr class='fail'>
-																		<td>2020-08-11 18:33:42</td>
-																		<td><span class='category-link linked' extentid='9f018297-aaf7-40d1-ba6c-462689109bd9'>signin_case_invalid_pwd</span></td>
+																		<td>2020-08-17 20:04:39</td>
+																		<td><span class='category-link linked' extentid='1a762769-1f95-4fff-b264-924d3b30d7a5'>dashboard_checktitle_action_case</span></td>
 																		<td><div class='status label capitalize fail'>fail</div></td>
 																	</tr>
 															<tbody>
@@ -518,7 +817,7 @@
 									<ul id='exception-collection' class='exception-collection'>
 											<li class='exception-item displayed'>
 												<div class='exception-head'>
-													<span class='exception-name'>java.lang.AssertionError</span>
+													<span class='exception-name'>org.openqa.selenium.NoSuchElementException</span>
 												</div>
 												<div class='exception-test-count'>
 													<span class='fail label'>2</span>
@@ -535,14 +834,37 @@
 															</thead>
 															<tbody>
                                                                    <tr class='fail'>
-                                                                       <td>2020-08-11 18:33:09</td>
-                                                                       <td><span class='exception-link linked' extentid='b4428135-8976-4327-9d18-55c5215223f0'>signin_case_invalid_unpwd</span></td>
-                                                                       <td><pre class='exception-message'>java.lang.AssertionError: expected [true] but found [true]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:563)
-	at com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases.signin_case_invalid_unpwd(SignIn_Negative_Cases.java:65)
+                                                                       <td>2020-08-17 20:02:54</td>
+                                                                       <td><span class='exception-link linked' extentid='bbd9f86b-4971-4d9c-9f63-dd083fb27140'>sign_case_valid</span></td>
+                                                                       <td><pre class='exception-message'>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Dashboard')]"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AVANEESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\OFFICE\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e135457daede097cb4a601ce58bd8f62
+*** Element info: {Using=xpath, value=//span[contains(text(),'Dashboard')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at com.bixbytes.qa.cbooster.pagesactions.SignInPage.check_title_action_dashboard(SignInPage.java:62)
+	at com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases.sign_case_valid(SignIn_Positive_Testcases.java:59)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -561,14 +883,37 @@
 </pre></td>
                                                                    </tr>
                                                                    <tr class='fail'>
-                                                                       <td>2020-08-11 18:33:42</td>
-                                                                       <td><span class='exception-link linked' extentid='9f018297-aaf7-40d1-ba6c-462689109bd9'>signin_case_invalid_pwd</span></td>
-                                                                       <td><pre class='exception-message'>java.lang.AssertionError: expected [true] but found [true]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:563)
-	at com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases.signin_case_invalid_pwd(SignIn_Negative_Cases.java:84)
+                                                                       <td>2020-08-17 20:04:39</td>
+                                                                       <td><span class='exception-link linked' extentid='1a762769-1f95-4fff-b264-924d3b30d7a5'>dashboard_checktitle_action_case</span></td>
+                                                                       <td><pre class='exception-message'>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Dashboard')]"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AVANEESH-PC', ip: '192.168.1.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\OFFICE\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49948}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 7c22c9108017e0f56c0a54533c39d5a5
+*** Element info: {Using=xpath, value=//span[contains(text(),'Dashboard')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at com.bixbytes.qa.cbooster.pagesactions.DashBoard.check_title_action(DashBoard.java:27)
+	at com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases.dashboard_checktitle_action_case(DashBoard_Positive_Testcases.java:42)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
