@@ -12,28 +12,35 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class Base_Main {
-	public static WebDriver dr;
+	public static WebDriver driver;
 	public static Properties prop;
 	public static String path;
+	public static Logger logger;
+	public String base_path;
 
-	 public Base_Main() {
-		
+	public Base_Main() {
+
 		/* Constructor for reading the Properties file */
 		/* D:\Workspace\CBooster Project\cboostertest */
-
-	
 		
+		base_path=System.getProperty("user.dir");
+		String log4jConfPath = base_path + "/log4j.properties";
+		logger = Logger.getLogger("CBooster");
+		PropertyConfigurator.configure(log4jConfPath);
 		prop = new Properties();
 
 		try {
 
-			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/bixbytes/qa/cbooster/configurations/config.properties");
+			FileInputStream fis = new FileInputStream(base_path+ "/src/main/java/com/bixbytes/qa/cbooster/configurations/config.properties");
 			prop.load(fis);
 
 		} catch (FileNotFoundException e) {
@@ -50,30 +57,39 @@ public class Base_Main {
 	 * Method to check which browser needs to be used and to Initialize the Browser
 	 * driver
 	 */
-	public void browsersetups() {
+	public WebDriver browsersetups() {
+		
+		logger.info("Initiate browser..");
 
 		if (prop.getProperty("browser").equals("chrome")) {
 
-			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "/src/main/resources/drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver",base_path + "/src/main/resources/drivers/chromedriver.exe");
 
-			dr = new ChromeDriver();
+			driver = new ChromeDriver();
 
 		} else if (prop.getProperty("browser").equals("firefox")) {
 
-			System.setProperty("webdriver.gecko.driver",
-					System.getProperty("user.dir") + "/src/main/resources/drivers/geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver",base_path + "/src/main/resources/drivers/geckodriver.exe");
 
-			dr = new FirefoxDriver();
+			driver = new FirefoxDriver();
 
-		} 
+		}
 
-	
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		driver.get("http://217.160.26.191/cbooster/login");
+		return driver;
+	}
 
-		dr.manage().window().maximize();
-		dr.manage().deleteAllCookies();
-		dr.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		dr.get("http://217.160.26.191/cbooster/login");
+	public String randomestring() {
+		String generatedstring = RandomStringUtils.randomAlphabetic(6);
+		return (generatedstring);
+	}
+
+	public static String randomeNum() {
+		String generatednum = RandomStringUtils.randomNumeric(6);
+		return (generatednum);
 	}
 
 }

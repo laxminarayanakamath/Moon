@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases">
+      <class name="com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases">
         <methods>
-          <include name="signin_case_invalid"/>
-          <include name="exitbrowser"/>
           <include name="setup"/>
+          <include name="validate_forgorpwd_page_case"/>
+          <include name="forgot_password_submit_valid_case"/>
+          <include name="exitbrowser"/>
         </methods>
-      </class> <!-- com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

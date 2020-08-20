@@ -55,13 +55,13 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>SignInPagePositive</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 17 20:02:26 IST 2020</td>
+<td>Started on:</td><td>Thu Aug 20 12:35:18 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>51 seconds (51622 ms)</td>
+<tr><td>Total time:</td><td>75 seconds (75028 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td>SmokeTest FunctionalNegative FunctionalPositive </td>
+<td>Included groups:</td><td>SmokeTest FunctionalNegative FunctionalPositive FunctionalPositive1 </td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
@@ -75,15 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases.sign_case_valid()'><b>sign_case_valid</b><br>Test class: com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases</td>
+<td title='com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases.checktitle_afterlogin_case()'><b>checktitle_afterlogin_case</b><br>Test class: com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Dashboard&apos;)]&quot;}
-  (Session info: chrome=84.0.4147.125)
+  (Session info: chrome=84.0.4147.135)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;AVANEESH-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;14.0.2&apos;
+System info: host: &apos;AVANEESH-PC&apos;, ip: &apos;192.168.225.57&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;14.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\OFFICE\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e135457daede097cb4a601ce58bd8f62
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\OFFICE\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cda947039b6c70048e60131bd9a99847
 *** Element info: {Using=xpath, value=//span[contains(text(),&apos;Dashboard&apos;)]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -97,21 +97,21 @@ Session ID: e135457daede097cb4a601ce58bd8f62
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
-	at com.bixbytes.qa.cbooster.pagesactions.SignInPage.check_title_action_dashboard(SignInPage.java:62)
-	at com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases.sign_case_valid(SignIn_Positive_Testcases.java:59)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at com.bixbytes.qa.cbooster.pagesactions.SignInPage.check_title_action_dashboard(SignInPage.java:68)
+	at com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases.checktitle_afterlogin_case(SignIn_Positive_Testcases.java:65)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace485875407", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace485875407'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Dashboard&apos;)]&quot;}
-  (Session info: chrome=84.0.4147.125)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace375138276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace375138276'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Dashboard&apos;)]&quot;}
+  (Session info: chrome=84.0.4147.135)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;AVANEESH-PC&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;14.0.2&apos;
+System info: host: &apos;AVANEESH-PC&apos;, ip: &apos;192.168.225.57&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;14.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\OFFICE\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49842}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e135457daede097cb4a601ce58bd8f62
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\OFFICE\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59392}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cda947039b6c70048e60131bd9a99847
 *** Element info: {Using=xpath, value=//span[contains(text(),&apos;Dashboard&apos;)]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -130,9 +130,9 @@ Session ID: e135457daede097cb4a601ce58bd8f62
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
-	at com.bixbytes.qa.cbooster.pagesactions.SignInPage.check_title_action_dashboard(SignInPage.java:62)
-	at com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases.sign_case_valid(SignIn_Positive_Testcases.java:59)
+	at com.sun.proxy.$Proxy13.isDisplayed(Unknown Source)
+	at com.bixbytes.qa.cbooster.pagesactions.SignInPage.check_title_action_dashboard(SignInPage.java:68)
+	at com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases.checktitle_afterlogin_case(SignIn_Positive_Testcases.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -149,8 +149,8 @@ Session ID: e135457daede097cb4a601ce58bd8f62
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>22</td>
-<td>com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@1a04f701</td></tr>
+<td>20</td>
+<td>com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@3c19aaa5</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -160,10 +160,15 @@ Session ID: e135457daede097cb4a601ce58bd8f62
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases.sign_case_valid()'><b>sign_case_valid</b><br>Test class: com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases</td>
+<td></td>
+<td>3</td>
+<td>com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@3c19aaa5</td></tr>
+<tr>
 <td title='com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases.signin_checktitle_action_case()'><b>signin_checktitle_action_case</b><br>Test class: com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases</td>
 <td></td>
 <td>2</td>
-<td>com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@1a04f701</td></tr>
+<td>com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@3c19aaa5</td></tr>
 </table><p>
 </body>
 </html>

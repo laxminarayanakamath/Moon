@@ -20,7 +20,7 @@ public class ITestListner extends Takescreenshot implements ITestListener {
 
 	public void onStart(ITestContext tcname) {
 
-		System.out.println("On Start");
+		System.out.println("On Start:");
 
 	}
 
@@ -28,53 +28,50 @@ public class ITestListner extends Takescreenshot implements ITestListener {
 
 	}
 
-	public void onTestFailure(ITestResult tcname) {
+	public void onTestFailure(ITestResult tcname) 
+	{
 
 		String testcasename = tcname.getMethod().getMethodName();
-		try {
-			dr=(WebDriver) tcname.getTestClass().getRealClass().getDeclaredField("dr").get(tcname.getInstance());
-		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
+		try 
+		{
+			 WebDriver driver=(WebDriver) tcname.getTestClass().getRealClass().getField("dr").get(tcname.getInstance());
+		
+			screenshot(testcasename,driver);
 		}
-		try {
-			screenshot(testcasename,dr);
-		} catch (IOException e) {
+		 catch (IOException | IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("FAILED TEST" + testcasename);
+		System.out.println("FAILED TEST:" + testcasename);
 
 	}
 
 	public void onTestSkipped(ITestResult tcname) {
 		String testcasename = tcname.getMethod().getMethodName();
-		System.out.println("This Test is Skipped" + testcasename);
+		System.out.println("This Test is Skipped:" + testcasename);
 
 	}
 
 	public void onTestStart(ITestResult tcname) {
 		String testcasename = tcname.getMethod().getMethodName();
-		System.out.println("This Test is Started" + testcasename);
+		System.out.println("This Test is Started:" + testcasename);
 
 	}
 
 	public void onTestSuccess(ITestResult tcname) {
 
 		String testcasename = tcname.getMethod().getMethodName();
-		try {
-			dr=(WebDriver) tcname.getTestClass().getRealClass().getDeclaredField("dr").get(tcname.getInstance());
-		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
+		try 
+		{
+			 WebDriver driver=(WebDriver) tcname.getTestClass().getRealClass().getField("dr").get(tcname.getInstance());
+		
+			screenshot(testcasename,driver);
 		}
-		try {
-			screenshot(testcasename,dr);
-		} catch (IOException e) {
+		 catch (IOException | IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("PASSED TEST" + testcasename);
+		System.out.println("FAILED TEST:" + testcasename);
 
 	}
 }

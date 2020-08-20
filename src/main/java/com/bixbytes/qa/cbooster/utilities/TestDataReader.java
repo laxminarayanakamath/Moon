@@ -7,63 +7,96 @@ package com.bixbytes.qa.cbooster.utilities;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class TestDataReader {
+	
+	public static FileInputStream fis;
+	public static FileOutputStream fos;
+	public static XSSFWorkbook wb;
+	public static XSSFSheet ws;
+	public static XSSFRow row;
+	public static XSSFCell cell;
 
-	public void readdata(String Path, String FileName, String Sheetname) throws IOException {
-		File file = new File(Path + "\\" + FileName);
-
-		FileInputStream fis = new FileInputStream(Path);
-		Workbook wb = null;
-		String fileExtensionName = FileName.substring(FileName.indexOf("."));
-
-		if (fileExtensionName.equals(".xlsx")) {
-			wb = new XSSFWorkbook(fis);
-
-		}
-
-		else if (fileExtensionName.equals(".xls")) {
-
-			wb = new HSSFWorkbook(fis);
-
-		}
-
-		// Read sheet inside the workbook by its name
-
-		Sheet sht = wb.getSheet(Sheetname);
-		int rowCount = sht.getLastRowNum() - sht.getFirstRowNum();
-
-		for (int i = 0; i < rowCount + 1; i++) {
-
-			Row rw = sht.getRow(i);
-			for (int j = 0; j < rw.getLastCellNum(); j++) {
-
-				System.out.print(rw.getCell(j).getStringCellValue() + "|| ");
-
-			}
-
-			System.out.println();
-		}
-
+	
+	/*Method to get the Row count*/
+	public static int getRowCount(String path,String xlsheet) throws IOException 
+	{
+		fis=new FileInputStream(path);
+		wb=new XSSFWorkbook(fis);
+		ws=wb.getSheet(xlsheet);
+		int rowcount=ws.getLastRowNum();
+		wb.close();
+		fis.close();
+		return rowcount;		
 	}
-
-	private void main(String args[]) throws IOException {
-		// TODO Auto-generated method stub
-		String path = ".\\Users\\OFFICE\\git\\repository\\cboostertest\\src\\main\\java\\com\\bixbytes\\qa\\cbooster\\testdata";
-		String Filename = "TestData.xls";
-		String Sheetname = "Login";
-
-		TestDataReader td = new TestDataReader();
-
-		td.readdata(path, Filename, Sheetname);
-
+	
+	/*Method to get the Cell count*/
+	public static int getCellCount(String path,String xlsheet,int rownum) throws IOException
+	{
+		fis=new FileInputStream(path);
+		wb=new XSSFWorkbook(fis);
+		ws=wb.getSheet(xlsheet);
+		row=ws.getRow(rownum);
+		int cellcount=row.getLastCellNum();
+		wb.close();
+		fis.close();
+		return cellcount;
 	}
+	
+	/*Method to get the data in the cell*/
+	public static String getCellData(String path,String xlsheet,int rownum,int colnum) throws IOException
+	{
+		fis=new FileInputStream(path);
+		wb=new XSSFWorkbook(fis);
+		ws=wb.getSheet(xlsheet);
+		row=ws.getRow(rownum);
+		cell=row.getCell(colnum);
+		String data;
+		try 
+		{
+			DataFormatter formatter = new DataFormatter();
+            String cellData = formatter.formatCellValue(cell);
+            return cellData;
+		}
+		catch (Exception e) 
+		{
+			data="";
+		}
+		wb.close();
+		fis.close();
+		return data;
+	}
+	
+	/*Method to get the update the cell data*/
+	public static void setCellData(String path,String xlsheet,int rownum,int colnum,String data) throws IOException
+	{
+		fis=new FileInputStream(path);
+		wb=new XSSFWorkbook(fis);
+		ws=wb.getSheet(xlsheet);
+		row=ws.getRow(rownum);
+		cell=row.createCell(colnum);
+		cell.setCellValue(data);
+		fos=new FileOutputStream(path);
+		wb.write(fos);		
+		wb.close();
+		fis.close();
+		fos.close();
+	}
+	
+	
+	
+	
 
 }

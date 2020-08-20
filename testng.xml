@@ -3,7 +3,7 @@
 <suite parallel="classes" name="CBoosterTestSuite">
 
 	<listeners>
-		<listener class-name="com.bixbytes.qa.cbooster.ExtentReportListner.ExtentReportNG" />
+		<listener class-name="com.bixbytes.qa.cbooster.utilities.ExtentReportNG" />
 		<listener class-name="com.bixbytes.qa.cbooster.utilities.ITestListner" />
 		
 	</listeners>
@@ -12,6 +12,7 @@
 <include name="SmokeTest" />
 <include name="FunctionalPositive" />
 <include name="FunctionalNegative" />
+<include name="FunctionalPositive1" />
 </run>
 </groups>
   <test  name="SignInPagePositive">
@@ -20,9 +21,21 @@
     </classes>
   </test>
   
-  <test name="SignInNegative">
+    <test  name="SignInPageNegative">
   <classes>
       <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases"/>
+  </classes>
+  </test>
+  
+    <test  name="ForgotPasswordPositive">
+    <classes>
+         <class name="com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases"/>
+    </classes>
+  </test>
+  
+  <test name="ForgotPasswordNegative">
+  <classes>
+      <class name="com.bixbytes.qa.cbooster.testcases.Forgotpassword_Negative_Testcases"/>
   </classes>
   </test>
   
