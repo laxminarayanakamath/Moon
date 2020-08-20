@@ -22,8 +22,8 @@ import com.bixbytes.qa.cbooster.pagesactions.SignInPage;
 public class SignIn_Negative_Cases extends Base_Main {
 
 	/* TestNG annotations are used in below test cases */
-	SignInPage si;
-	WebDriverWait wt;
+	SignInPage signinpage;
+	WebDriverWait wbwait;
 
 	/* Constructor which points to Base_Main() super class methods */
 	public SignIn_Negative_Cases() {
@@ -36,14 +36,14 @@ public class SignIn_Negative_Cases extends Base_Main {
 	public void setup() {
 
 		browsersetups();
-		si = new SignInPage();
+		signinpage = new SignInPage(driver);
 
 	}
 
 	@Test(priority=1,groups= {"SmokeTest"})
 	public void signin_checktitle_action_case() throws InterruptedException {
 		Thread.sleep(1000);
-		String title = si.checktitle_action();
+		String title = signinpage.checktitle_action();
 		Assert.assertEquals(title, "CBooster PM Tool");
 		
 	}
@@ -51,18 +51,18 @@ public class SignIn_Negative_Cases extends Base_Main {
 	@Test(priority = 2,groups= {"FunctionalNegative"})
 	public void signin_case_invalid_unpwd() throws InterruptedException
 	{
-		dr.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		String un = prop.getProperty("invalid_username");
 		String pawd = prop.getProperty("invalid_password");
-		DashBoard db=si.login_action(un, pawd);
+		DashBoard db=signinpage.login_action(un, pawd);
 
 	}
 	
 	@Test(priority = 3,groups= {"FunctionalNegative"})
-	public void signin_invalid_unpwd_checkalert()
+	public void signin_invalid_unpwd_checkalert() throws InterruptedException
 	{
 		
-		Boolean check_alert = si.check_ivalidlogin_alert();
+		Boolean check_alert = signinpage.check_ivalidlogin_alert();
 		String check_alert_value=Boolean.toString(check_alert);
 		Assert.assertEquals(check_alert_value, "true");
 			
@@ -72,16 +72,16 @@ public class SignIn_Negative_Cases extends Base_Main {
 	@Test(priority = 3,groups= {"FunctionalNegative"})
 	public void signin_case_invalid_pwd() throws InterruptedException
 	{
-		dr.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		String un = prop.getProperty("username");
 		String pawd = prop.getProperty("invalid_password");
-		si.login_action(un, pawd);
+		signinpage.login_action(un, pawd);
 	}
 
 	@Test(priority = 4,groups= {"FunctionalNegative"})
-	public void signin_invalid_pwd_checkalert()
+	public void signin_invalid_pwd_checkalert() throws InterruptedException
 	{
-		Boolean check_alert = si.check_ivalidlogin_alert();
+		Boolean check_alert = signinpage.check_ivalidlogin_alert();
 		String check_alert_value=Boolean.toString(check_alert);
 		Assert.assertEquals(check_alert_value, "true");
 
@@ -91,7 +91,9 @@ public class SignIn_Negative_Cases extends Base_Main {
 	@AfterMethod(alwaysRun=true)
 
 	public void exitbrowser() {
-		dr.quit();
+		driver.close();
+		driver.quit();
+		logger.info("Clean up activity: Closed all browser instances..");
 	}
 
 }

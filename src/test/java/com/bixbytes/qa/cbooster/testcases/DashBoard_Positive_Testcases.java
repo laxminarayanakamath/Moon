@@ -17,36 +17,39 @@ import com.bixbytes.qa.cbooster.pagesactions.DashBoard;
 import com.bixbytes.qa.cbooster.pagesactions.SignInPage;
 
 public class DashBoard_Positive_Testcases extends Base_Main {
-	DashBoard db1;
-	SignInPage sp;
+	DashBoard dashboard;
+	SignInPage signinpage;
 
 	public DashBoard_Positive_Testcases() {
 		super();
+		
 	}
 
 
 	@BeforeMethod(alwaysRun=true)
 	public void setup() throws InterruptedException {
 		browsersetups();
-		sp = new SignInPage();
+		signinpage = new SignInPage(driver);
 		String un = prop.getProperty("username");
 		String pawd = prop.getProperty("password");
-		sp.login_action(un, pawd);
+		signinpage.login_action(un, pawd);
 	}
 
 	@Test(priority = 1,groups= {"SmokeTest"})
 	public void dashboard_checktitle_action_case() throws InterruptedException {
 
 		Thread.sleep(5000);
-		db1 = new DashBoard();
-		Boolean text_displayed = db1.check_title_action();
+		dashboard = new DashBoard(driver);
+		Boolean text_displayed = dashboard.check_title_action();
 		String actual = Boolean.toString(text_displayed);
 		Assert.assertEquals(actual, "true");
 	}
 
 	@AfterMethod(alwaysRun=true)
 	public void exitbrowser() {
-		dr.quit();
+		driver.close();
+		driver.quit();
+		logger.info("Clean up activity: Closed all browser instances..");
 	}
 
 }

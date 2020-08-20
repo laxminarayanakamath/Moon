@@ -14,12 +14,18 @@ import org.openqa.selenium.support.PageFactory;
 import com.bixbytes.qa.cbooster.base.Base_Main;
 
 public class DashBoard extends Base_Main {
+	
+	WebDriver driver;
+	
 	@FindBy(xpath = "//span[contains(text(),'Dashboard')]")
 	WebElement dashboard_page_ele;
 
-	public DashBoard() 
-	{
-		PageFactory.initElements(dr, this);
+
+	public DashBoard(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	
 	}
 
 	public boolean check_title_action() throws InterruptedException {

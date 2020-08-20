@@ -4,6 +4,7 @@
  */
 package com.bixbytes.qa.cbooster.pagesactions;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -12,7 +13,7 @@ import com.bixbytes.qa.cbooster.base.Base_Main;
 
 public class ConfigPage extends Base_Main
 {
-
+	WebDriver driver;
 	
 
 	

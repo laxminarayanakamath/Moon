@@ -1,7 +1,8 @@
 
-package com.bixbytes.qa.cbooster.ExtentReportListner;
+package com.bixbytes.qa.cbooster.utilities;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
@@ -23,11 +24,14 @@ import com.relevantcodes.extentreports.LogStatus;
 
 	public class ExtentReportNG implements IReporter {
 		private ExtentReports extent;
-
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
+		String repName="CBooster-Test-Report"+timeStamp+".html";
+		
+		
 		public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
 				String outputDirectory) {
 			extent = new ExtentReports(outputDirectory + File.separator
-					+ "CBoosterTestResult.html", true);
+					+repName, true);
 
 			for (ISuite suite : suites) {
 				Map<String, ISuiteResult> result = suite.getResults();
