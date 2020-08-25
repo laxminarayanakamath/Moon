@@ -102,7 +102,7 @@ public class ConfigPage extends Base_Main {
 		visibilitycheck.checkIsAvailable(producttype_code);
 		visibilitycheck.checkIsAvailable(producttype_description);
 		visibilitycheck.checkIsAvailable(add_button);
-		
+
 		/* Fetch data from the test case and click Add */
 		producttype_name.sendKeys(producttype);
 		producttype_code.sendKeys(code);
