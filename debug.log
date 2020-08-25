@@ -1,3 +1,11 @@
 [0818/170520.477:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
 [0818/170520.500:ERROR:exception_snapshot_win.cc(98)] thread ID 7936 not found in process
 [0818/170520.500:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0820/195742.908:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0820/195742.927:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0820/195742.927:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0820/195742.927:ERROR:exception_snapshot_win.cc(98)] thread ID 3716 not found in process
+[0820/195742.927:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0825/172631.788:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7fef4f5a210 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0825/172631.816:WARNING:process_snapshot_win.cc(75)] ReadMemory ExceptionInformation failed
+[0825/172631.817:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)

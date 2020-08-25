@@ -5,62 +5,22 @@
     <listener class-name="com.bixbytes.qa.cbooster.utilities.ExtentReportNG"/>
     <listener class-name="com.bixbytes.qa.cbooster.utilities.ITestListner"/>
   </listeners>
-  <test thread-count="5" parallel="classes" name="SignInPagePositive(failed)">
+  <test thread-count="5" parallel="classes" name="ConfigurationPositive(failed)">
     <groups>
       <run>
         <include name="SmokeTest"/>
         <include name="FunctionalPositive"/>
         <include name="FunctionalNegative"/>
-        <include name="FunctionalPositive1"/>
       </run>
     </groups>
     <classes>
-      <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases">
-        <methods>
-          <include name="setup"/>
-          <include name="exitbrowser"/>
-          <include name="checktitle_afterlogin_case"/>
-        </methods>
-      </class> <!-- com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases -->
-    </classes>
-  </test> <!-- SignInPagePositive(failed) -->
-  <test thread-count="5" parallel="classes" name="SignInPageNegative(failed)">
-    <groups>
-      <run>
-        <include name="SmokeTest"/>
-        <include name="FunctionalPositive"/>
-        <include name="FunctionalNegative"/>
-        <include name="FunctionalPositive1"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases">
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_Positive_Testcases">
         <methods>
           <include name="exitbrowser"/>
-          <include name="signin_invalid_pwd_checkalert"/>
           <include name="setup"/>
-          <include name="signin_invalid_unpwd_checkalert"/>
+          <include name="tc3_click_producttype_btn"/>
         </methods>
-      </class> <!-- com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_Positive_Testcases -->
     </classes>
-  </test> <!-- SignInPageNegative(failed) -->
-  <test thread-count="5" parallel="classes" name="DashBoardPositive(failed)">
-    <groups>
-      <run>
-        <include name="SmokeTest"/>
-        <include name="FunctionalPositive"/>
-        <include name="FunctionalNegative"/>
-        <include name="FunctionalPositive1"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases">
-        <methods>
-          <include name="dashboard_checktitle_action_case"/>
-          <include name="exitbrowser"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases -->
-    </classes>
-  </test> <!-- DashBoardPositive(failed) -->
+  </test> <!-- ConfigurationPositive(failed) -->
 </suite> <!-- Failed suite [CBoosterTestSuite] -->

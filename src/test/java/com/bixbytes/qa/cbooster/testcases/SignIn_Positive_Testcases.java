@@ -32,8 +32,7 @@ public class SignIn_Positive_Testcases extends Base_Main {
 
 	}
 
-
-	@BeforeMethod(alwaysRun=true)
+	@BeforeMethod(alwaysRun = true)
 	public void setup() {
 
 		browsersetups();
@@ -41,34 +40,40 @@ public class SignIn_Positive_Testcases extends Base_Main {
 
 	}
 
-	@Test(priority=1,groups= {"SmokeTest"})
-	public void signin_checktitle_action_case() throws InterruptedException {
-		Thread.sleep(1000);
+	@Test(priority = 1, groups = { "SmokeTest" })
+	public void tc1_signin_checktitle_action_case() throws InterruptedException {
+		logger.info("Smoke Test");
 		String title = signinpage.checktitle_action();
 		Assert.assertEquals(title, "CBooster PM Tool");
-		logger.info("Checking Login Page Title");
-	
+		logger.info("Checking LoginPage Title Completed:" + title);
+
 	}
 
-	@Test(priority = 2,groups= {"FunctionalPositive"})
-	public void sign_case_valid() throws InterruptedException {
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	@Test(priority = 2, groups = { "FunctionalPositive" })
+	public void tc2_sign_case_valid() throws InterruptedException {
+		logger.info("Functional Test");
 		String un = prop.getProperty("username");
 		String pawd = prop.getProperty("password");
 		signinpage.login_action(un, pawd);
-		
+		logger.info("Clicked on Login Button");
 
 	}
-	
-	@Test(priority = 3,groups= {"FunctionalPositive"})
-	public void checktitle_afterlogin_case()
-	{
+
+	@Test(priority = 3, groups = { "FunctionalPositive" })
+	public void tc3_checktitle_afterlogin_case() throws InterruptedException {
+		logger.info("Functional Test");
+		String uname = prop.getProperty("username");
+		String pwd = prop.getProperty("password");
+
+		signinpage.login_action(uname, pwd);
+		logger.info("Successfully logged in...");
 		Boolean text_displayed = signinpage.check_title_action_dashboard();
 		String actual = Boolean.toString(text_displayed);
 		Assert.assertEquals(actual, "true");
+		logger.info("Checking Dashboard page title after Login:" + actual);
 	}
 
-	@AfterMethod(alwaysRun=true)
+	@AfterMethod(alwaysRun = true)
 	public void exitbrowser() {
 		driver.close();
 		driver.quit();

@@ -36,8 +36,8 @@ public class DashBoard_Positive_Testcases extends Base_Main {
 	}
 
 	@Test(priority = 1,groups= {"SmokeTest"})
-	public void dashboard_checktitle_action_case() throws InterruptedException {
-
+	public void tc1_dashboard_checktitle_action_case() throws InterruptedException {
+		logger.info("Smoke Test");
 		Thread.sleep(5000);
 		dashboard = new DashBoard(driver);
 		Boolean text_displayed = dashboard.check_title_action();

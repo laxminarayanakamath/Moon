@@ -12,36 +12,15 @@
 <include name="SmokeTest" />
 <include name="FunctionalPositive" />
 <include name="FunctionalNegative" />
-<include name="FunctionalPositive1" />
 </run>
 </groups>
-  <test  name="SignInPagePositive">
-    <classes>
-         <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases"/>
-    </classes>
-  </test>
   
-    <test  name="SignInPageNegative">
+   <test name="ConfigurationPositive">
   <classes>
-      <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases"/>
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_Positive_Testcases"/>
   </classes>
   </test>
-  
-    <test  name="ForgotPasswordPositive">
-    <classes>
-         <class name="com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases"/>
-    </classes>
-  </test>
-  
-  <test name="ForgotPasswordNegative">
-  <classes>
-      <class name="com.bixbytes.qa.cbooster.testcases.Forgotpassword_Negative_Testcases"/>
-  </classes>
-  </test>
-  
-  <test name="DashBoardPositive">
-  <classes>
-       <class name="com.bixbytes.qa.cbooster.testcases.DashBoard_Positive_Testcases"/>
-    </classes>
-  </test>
+ 
+
+   
 </suite>

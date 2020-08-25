@@ -17,6 +17,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 
@@ -59,26 +60,37 @@ public class Base_Main {
 	 */
 	public WebDriver browsersetups() {
 		
-		logger.info("Initiate browser..");
+	
 
 		if (prop.getProperty("browser").equals("chrome")) {
-
+			
+			logger.info("Chrome browser is started..");
 			System.setProperty("webdriver.chrome.driver",base_path + "/src/main/resources/drivers/chromedriver.exe");
 
 			driver = new ChromeDriver();
 
 		} else if (prop.getProperty("browser").equals("firefox")) {
 
+			logger.info("Firefox browser is started..");
 			System.setProperty("webdriver.gecko.driver",base_path + "/src/main/resources/drivers/geckodriver.exe");
 
 			driver = new FirefoxDriver();
 
 		}
+		else if(prop.getProperty("browser").equals("Edge"))
+		{
+			logger.info("Microsoft Edge browser is started..");
+			System.setProperty("webdriver.edge.driver",base_path + "/src/main/resources/drivers/msedgedriver.exe");
+
+			driver = new EdgeDriver();
+		}
+		
 
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		driver.get("http://217.160.26.191/cbooster/login");
+		driver.get(prop.getProperty("url"));
 		return driver;
 	}
 

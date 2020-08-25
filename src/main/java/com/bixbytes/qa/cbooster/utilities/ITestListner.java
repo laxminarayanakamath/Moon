@@ -20,7 +20,7 @@ public class ITestListner extends Takescreenshot implements ITestListener {
 
 	public void onStart(ITestContext tcname) {
 
-		System.out.println("On Start:");
+		System.out.println("CBooster Testcase Running Started....");
 
 	}
 
@@ -34,7 +34,7 @@ public class ITestListner extends Takescreenshot implements ITestListener {
 		String testcasename = tcname.getMethod().getMethodName();
 		try 
 		{
-			 WebDriver driver=(WebDriver) tcname.getTestClass().getRealClass().getField("dr").get(tcname.getInstance());
+			 WebDriver driver=(WebDriver) tcname.getTestClass().getRealClass().getField("driver").get(tcname.getInstance());
 		
 			screenshot(testcasename,driver);
 		}
@@ -48,13 +48,13 @@ public class ITestListner extends Takescreenshot implements ITestListener {
 
 	public void onTestSkipped(ITestResult tcname) {
 		String testcasename = tcname.getMethod().getMethodName();
-		System.out.println("This Test is Skipped:" + testcasename);
+		System.out.println("Below Test is Skipped:" + testcasename);
 
 	}
 
 	public void onTestStart(ITestResult tcname) {
 		String testcasename = tcname.getMethod().getMethodName();
-		System.out.println("This Test is Started:" + testcasename);
+		System.out.println("Below  Test is Started:" + testcasename);
 
 	}
 
@@ -63,7 +63,7 @@ public class ITestListner extends Takescreenshot implements ITestListener {
 		String testcasename = tcname.getMethod().getMethodName();
 		try 
 		{
-			 WebDriver driver=(WebDriver) tcname.getTestClass().getRealClass().getField("dr").get(tcname.getInstance());
+			 WebDriver driver=(WebDriver) tcname.getTestClass().getRealClass().getField("driver").get(tcname.getInstance());
 		
 			screenshot(testcasename,driver);
 		}
@@ -71,7 +71,7 @@ public class ITestListner extends Takescreenshot implements ITestListener {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		System.out.println("FAILED TEST:" + testcasename);
+		System.out.println("PASSED TEST:" + testcasename);
 
 	}
 }

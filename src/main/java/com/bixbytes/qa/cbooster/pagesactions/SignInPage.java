@@ -13,11 +13,12 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 import com.bixbytes.qa.cbooster.base.Base_Main;
+import com.bixbytes.qa.cbooster.commonmethods.VisibilityCheck;
 
 public class SignInPage extends Base_Main {
 	/* Using Pagefactory and storing the webelments */
 	WebDriver driver;
-	
+
 	@FindBy(id = "email")
 	WebElement id;
 
@@ -34,52 +35,51 @@ public class SignInPage extends Base_Main {
 	WebElement dashboard_page_ele;
 
 	@FindBy(xpath = "//p[contains(text(),'Invalid Credentials')][2]")
-	
+
 	WebElement invalid_cred;
+	VisibilityCheck visibilitycheck;
 
 	/* Initializing the Pagefactory */
 	public SignInPage(WebDriver driver) {
-			this.driver=driver;
-			PageFactory.initElements(driver, this);
-		}
-
-	
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
 
 	/* Actions Positive Case */
 	public String checktitle_action() throws InterruptedException {
-		Thread.sleep(1000);
+
 		return driver.getTitle();
 	}
 
-	public DashBoard login_action(String un, String pawd) throws InterruptedException {
+	public void login_action(String un, String pawd) throws InterruptedException {
 
-		Thread.sleep(1000);
+		visibilitycheck = new VisibilityCheck();
+
+		visibilitycheck.checkIsAvailable(id);
 		id.sendKeys(un);
+		visibilitycheck.checkIsAvailable(pwd);
 		pwd.sendKeys(pawd);
+		visibilitycheck.checkIsAvailable(loginbtn);
 		loginbtn.click();
-		return new DashBoard(driver);
 
-		
 	}
 
-	public boolean check_title_action_dashboard() {
+	public boolean check_title_action_dashboard() throws InterruptedException {
 
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		boolean textdisplayed = dashboard_page_ele.isDisplayed();
 		return textdisplayed;
 
 	}
 
-	
-
 	/* Actions for Negative case */
 
 	public boolean check_ivalidlogin_alert() throws InterruptedException {
-	
+
 		String myWindowHandle = driver.getWindowHandle();
 		driver.switchTo().window(myWindowHandle);
 		Thread.sleep(5000);
 		Boolean check_alert = invalid_cred.isDisplayed();
+
 		return check_alert;
 	}
 }

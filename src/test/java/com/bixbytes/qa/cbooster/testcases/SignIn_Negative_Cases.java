@@ -31,8 +31,7 @@ public class SignIn_Negative_Cases extends Base_Main {
 
 	}
 
-	
-	@BeforeMethod(alwaysRun=true)
+	@BeforeMethod(alwaysRun = true)
 	public void setup() {
 
 		browsersetups();
@@ -40,55 +39,29 @@ public class SignIn_Negative_Cases extends Base_Main {
 
 	}
 
-	@Test(priority=1,groups= {"SmokeTest"})
-	public void signin_checktitle_action_case() throws InterruptedException {
-		Thread.sleep(1000);
+	@Test(priority = 1, groups = { "SmokeTest" })
+	public void tc1_signin_checktitle_action_case() throws InterruptedException {
+		logger.info("Smoke Test");
 		String title = signinpage.checktitle_action();
 		Assert.assertEquals(title, "CBooster PM Tool");
-		
+		logger.info("Checking LoginPage Title Completed:"+title);
 	}
 
-	@Test(priority = 2,groups= {"FunctionalNegative"})
-	public void signin_case_invalid_unpwd() throws InterruptedException
-	{
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	@Test(priority = 2, groups = { "FunctionalNegative" })
+	public void tc2_signin_case_invalid_unpwd() throws InterruptedException {
+		logger.info("Functional Test");
 		String un = prop.getProperty("invalid_username");
 		String pawd = prop.getProperty("invalid_password");
-		DashBoard db=signinpage.login_action(un, pawd);
-
-	}
-	
-	@Test(priority = 3,groups= {"FunctionalNegative"})
-	public void signin_invalid_unpwd_checkalert() throws InterruptedException
-	{
-		
-		Boolean check_alert = signinpage.check_ivalidlogin_alert();
-		String check_alert_value=Boolean.toString(check_alert);
-		Assert.assertEquals(check_alert_value, "true");
-			
-
-	}
-	
-	@Test(priority = 3,groups= {"FunctionalNegative"})
-	public void signin_case_invalid_pwd() throws InterruptedException
-	{
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		String un = prop.getProperty("username");
-		String pawd = prop.getProperty("invalid_password");
 		signinpage.login_action(un, pawd);
-	}
 
-	@Test(priority = 4,groups= {"FunctionalNegative"})
-	public void signin_invalid_pwd_checkalert() throws InterruptedException
-	{
 		Boolean check_alert = signinpage.check_ivalidlogin_alert();
-		String check_alert_value=Boolean.toString(check_alert);
+
+		String check_alert_value = Boolean.toString(check_alert);
 		Assert.assertEquals(check_alert_value, "true");
-
+		logger.info("Checking the alert for invalid username and passwords:"+check_alert_value);
 	}
-	
 
-	@AfterMethod(alwaysRun=true)
+	@AfterMethod(alwaysRun = true)
 
 	public void exitbrowser() {
 		driver.close();

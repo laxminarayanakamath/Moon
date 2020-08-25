@@ -1,12 +1,160 @@
-2020-08-20 09:55:55,916 - CBooster -INFO - Checking Login Page Title
-2020-08-20 10:38:22,284 - CBooster -INFO - Checking Login Page Title
-2020-08-20 10:48:47,526 - CBooster -INFO - Checking Login Page Title
-2020-08-20 11:18:58,143 - CBooster -INFO - Checking Login Page Title
-2020-08-20 11:25:28,410 - CBooster -INFO - Checking Login Page Title
-2020-08-20 11:28:36,322 - CBooster -INFO - Checking Login Page Title
-2020-08-20 11:29:58,844 - CBooster -INFO - Checking Login Page Title
-2020-08-20 11:32:02,860 - CBooster -INFO - Checking Login Page Title
-2020-08-20 12:26:00,161 - CBooster -INFO - Checking Login Page Title
-2020-08-20 12:30:23,733 - CBooster -INFO - Checking Login Page Title
-2020-08-20 12:31:39,684 - CBooster -INFO - Checking Login Page Title
-2020-08-20 12:35:39,785 - CBooster -INFO - Checking Login Page Title
+2020-08-25 13:10:07,780 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 13:10:26,114 - CBooster -INFO - Checking LoginPage Title Completed
+2020-08-25 13:10:29,668 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 13:10:29,679 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 13:10:47,156 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (3ded1950ec9b8f8f6d41f19e40b55cf5)] -> id: email]
+2020-08-25 13:10:48,030 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (3ded1950ec9b8f8f6d41f19e40b55cf5)] -> id: password]
+2020-08-25 13:10:48,697 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (3ded1950ec9b8f8f6d41f19e40b55cf5)] -> xpath: //button[contains(text(),'Login')]]
+2020-08-25 13:10:49,040 - CBooster -INFO - Clicked on Login Button
+2020-08-25 13:10:52,517 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 13:10:52,521 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 13:11:06,602 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (6b8d75c61205965304ae2c68d4095a44)] -> id: email]
+2020-08-25 13:11:07,702 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (6b8d75c61205965304ae2c68d4095a44)] -> id: password]
+2020-08-25 13:11:08,309 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (6b8d75c61205965304ae2c68d4095a44)] -> xpath: //button[contains(text(),'Login')]]
+2020-08-25 13:11:08,609 - CBooster -INFO - Successfully logged in...
+2020-08-25 13:11:15,599 - CBooster -INFO - Checking Title after Login
+2020-08-25 13:11:17,273 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 13:11:17,331 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 13:11:33,093 - CBooster -INFO - Checking LoginPage Title Completed
+2020-08-25 13:11:36,718 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 13:11:36,720 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 13:11:51,541 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (7c440dcda920be515f98d1109e287ac8)] -> id: email]
+2020-08-25 13:11:52,361 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (7c440dcda920be515f98d1109e287ac8)] -> id: password]
+2020-08-25 13:11:53,343 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (7c440dcda920be515f98d1109e287ac8)] -> xpath: //button[contains(text(),'Login')]]
+2020-08-25 13:11:58,878 - CBooster -INFO - Checking the alert for invalid username and passwords
+2020-08-25 13:12:00,249 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 13:12:00,266 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 13:12:16,064 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 13:12:16,068 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 13:12:40,409 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 13:12:40,412 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 13:12:58,680 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 13:12:58,696 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 13:13:24,333 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:15:48,210 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:18:11,719 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:18:43,207 - CBooster -INFO - Smoke Test
+2020-08-25 17:22:39,990 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:23:08,098 - CBooster -INFO - Smoke Test
+2020-08-25 17:23:11,657 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:25:33,898 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:26:03,239 - CBooster -INFO - Smoke Test
+2020-08-25 17:26:06,639 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:26:06,654 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:26:39,844 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:26:39,848 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:32:19,632 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:32:48,731 - CBooster -INFO - Smoke Test
+2020-08-25 17:32:51,938 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:32:51,944 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:33:21,356 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:33:21,359 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:33:51,999 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:33:52,003 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:34:23,622 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:37:47,864 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:38:15,443 - CBooster -INFO - Smoke Test
+2020-08-25 17:38:21,004 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:38:21,015 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:38:51,847 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:38:51,850 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:39:23,431 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:39:23,434 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:39:52,690 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:42:51,926 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:43:20,821 - CBooster -INFO - Smoke Test
+2020-08-25 17:43:24,610 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:43:24,622 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:43:32,862 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:44:52,384 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:45:21,056 - CBooster -INFO - Smoke Test
+2020-08-25 17:45:33,527 - CBooster -INFO - Validating navigated page is Config Page Or not
+2020-08-25 17:45:36,948 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:45:36,960 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:46:32,013 - CBooster -INFO - Clicked on Over view button
+2020-08-25 17:46:35,410 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:46:35,414 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:47:46,533 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:48:15,556 - CBooster -INFO - Smoke Test
+2020-08-25 17:49:22,161 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:49:22,176 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:50:15,083 - CBooster -INFO - Clicked on Over view button
+2020-08-25 17:50:18,412 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:50:18,416 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:52:10,693 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:52:10,697 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:52:41,979 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:55:16,522 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:55:46,470 - CBooster -INFO - Smoke Test
+2020-08-25 17:55:58,133 - CBooster -INFO - Validating navigated page is Config Page Or not
+2020-08-25 17:56:01,551 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:56:01,563 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:56:20,792 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:56:50,270 - CBooster -INFO - Smoke Test
+2020-08-25 17:57:02,122 - CBooster -INFO - Validating navigated page is Config Page Or not
+2020-08-25 17:57:05,710 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:57:05,721 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:58:02,830 - CBooster -INFO - Clicked on Over view button
+2020-08-25 17:58:06,516 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:58:06,520 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 17:59:58,609 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 17:59:58,613 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:04:48,218 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:05:36,780 - CBooster -INFO - Smoke Test
+2020-08-25 18:05:49,778 - CBooster -INFO - Validating navigated page is Config Page Or not
+2020-08-25 18:05:51,792 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:05:51,801 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:06:52,029 - CBooster -INFO - Clicked on Over view button
+2020-08-25 18:06:53,788 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:06:53,791 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:07:46,603 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:07:46,605 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:08:19,788 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:09:48,571 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:10:41,892 - CBooster -INFO - Clicked on Product Type button
+2020-08-25 18:10:45,588 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:10:45,594 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:11:26,094 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:14:48,306 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:15:22,107 - CBooster -INFO - Smoke Test
+2020-08-25 18:15:29,495 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:15:29,509 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:16:06,203 - CBooster -INFO - Clicked on Over view button
+2020-08-25 18:16:09,873 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:16:09,876 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:16:45,762 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:16:45,764 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:33:33,226 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:35:21,507 - CBooster -INFO - Smoke Test
+2020-08-25 18:35:27,725 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (b92314e45c1cdbfebb0e7f753bff920f)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-25 18:35:31,119 - CBooster -INFO - Validating navigated page is Config Page Or not
+2020-08-25 18:35:34,452 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:35:34,709 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:36:23,246 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (797052ab2719c09bc72f308bdf0323f7)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-25 18:36:32,982 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (797052ab2719c09bc72f308bdf0323f7)] -> xpath: //a[contains(text(),'OVERVIEW')]]
+2020-08-25 18:36:35,199 - CBooster -INFO - Clicked on Over view button
+2020-08-25 18:36:41,397 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:36:41,400 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:37:18,558 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (f639906e7ba6e64e406729b85e15429b)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-25 18:37:29,072 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (f639906e7ba6e64e406729b85e15429b)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-25 18:37:33,884 - CBooster -INFO - Clicked on Product Type button
+2020-08-25 18:37:35,874 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:37:35,877 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:38:10,564 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:40:23,275 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:40:54,367 - CBooster -INFO - Smoke Test
+2020-08-25 18:40:59,584 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (1620282f711ba649960c5b0b7a4b8244)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-25 18:41:02,905 - CBooster -INFO - Validating navigated page is Config Page Or nottrue
+2020-08-25 18:41:04,530 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:41:04,542 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:41:37,782 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (e701c8279dd610dd766bc4453c9cfcbf)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-25 18:41:46,281 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (e701c8279dd610dd766bc4453c9cfcbf)] -> xpath: //a[contains(text(),'OVERVIEW')]]
+2020-08-25 18:41:51,737 - CBooster -INFO - Clicked on Over view button
+2020-08-25 18:41:55,072 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:41:55,076 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:42:29,426 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (db01c389e6afa6d1d982657a140c6a57)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-25 18:42:37,966 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (db01c389e6afa6d1d982657a140c6a57)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-25 18:42:41,192 - CBooster -INFO - Clicked on Product Type buttontrue
+2020-08-25 18:42:44,594 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-25 18:42:44,598 - CBooster -INFO - Microsoft Edge browser is started..
+2020-08-25 18:43:14,989 - CBooster -INFO - Clean up activity: Closed all browser instances..
