@@ -7,9 +7,7 @@
         <methods>
           <include name="exitbrowser"/>
           <include name="setup"/>
-          <include name="tc1_validate_configpage"/>
-          <include name="tc3_click_producttype_btn"/>
-          <include name="tc2_click_overview_btn"/>
+          <include name="tc5_verify_addedProducttype"/>
         </methods>
       </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_Positive_Testcases -->
     </classes>
