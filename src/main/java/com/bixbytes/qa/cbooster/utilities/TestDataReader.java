@@ -67,7 +67,7 @@ public class TestDataReader extends Base_Main {
 			fis.close();
 
 		} else {
-			logger.info("Wrong Excel file extension detected");
+			logger.info("Wrong Excel file extension detected"+extension);
 
 		}
 		return rowcount;
@@ -94,7 +94,7 @@ public class TestDataReader extends Base_Main {
 			xwb.close();
 			fis.close();
 		} else {
-			logger.info("Wrong Excel file extension detected");
+			logger.info("Wrong Excel file extension detected"+extension);
 		}
 		return cellcount;
 	}
@@ -105,7 +105,7 @@ public class TestDataReader extends Base_Main {
 		int rowcounts = 0;
 		String[][] rowcol = null;
 
-		if (extension == "xls") {
+		if (extension.equalsIgnoreCase("xls")) {
 
 			hwb = new HSSFWorkbook(fis);
 			hws = hwb.getSheet(xlsheet);
@@ -155,7 +155,7 @@ public class TestDataReader extends Base_Main {
 			}
 
 		} else {
-			logger.info("Wrong Excel file extension detected");
+			logger.info("Wrong Excel file extension detected"+extension);
 		}
 		return rowcol;
 
@@ -200,7 +200,7 @@ public class TestDataReader extends Base_Main {
 		}
 
 		else {
-			logger.info("Wrong Excel file extension detected");
+			logger.info("Wrong Excel file extension detected"+extension);
 		}
 		return data;
 	}
@@ -233,7 +233,7 @@ public class TestDataReader extends Base_Main {
 			fis.close();
 			fos.close();
 		} else {
-			logger.info("Wrong Excel file extension detected");
+			logger.info("Wrong Excel file extension detected"+extension);
 		}
 
 	}

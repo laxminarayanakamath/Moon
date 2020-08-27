@@ -219,3 +219,159 @@
 2020-08-26 10:00:05,798 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
 2020-08-26 10:00:05,801 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Microsoft Edge browser is started..
 2020-08-26 10:00:34,892 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-26 12:33:24,764 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Microsoft Edge browser is started..
+2020-08-26 12:34:24,287 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Smoke Test
+2020-08-26 12:34:29,978 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (57d8e4bfaba57ef7fc6216687ad54092)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-26 12:34:34,727 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Validating navigated page is Config Page Or not:true
+2020-08-26 12:34:37,574 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-26 12:34:37,886 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Microsoft Edge browser is started..
+2020-08-26 12:35:10,361 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (885b647692707ce84d20fc9b27ca20a6)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-26 12:35:19,169 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (885b647692707ce84d20fc9b27ca20a6)] -> xpath: //a[contains(text(),'OVERVIEW')]]
+2020-08-26 12:35:20,904 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clicked on Over view button
+2020-08-26 12:35:23,199 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-26 12:35:23,202 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Microsoft Edge browser is started..
+2020-08-26 12:35:53,495 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (2438ae0b5636cb05292953e0bcae9a67)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-26 12:36:02,089 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (2438ae0b5636cb05292953e0bcae9a67)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-26 12:36:06,007 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clicked on Product Type button:true
+2020-08-26 12:36:07,660 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-26 12:36:07,664 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Microsoft Edge browser is started..
+2020-08-26 12:36:32,998 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Wrong Excel file extension detected
+2020-08-26 12:36:37,434 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-26 12:39:43,474 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Microsoft Edge browser is started..
+2020-08-26 12:40:12,433 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Wrong Excel file extension detectedxls
+2020-08-26 12:40:17,140 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-26 12:43:25,485 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Microsoft Edge browser is started..
+2020-08-26 12:44:02,756 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-26 12:45:35,216 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Microsoft Edge browser is started..
+2020-08-26 12:46:04,230 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-26 12:47:18,315 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Microsoft Edge browser is started..
+2020-08-26 12:49:07,539 [TestNG-test=ConfigurationPositive-1] INFO CBooster - ELement is not found in the Webpage[[EdgeDriver: msedge on WINDOWS (c060df957568ebd3de3d406d0ac58a0d)] -> css selector: input[name=product_type]]
+2020-08-26 12:49:12,913 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (c060df957568ebd3de3d406d0ac58a0d)] -> css selector: input[name=product_type]]
+2020-08-26 12:49:30,656 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Microsoft Edge browser is started..
+2020-08-26 12:53:20,471 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Microsoft Edge browser is started..
+2020-08-26 12:53:50,684 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (0d680f7a2ea4e0d9d66866aba65998ae)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-26 12:55:36,186 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Microsoft Edge browser is started..
+2020-08-26 12:56:08,526 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (cbdade6dccc1577fbf113d13f72bab73)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-26 12:56:16,624 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (cbdade6dccc1577fbf113d13f72bab73)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-26 12:56:25,742 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (cbdade6dccc1577fbf113d13f72bab73)] -> css selector: input[name=product_type]]
+2020-08-26 12:56:30,875 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (cbdade6dccc1577fbf113d13f72bab73)] -> css selector: input[name='code']]
+2020-08-26 12:56:36,005 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (cbdade6dccc1577fbf113d13f72bab73)] -> css selector: input[name='description']]
+2020-08-26 12:56:41,153 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (cbdade6dccc1577fbf113d13f72bab73)] -> xpath: //button[contains(text(),'ADD')]]
+2020-08-26 12:56:47,094 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-26 13:37:47,055 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Microsoft Edge browser is started..
+2020-08-26 13:40:27,707 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Element is not available - Method-checkIsAvailable...
+2020-08-26 13:41:30,836 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-26 14:29:06,509 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-26 14:30:10,359 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Element is not available - Method-checkIsAvailable...
+2020-08-26 14:31:14,822 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-26 14:32:16,825 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-26 15:00:38,371 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-26 15:01:38,125 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (32d155db3d79ec5dd60a7e071a165f53)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-26 15:01:47,569 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (32d155db3d79ec5dd60a7e071a165f53)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-26 15:09:16,710 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-26 15:10:02,260 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fb92a8db6b8c21f79b2495ed1edb4a0c)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-26 15:10:11,399 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fb92a8db6b8c21f79b2495ed1edb4a0c)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-26 15:10:21,927 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fb92a8db6b8c21f79b2495ed1edb4a0c)] -> css selector: input[name=product_type]]
+2020-08-26 15:10:27,412 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fb92a8db6b8c21f79b2495ed1edb4a0c)] -> css selector: input[name='code']]
+2020-08-26 15:10:32,722 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fb92a8db6b8c21f79b2495ed1edb4a0c)] -> css selector: input[name='description']]
+2020-08-26 15:10:37,854 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fb92a8db6b8c21f79b2495ed1edb4a0c)] -> xpath: //button[contains(text(),'ADD')]]
+2020-08-26 15:10:41,934 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-26 15:15:35,683 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-26 15:17:15,836 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-26 15:18:51,840 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-26 15:19:26,576 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8b25bdedb71a26dcc352b54fd7cc2cfa)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-26 15:19:34,684 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8b25bdedb71a26dcc352b54fd7cc2cfa)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-26 15:19:45,866 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8b25bdedb71a26dcc352b54fd7cc2cfa)] -> css selector: input[name=product_type]]
+2020-08-26 15:19:51,086 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8b25bdedb71a26dcc352b54fd7cc2cfa)] -> css selector: input[name='code']]
+2020-08-26 15:19:56,281 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8b25bdedb71a26dcc352b54fd7cc2cfa)] -> css selector: input[name='description']]
+2020-08-26 15:20:01,508 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8b25bdedb71a26dcc352b54fd7cc2cfa)] -> xpath: //button[contains(text(),'ADD')]]
+2020-08-26 15:20:04,690 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 13:07:55,217 [main] INFO CBooster - Chrome browser is started..
+2020-08-27 13:09:32,002 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 13:10:01,499 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (b5ed684cc6b850d6598425c214357274)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 13:10:10,032 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (b5ed684cc6b850d6598425c214357274)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 13:10:18,905 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 13:11:24,298 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 13:11:53,140 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8522dc55ec404e056c7ccbebaeb0fa41)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 13:12:01,583 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8522dc55ec404e056c7ccbebaeb0fa41)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 13:12:10,150 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 13:14:36,468 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 13:15:07,052 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (cb28184ecc60595add782dc825be9123)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 13:15:15,769 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (cb28184ecc60595add782dc825be9123)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 13:15:22,165 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 13:28:52,972 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 13:29:26,121 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3dc123380769c96e02e231d02bbf956f)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 13:29:34,080 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3dc123380769c96e02e231d02bbf956f)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 13:29:43,152 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 13:32:56,786 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 13:33:26,788 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (88265e13c11f550a6b098768ea941d75)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 13:33:35,406 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (88265e13c11f550a6b098768ea941d75)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 13:33:44,173 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 13:37:02,253 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 13:37:30,648 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (42789f0ae816b8900e8270f2ac874aa2)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 13:37:39,587 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (42789f0ae816b8900e8270f2ac874aa2)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 13:37:47,454 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 18:13:46,530 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 18:14:15,526 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7a0b3bf11c21e7836710929f4a3a11ad)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 18:14:23,722 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7a0b3bf11c21e7836710929f4a3a11ad)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 18:14:33,237 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7a0b3bf11c21e7836710929f4a3a11ad)] -> css selector: input[name=product_type]]
+2020-08-27 18:14:38,388 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7a0b3bf11c21e7836710929f4a3a11ad)] -> css selector: input[name='code']]
+2020-08-27 18:14:43,533 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7a0b3bf11c21e7836710929f4a3a11ad)] -> css selector: input[name='description']]
+2020-08-27 18:14:48,700 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7a0b3bf11c21e7836710929f4a3a11ad)] -> xpath: //button[contains(text(),'ADD')]]
+2020-08-27 18:14:50,538 [TestNG-test=ConfigurationPositive-1] INFO CBooster - New Product Type is Added to the Grid
+2020-08-27 18:14:54,441 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 18:14:54,457 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 18:15:19,751 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8e4d34a099aacf256a284967fa020d86)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 18:15:29,913 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8e4d34a099aacf256a284967fa020d86)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 18:15:38,407 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 18:17:12,201 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 18:17:39,104 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e8a35ff94882ee8a302dbf774bf506e7)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 18:17:47,514 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e8a35ff94882ee8a302dbf774bf506e7)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 18:17:53,845 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 18:21:16,535 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 18:21:42,360 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4619da57eda29516e475566c128d6fc8)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 18:21:50,738 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4619da57eda29516e475566c128d6fc8)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 18:21:56,889 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 18:23:43,456 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 18:24:09,079 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1ce42f8b6c62d22e101797b50c7b6289)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 18:24:18,037 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1ce42f8b6c62d22e101797b50c7b6289)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 18:24:26,131 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 18:30:10,864 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 18:30:57,397 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c280bc813da23bcc523a5cbd7f150672)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 18:31:05,806 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c280bc813da23bcc523a5cbd7f150672)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 18:31:18,194 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c280bc813da23bcc523a5cbd7f150672)] -> css selector: input[name=product_type]]
+2020-08-27 18:31:23,390 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c280bc813da23bcc523a5cbd7f150672)] -> css selector: input[name='code']]
+2020-08-27 18:31:28,684 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c280bc813da23bcc523a5cbd7f150672)] -> css selector: input[name='description']]
+2020-08-27 18:31:33,987 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c280bc813da23bcc523a5cbd7f150672)] -> xpath: //button[contains(text(),'ADD')]]
+2020-08-27 18:31:36,071 [TestNG-test=ConfigurationPositive-1] INFO CBooster - New Product Type is Added to the Grid
+2020-08-27 18:31:38,316 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 18:31:38,326 [TestNG-test=ConfigurationPositive-2] INFO CBooster - Chrome browser is started..
+2020-08-27 18:32:06,555 [TestNG-test=ConfigurationPositive-2] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (01fbf73e63aa9130ecc37cd2b1495dfe)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 18:32:15,835 [TestNG-test=ConfigurationPositive-2] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (01fbf73e63aa9130ecc37cd2b1495dfe)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 18:32:24,845 [TestNG-test=ConfigurationPositive-2] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 18:38:48,582 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 18:39:30,286 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4e423d2628a8154a0fc8e867a20d2805)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 18:39:41,250 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4e423d2628a8154a0fc8e867a20d2805)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 18:39:51,478 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4e423d2628a8154a0fc8e867a20d2805)] -> css selector: input[name=product_type]]
+2020-08-27 18:39:56,667 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4e423d2628a8154a0fc8e867a20d2805)] -> css selector: input[name='code']]
+2020-08-27 18:40:01,839 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4e423d2628a8154a0fc8e867a20d2805)] -> css selector: input[name='description']]
+2020-08-27 18:40:07,021 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4e423d2628a8154a0fc8e867a20d2805)] -> xpath: //button[contains(text(),'ADD')]]
+2020-08-27 18:40:08,850 [TestNG-test=ConfigurationPositive-1] INFO CBooster - New Product Type is Added to the Grid
+2020-08-27 18:40:11,167 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 18:40:11,182 [TestNG-test=ConfigurationPositive-2] INFO CBooster - Chrome browser is started..
+2020-08-27 18:40:39,038 [TestNG-test=ConfigurationPositive-2] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (22bcfce9ef9b658edeb4327e242519be)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 18:40:47,621 [TestNG-test=ConfigurationPositive-2] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (22bcfce9ef9b658edeb4327e242519be)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 18:40:56,454 [TestNG-test=ConfigurationPositive-2] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 19:03:18,620 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Chrome browser is started..
+2020-08-27 19:04:29,177 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4c2816100b7efc476743751cbae39d1e)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 19:04:38,154 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4c2816100b7efc476743751cbae39d1e)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 19:04:49,788 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4c2816100b7efc476743751cbae39d1e)] -> css selector: input[name=product_type]]
+2020-08-27 19:04:54,954 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4c2816100b7efc476743751cbae39d1e)] -> css selector: input[name='code']]
+2020-08-27 19:05:00,221 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4c2816100b7efc476743751cbae39d1e)] -> css selector: input[name='description']]
+2020-08-27 19:05:05,395 [TestNG-test=ConfigurationPositive-1] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4c2816100b7efc476743751cbae39d1e)] -> xpath: //button[contains(text(),'ADD')]]
+2020-08-27 19:05:08,226 [TestNG-test=ConfigurationPositive-1] INFO CBooster - New Product Type is Added to the Grid
+2020-08-27 19:05:13,103 [TestNG-test=ConfigurationPositive-1] INFO CBooster - Clean up activity: Closed all browser instances..
+2020-08-27 19:05:13,124 [TestNG-test=ConfigurationPositive-2] INFO CBooster - Chrome browser is started..
+2020-08-27 19:05:43,108 [TestNG-test=ConfigurationPositive-2] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (768b8e455977ed2b6d81c89d6963e282)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-27 19:05:51,297 [TestNG-test=ConfigurationPositive-2] INFO CBooster - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (768b8e455977ed2b6d81c89d6963e282)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-27 19:05:57,382 [TestNG-test=ConfigurationPositive-2] INFO CBooster - Clean up activity: Closed all browser instances..

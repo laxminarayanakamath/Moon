@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="classes" name="Failed suite [CBoosterTestSuite]" guice-stage="DEVELOPMENT">
+<suite parallel="classes" name="Failed suite [CBoosterTestSuite]">
   <listeners>
     <listener class-name="com.bixbytes.qa.cbooster.utilities.ExtentReportNG"/>
     <listener class-name="com.bixbytes.qa.cbooster.utilities.ITestListner"/>
@@ -17,8 +17,8 @@
       <class name="com.bixbytes.qa.cbooster.testcases.Configure_Positive_Testcases">
         <methods>
           <include name="exitbrowser"/>
+          <include name="tc4_add_producttype"/>
           <include name="setup"/>
-          <include name="tc3_click_producttype_btn"/>
         </methods>
       </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_Positive_Testcases -->
     </classes>

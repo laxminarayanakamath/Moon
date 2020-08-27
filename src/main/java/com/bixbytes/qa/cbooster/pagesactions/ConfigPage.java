@@ -13,12 +13,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.bixbytes.qa.cbooster.base.Base_Main;
 import com.bixbytes.qa.cbooster.commonmethods.DriverWait;
+import com.bixbytes.qa.cbooster.commonmethods.GetTableData;
 import com.bixbytes.qa.cbooster.commonmethods.VisibilityCheck;
 
 public class ConfigPage extends Base_Main {
 	WebDriver driver;
 	VisibilityCheck visibilitycheck;
 	DriverWait driverwait;
+	GetTableData gettabledata;
 
 	/* Element in the overview page */
 	@FindBy(xpath = "//span[contains(text(),'Configure')]")
@@ -55,12 +57,24 @@ public class ConfigPage extends Base_Main {
 	@FindBy(xpath = "//button[contains(text(),'ADD')]")
 	WebElement add_button;
 
+	/* Variable to find the row and column count */
+	String rowsxpath = "//table[@class='table global_table  table-borderless box_shadow mb-0']/tbody/tr";
+	String colpath = "//table[@class='table global_table  table-borderless box_shadow mb-0']/tbody/tr[1]/td";
+	/*
+	 * Variables to find write the dynamic xpaths which can find all the elements of
+	 * a table
+	 */
+	String beforexpath = "//table[@class='table global_table  table-borderless box_shadow mb-0']/tbody/tr[";
+	String afterxpath = "]/td[";
+	public static String verficationcontent;
+
 	/* Initializing the Pagefactory */
 	public ConfigPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 		visibilitycheck = new VisibilityCheck();
 		driverwait = new DriverWait();
+		gettabledata = new GetTableData();
 	}
 
 	/* Action Methods */
@@ -94,7 +108,7 @@ public class ConfigPage extends Base_Main {
 	}
 
 	/* Linked with Data Driven Method */
-	public void add_producttype(String producttype, String code, String description)
+	public void add_producttype(String producttypes, String code, String description)
 			throws InterruptedException, Error {
 		/* Check the visibility of related elements in the page */
 		driverwait.driverwait(producttype_name);
@@ -103,14 +117,20 @@ public class ConfigPage extends Base_Main {
 		visibilitycheck.checkIsAvailable(producttype_description);
 		visibilitycheck.checkIsAvailable(add_button);
 
+		verficationcontent = producttypes;
+
 		/* Fetch data from the test case and click Add */
-		producttype_name.sendKeys(producttype);
+		producttype_name.sendKeys(producttypes);
 		producttype_code.sendKeys(code);
 		producttype_description.sendKeys(description);
 		add_button.click();
 	}
 
-	public void check_producttype_addedData() {
+	/* Verifying the added product displays in grid Or not */
+	public String verify_producttype_addedData() {
+
+		String content = gettabledata.getGridRows(rowsxpath, colpath, beforexpath, afterxpath, verficationcontent);
+		return content;
 
 	}
 

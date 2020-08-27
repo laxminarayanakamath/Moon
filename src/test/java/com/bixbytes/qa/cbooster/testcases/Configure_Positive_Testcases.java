@@ -4,6 +4,8 @@
  */
 package com.bixbytes.qa.cbooster.testcases;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -13,6 +15,7 @@ import com.bixbytes.qa.cbooster.base.Base_Main;
 import com.bixbytes.qa.cbooster.commonmethods.GeneralAdminLogin;
 import com.bixbytes.qa.cbooster.pagesactions.ConfigPage;
 import com.bixbytes.qa.cbooster.pagesactions.SignInPage;
+import com.bixbytes.qa.cbooster.utilities.TestDataReader;
 
 public class Configure_Positive_Testcases extends Base_Main {
 
@@ -20,6 +23,8 @@ public class Configure_Positive_Testcases extends Base_Main {
 	SignInPage signinpage;
 	ConfigPage configpage;
 	GeneralAdminLogin generaladminlogin;
+	TestDataReader dataReader;
+	String[][] getData = null;
 
 	/* Constructor which points to Base_Main() super class methods */
 	public Configure_Positive_Testcases() {
@@ -34,6 +39,7 @@ public class Configure_Positive_Testcases extends Base_Main {
 
 		signinpage = new SignInPage(driver);
 		configpage = new ConfigPage(driver);
+		dataReader = new TestDataReader();
 		generaladminlogin = new GeneralAdminLogin();
 		generaladminlogin.login();
 
@@ -65,7 +71,23 @@ public class Configure_Positive_Testcases extends Base_Main {
 	}
 
 	@Test(priority = 4, groups = { "FunctionalPositive" })
-	public void tc4_add_producttype() {
+	public void tc4_add_producttype() throws IOException, InterruptedException, Error {
+		configpage.click_validate_configurepage();
+		configpage.click_producttype_btn();
+
+		getData = dataReader.getcelldata("AddProductType");
+		configpage.add_producttype(getData[1][0], getData[1][1], getData[1][2]);
+		logger.info("New Product Type is Added to the Grid...");
+
+	}
+
+	@Test(priority = 5, dependsOnMethods = { "tc4_add_producttype" }, groups = { "FunctionalPositive" })
+	public void tc5_verify_addedProducttype() throws InterruptedException, Error, IOException {
+		configpage.click_validate_configurepage();
+		configpage.click_producttype_btn();
+		String content = configpage.verify_producttype_addedData();
+		Assert.assertNotNull(content, "Data is not available");
+		logger.info("Test case passed,verified product in the grid is:" + content);
 
 	}
 
