@@ -13,13 +13,17 @@
 <include name="FunctionalNegative" />
 </run>
 </groups>
-  
-   <test name="ConfigurationPositive">
+   
+  <test name="ConfigurationPLPositive">
   <classes>
-      <class name="com.bixbytes.qa.cbooster.testcases.Configure_Positive_Testcases"/>
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases"/>
   </classes>
   </test>
- 
-
+   
+     <test name="ConfigurationPLNegative">
+  <classes>
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases"/>
+  </classes>
+  </test>
    
 </suite>

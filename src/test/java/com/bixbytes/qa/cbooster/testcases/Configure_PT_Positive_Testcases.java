@@ -13,21 +13,21 @@ import org.testng.annotations.Test;
 
 import com.bixbytes.qa.cbooster.base.Base_Main;
 import com.bixbytes.qa.cbooster.commonmethods.GeneralAdminLogin;
-import com.bixbytes.qa.cbooster.pagesactions.ConfigPage;
+import com.bixbytes.qa.cbooster.pagesactions.ConfigPage_ProductType;
 import com.bixbytes.qa.cbooster.pagesactions.SignInPage;
 import com.bixbytes.qa.cbooster.utilities.TestDataReader;
 
-public class Configure_Positive_Testcases extends Base_Main {
+public class Configure_PT_Positive_Testcases extends Base_Main {
 
 	/* TestNG annotations are used in below test cases */
 	SignInPage signinpage;
-	ConfigPage configpage;
+	ConfigPage_ProductType configpage;
 	GeneralAdminLogin generaladminlogin;
 	TestDataReader dataReader;
 	String[][] getData = null;
 
 	/* Constructor which points to Base_Main() super class methods */
-	public Configure_Positive_Testcases() {
+	public Configure_PT_Positive_Testcases() {
 		super();
 
 	}
@@ -38,7 +38,7 @@ public class Configure_Positive_Testcases extends Base_Main {
 		browsersetups();
 
 		signinpage = new SignInPage(driver);
-		configpage = new ConfigPage(driver);
+		configpage = new ConfigPage_ProductType(driver);
 		dataReader = new TestDataReader();
 		generaladminlogin = new GeneralAdminLogin();
 		generaladminlogin.login();
@@ -67,7 +67,7 @@ public class Configure_Positive_Testcases extends Base_Main {
 		Boolean isDisplayed = configpage.click_producttype_btn();
 		String actual = Boolean.toString(isDisplayed);
 		Assert.assertEquals(actual, "true");
-		logger.info("Clicked on Product Type button:" + actual);
+		logger.info("Clicked on Product Type button and PT page displayed:" + actual);
 	}
 
 	@Test(priority = 4, groups = { "FunctionalPositive" })
@@ -77,7 +77,6 @@ public class Configure_Positive_Testcases extends Base_Main {
 
 		getData = dataReader.getcelldata("AddProductType");
 		configpage.add_producttype(getData[1][0], getData[1][1], getData[1][2]);
-		logger.info("New Product Type is Added to the Grid...");
 
 	}
 

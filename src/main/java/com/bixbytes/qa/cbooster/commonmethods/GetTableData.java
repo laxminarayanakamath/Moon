@@ -34,7 +34,7 @@ public class GetTableData extends Base_Main {
 
 				if (content.equalsIgnoreCase(producttypes)) {
 					System.out.println("Respective added product Is:" + producttypes
-							+ "And product name taken from Grid:" + content + "are matching");
+							+ "--And product name taken from Grid:" + content + "--are matching");
 					break;
 				}
 				break;

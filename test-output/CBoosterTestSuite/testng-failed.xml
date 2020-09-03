@@ -5,7 +5,7 @@
     <listener class-name="com.bixbytes.qa.cbooster.utilities.ExtentReportNG"/>
     <listener class-name="com.bixbytes.qa.cbooster.utilities.ITestListner"/>
   </listeners>
-  <test thread-count="5" parallel="classes" name="ConfigurationPositive(failed)">
+  <test thread-count="5" parallel="classes" name="ConfigurationPLPositive(failed)">
     <groups>
       <run>
         <include name="SmokeTest"/>
@@ -14,13 +14,14 @@
       </run>
     </groups>
     <classes>
-      <class name="com.bixbytes.qa.cbooster.testcases.Configure_Positive_Testcases">
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases">
         <methods>
-          <include name="exitbrowser"/>
-          <include name="tc4_add_producttype"/>
+          <include name="tc3_verify_added_sla"/>
           <include name="setup"/>
+          <include name="tc2_add_sla"/>
+          <include name="exitbrowser"/>
         </methods>
-      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_Positive_Testcases -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases -->
     </classes>
-  </test> <!-- ConfigurationPositive(failed) -->
+  </test> <!-- ConfigurationPLPositive(failed) -->
 </suite> <!-- Failed suite [CBoosterTestSuite] -->

@@ -1,377 +1,1157 @@
-2020-08-25 13:10:07,780 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 13:10:26,114 - CBooster -INFO - Checking LoginPage Title Completed
-2020-08-25 13:10:29,668 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 13:10:29,679 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 13:10:47,156 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (3ded1950ec9b8f8f6d41f19e40b55cf5)] -> id: email]
-2020-08-25 13:10:48,030 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (3ded1950ec9b8f8f6d41f19e40b55cf5)] -> id: password]
-2020-08-25 13:10:48,697 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (3ded1950ec9b8f8f6d41f19e40b55cf5)] -> xpath: //button[contains(text(),'Login')]]
-2020-08-25 13:10:49,040 - CBooster -INFO - Clicked on Login Button
-2020-08-25 13:10:52,517 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 13:10:52,521 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 13:11:06,602 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (6b8d75c61205965304ae2c68d4095a44)] -> id: email]
-2020-08-25 13:11:07,702 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (6b8d75c61205965304ae2c68d4095a44)] -> id: password]
-2020-08-25 13:11:08,309 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (6b8d75c61205965304ae2c68d4095a44)] -> xpath: //button[contains(text(),'Login')]]
-2020-08-25 13:11:08,609 - CBooster -INFO - Successfully logged in...
-2020-08-25 13:11:15,599 - CBooster -INFO - Checking Title after Login
-2020-08-25 13:11:17,273 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 13:11:17,331 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 13:11:33,093 - CBooster -INFO - Checking LoginPage Title Completed
-2020-08-25 13:11:36,718 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 13:11:36,720 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 13:11:51,541 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (7c440dcda920be515f98d1109e287ac8)] -> id: email]
-2020-08-25 13:11:52,361 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (7c440dcda920be515f98d1109e287ac8)] -> id: password]
-2020-08-25 13:11:53,343 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (7c440dcda920be515f98d1109e287ac8)] -> xpath: //button[contains(text(),'Login')]]
-2020-08-25 13:11:58,878 - CBooster -INFO - Checking the alert for invalid username and passwords
-2020-08-25 13:12:00,249 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 13:12:00,266 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 13:12:16,064 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 13:12:16,068 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 13:12:40,409 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 13:12:40,412 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 13:12:58,680 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 13:12:58,696 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 13:13:24,333 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:15:48,210 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:18:11,719 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:18:43,207 - CBooster -INFO - Smoke Test
-2020-08-25 17:22:39,990 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:23:08,098 - CBooster -INFO - Smoke Test
-2020-08-25 17:23:11,657 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:25:33,898 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:26:03,239 - CBooster -INFO - Smoke Test
-2020-08-25 17:26:06,639 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:26:06,654 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:26:39,844 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:26:39,848 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:32:19,632 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:32:48,731 - CBooster -INFO - Smoke Test
-2020-08-25 17:32:51,938 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:32:51,944 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:33:21,356 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:33:21,359 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:33:51,999 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:33:52,003 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:34:23,622 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:37:47,864 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:38:15,443 - CBooster -INFO - Smoke Test
-2020-08-25 17:38:21,004 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:38:21,015 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:38:51,847 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:38:51,850 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:39:23,431 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:39:23,434 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:39:52,690 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:42:51,926 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:43:20,821 - CBooster -INFO - Smoke Test
-2020-08-25 17:43:24,610 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:43:24,622 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:43:32,862 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:44:52,384 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:45:21,056 - CBooster -INFO - Smoke Test
-2020-08-25 17:45:33,527 - CBooster -INFO - Validating navigated page is Config Page Or not
-2020-08-25 17:45:36,948 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:45:36,960 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:46:32,013 - CBooster -INFO - Clicked on Over view button
-2020-08-25 17:46:35,410 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:46:35,414 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:47:46,533 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:48:15,556 - CBooster -INFO - Smoke Test
-2020-08-25 17:49:22,161 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:49:22,176 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:50:15,083 - CBooster -INFO - Clicked on Over view button
-2020-08-25 17:50:18,412 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:50:18,416 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:52:10,693 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:52:10,697 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:52:41,979 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:55:16,522 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:55:46,470 - CBooster -INFO - Smoke Test
-2020-08-25 17:55:58,133 - CBooster -INFO - Validating navigated page is Config Page Or not
-2020-08-25 17:56:01,551 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:56:01,563 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:56:20,792 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:56:50,270 - CBooster -INFO - Smoke Test
-2020-08-25 17:57:02,122 - CBooster -INFO - Validating navigated page is Config Page Or not
-2020-08-25 17:57:05,710 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:57:05,721 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:58:02,830 - CBooster -INFO - Clicked on Over view button
-2020-08-25 17:58:06,516 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:58:06,520 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 17:59:58,609 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 17:59:58,613 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:04:48,218 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:05:36,780 - CBooster -INFO - Smoke Test
-2020-08-25 18:05:49,778 - CBooster -INFO - Validating navigated page is Config Page Or not
-2020-08-25 18:05:51,792 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:05:51,801 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:06:52,029 - CBooster -INFO - Clicked on Over view button
-2020-08-25 18:06:53,788 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:06:53,791 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:07:46,603 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:07:46,605 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:08:19,788 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:09:48,571 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:10:41,892 - CBooster -INFO - Clicked on Product Type button
-2020-08-25 18:10:45,588 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:10:45,594 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:11:26,094 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:14:48,306 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:15:22,107 - CBooster -INFO - Smoke Test
-2020-08-25 18:15:29,495 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:15:29,509 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:16:06,203 - CBooster -INFO - Clicked on Over view button
-2020-08-25 18:16:09,873 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:16:09,876 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:16:45,762 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:16:45,764 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:33:33,226 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:35:21,507 - CBooster -INFO - Smoke Test
-2020-08-25 18:35:27,725 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (b92314e45c1cdbfebb0e7f753bff920f)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-25 18:35:31,119 - CBooster -INFO - Validating navigated page is Config Page Or not
-2020-08-25 18:35:34,452 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:35:34,709 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:36:23,246 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (797052ab2719c09bc72f308bdf0323f7)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-25 18:36:32,982 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (797052ab2719c09bc72f308bdf0323f7)] -> xpath: //a[contains(text(),'OVERVIEW')]]
-2020-08-25 18:36:35,199 - CBooster -INFO - Clicked on Over view button
-2020-08-25 18:36:41,397 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:36:41,400 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:37:18,558 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (f639906e7ba6e64e406729b85e15429b)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-25 18:37:29,072 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (f639906e7ba6e64e406729b85e15429b)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-25 18:37:33,884 - CBooster -INFO - Clicked on Product Type button
-2020-08-25 18:37:35,874 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:37:35,877 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:38:10,564 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:40:23,275 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:40:54,367 - CBooster -INFO - Smoke Test
-2020-08-25 18:40:59,584 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (1620282f711ba649960c5b0b7a4b8244)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-25 18:41:02,905 - CBooster -INFO - Validating navigated page is Config Page Or nottrue
-2020-08-25 18:41:04,530 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:41:04,542 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:41:37,782 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (e701c8279dd610dd766bc4453c9cfcbf)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-25 18:41:46,281 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (e701c8279dd610dd766bc4453c9cfcbf)] -> xpath: //a[contains(text(),'OVERVIEW')]]
-2020-08-25 18:41:51,737 - CBooster -INFO - Clicked on Over view button
-2020-08-25 18:41:55,072 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:41:55,076 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:42:29,426 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (db01c389e6afa6d1d982657a140c6a57)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-25 18:42:37,966 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (db01c389e6afa6d1d982657a140c6a57)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-25 18:42:41,192 - CBooster -INFO - Clicked on Product Type buttontrue
-2020-08-25 18:42:44,594 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 18:42:44,598 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 18:43:14,989 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 19:27:10,466 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 19:28:22,020 - CBooster -INFO - Smoke Test
-2020-08-25 19:28:27,599 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (1cda54f00e324279ea298052c5d98dbf)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-25 19:28:30,622 - CBooster -INFO - Validating navigated page is Config Page Or not:true
-2020-08-25 19:28:36,284 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 19:28:36,293 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 19:29:06,698 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (1a4dcf891a6a1d645dd53b73d3ef7cf6)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-25 19:29:15,684 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (1a4dcf891a6a1d645dd53b73d3ef7cf6)] -> xpath: //a[contains(text(),'OVERVIEW')]]
-2020-08-25 19:29:17,009 - CBooster -INFO - Clicked on Over view button
-2020-08-25 19:29:20,713 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 19:29:20,720 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 19:29:47,930 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (f2955b3263f4182f1806381b1975932e)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-25 19:29:58,506 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (f2955b3263f4182f1806381b1975932e)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-25 19:30:01,566 - CBooster -INFO - Clicked on Product Type button:true
-2020-08-25 19:30:04,833 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 19:30:04,836 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 19:30:33,551 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 19:34:04,453 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 19:34:28,685 - CBooster -INFO - Smoke Test
-2020-08-25 19:34:33,950 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (d98d3d5307a7765f4b450cf057336d9f)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-25 19:34:36,940 - CBooster -INFO - Validating navigated page is Config Page Or not:true
-2020-08-25 19:34:39,211 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 19:34:39,211 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 19:35:09,910 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (95f19b217374638d290761f9c22e8e51)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-25 19:35:18,037 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (95f19b217374638d290761f9c22e8e51)] -> xpath: //a[contains(text(),'OVERVIEW')]]
-2020-08-25 19:35:19,081 - CBooster -INFO - Clicked on Over view button
-2020-08-25 19:35:22,740 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 19:35:22,745 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 19:35:51,309 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (0b48ce518fd9a84429705d3020ad83d1)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-25 19:35:59,376 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (0b48ce518fd9a84429705d3020ad83d1)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-25 19:36:02,853 - CBooster -INFO - Clicked on Product Type button:true
-2020-08-25 19:36:06,237 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 19:36:06,253 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 19:36:32,649 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 19:44:16,472 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 19:44:40,110 - CBooster -INFO - Smoke Test
-2020-08-25 19:44:47,397 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (bda4bf569d58e33cc91102d83c8ed3ab)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-25 19:44:50,614 - CBooster -INFO - Validating navigated page is Config Page Or not:true
-2020-08-25 19:44:54,026 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 19:44:54,038 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 19:45:14,337 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 19:45:37,911 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-25 19:45:37,911 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-25 19:46:03,578 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 09:57:23,318 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 09:58:18,361 - CBooster -INFO - Smoke Test
-2020-08-26 09:58:23,716 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (ea2c93d2fa92cd8921d8cb85ae553c3d)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-26 09:58:27,022 - CBooster -INFO - Validating navigated page is Config Page Or not:true
-2020-08-26 09:58:29,624 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 09:58:29,636 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 09:59:06,162 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (60349042e1eab00e334d1a05648d92cc)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-26 09:59:14,711 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (60349042e1eab00e334d1a05648d92cc)] -> xpath: //a[contains(text(),'OVERVIEW')]]
-2020-08-26 09:59:15,978 - CBooster -INFO - Clicked on Over view button
-2020-08-26 09:59:19,643 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 09:59:19,647 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 09:59:49,305 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (1715d7c70308cbfe255440cf2faf7c84)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-26 09:59:58,525 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (1715d7c70308cbfe255440cf2faf7c84)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-26 10:00:02,109 - CBooster -INFO - Clicked on Product Type button:true
-2020-08-26 10:00:05,798 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 10:00:05,801 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 10:00:34,892 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 12:33:24,764 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 12:34:24,287 - CBooster -INFO - Smoke Test
-2020-08-26 12:34:29,978 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (57d8e4bfaba57ef7fc6216687ad54092)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-26 12:34:34,727 - CBooster -INFO - Validating navigated page is Config Page Or not:true
-2020-08-26 12:34:37,574 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 12:34:37,886 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 12:35:10,361 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (885b647692707ce84d20fc9b27ca20a6)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-26 12:35:19,169 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (885b647692707ce84d20fc9b27ca20a6)] -> xpath: //a[contains(text(),'OVERVIEW')]]
-2020-08-26 12:35:20,904 - CBooster -INFO - Clicked on Over view button
-2020-08-26 12:35:23,199 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 12:35:23,202 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 12:35:53,495 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (2438ae0b5636cb05292953e0bcae9a67)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-26 12:36:02,089 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (2438ae0b5636cb05292953e0bcae9a67)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-26 12:36:06,007 - CBooster -INFO - Clicked on Product Type button:true
-2020-08-26 12:36:07,660 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 12:36:07,664 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 12:36:32,998 - CBooster -INFO - Wrong Excel file extension detected
-2020-08-26 12:36:37,434 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 12:39:43,474 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 12:40:12,433 - CBooster -INFO - Wrong Excel file extension detectedxls
-2020-08-26 12:40:17,140 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 12:43:25,485 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 12:44:02,756 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 12:45:35,216 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 12:46:04,230 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 12:47:18,315 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 12:49:07,539 - CBooster -INFO - ELement is not found in the Webpage[[EdgeDriver: msedge on WINDOWS (c060df957568ebd3de3d406d0ac58a0d)] -> css selector: input[name=product_type]]
-2020-08-26 12:49:12,913 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (c060df957568ebd3de3d406d0ac58a0d)] -> css selector: input[name=product_type]]
-2020-08-26 12:49:30,656 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 12:53:20,471 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 12:53:50,684 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (0d680f7a2ea4e0d9d66866aba65998ae)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-26 12:55:36,186 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 12:56:08,526 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (cbdade6dccc1577fbf113d13f72bab73)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-26 12:56:16,624 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (cbdade6dccc1577fbf113d13f72bab73)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-26 12:56:25,742 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (cbdade6dccc1577fbf113d13f72bab73)] -> css selector: input[name=product_type]]
-2020-08-26 12:56:30,875 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (cbdade6dccc1577fbf113d13f72bab73)] -> css selector: input[name='code']]
-2020-08-26 12:56:36,005 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (cbdade6dccc1577fbf113d13f72bab73)] -> css selector: input[name='description']]
-2020-08-26 12:56:41,153 - CBooster -INFO - This element is displayed,proceeding with further actions...[[EdgeDriver: msedge on WINDOWS (cbdade6dccc1577fbf113d13f72bab73)] -> xpath: //button[contains(text(),'ADD')]]
-2020-08-26 12:56:47,094 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 13:37:47,055 - CBooster -INFO - Microsoft Edge browser is started..
-2020-08-26 13:40:27,707 - CBooster -INFO - Element is not available - Method-checkIsAvailable...
-2020-08-26 13:41:30,836 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 14:29:06,509 - CBooster -INFO - Chrome browser is started..
-2020-08-26 14:30:10,359 - CBooster -INFO - Element is not available - Method-checkIsAvailable...
-2020-08-26 14:31:14,822 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 14:32:16,825 - CBooster -INFO - Chrome browser is started..
-2020-08-26 15:00:38,371 - CBooster -INFO - Chrome browser is started..
-2020-08-26 15:01:38,125 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (32d155db3d79ec5dd60a7e071a165f53)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-26 15:01:47,569 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (32d155db3d79ec5dd60a7e071a165f53)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-26 15:09:16,710 - CBooster -INFO - Chrome browser is started..
-2020-08-26 15:10:02,260 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fb92a8db6b8c21f79b2495ed1edb4a0c)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-26 15:10:11,399 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fb92a8db6b8c21f79b2495ed1edb4a0c)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-26 15:10:21,927 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fb92a8db6b8c21f79b2495ed1edb4a0c)] -> css selector: input[name=product_type]]
-2020-08-26 15:10:27,412 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fb92a8db6b8c21f79b2495ed1edb4a0c)] -> css selector: input[name='code']]
-2020-08-26 15:10:32,722 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fb92a8db6b8c21f79b2495ed1edb4a0c)] -> css selector: input[name='description']]
-2020-08-26 15:10:37,854 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fb92a8db6b8c21f79b2495ed1edb4a0c)] -> xpath: //button[contains(text(),'ADD')]]
-2020-08-26 15:10:41,934 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 15:15:35,683 - CBooster -INFO - Chrome browser is started..
-2020-08-26 15:17:15,836 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-26 15:18:51,840 - CBooster -INFO - Chrome browser is started..
-2020-08-26 15:19:26,576 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8b25bdedb71a26dcc352b54fd7cc2cfa)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-26 15:19:34,684 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8b25bdedb71a26dcc352b54fd7cc2cfa)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-26 15:19:45,866 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8b25bdedb71a26dcc352b54fd7cc2cfa)] -> css selector: input[name=product_type]]
-2020-08-26 15:19:51,086 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8b25bdedb71a26dcc352b54fd7cc2cfa)] -> css selector: input[name='code']]
-2020-08-26 15:19:56,281 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8b25bdedb71a26dcc352b54fd7cc2cfa)] -> css selector: input[name='description']]
-2020-08-26 15:20:01,508 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8b25bdedb71a26dcc352b54fd7cc2cfa)] -> xpath: //button[contains(text(),'ADD')]]
-2020-08-26 15:20:04,690 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 13:07:55,217 - CBooster -INFO - Chrome browser is started..
-2020-08-27 13:09:32,002 - CBooster -INFO - Chrome browser is started..
-2020-08-27 13:10:01,499 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (b5ed684cc6b850d6598425c214357274)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 13:10:10,032 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (b5ed684cc6b850d6598425c214357274)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 13:10:18,905 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 13:11:24,298 - CBooster -INFO - Chrome browser is started..
-2020-08-27 13:11:53,140 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8522dc55ec404e056c7ccbebaeb0fa41)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 13:12:01,583 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8522dc55ec404e056c7ccbebaeb0fa41)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 13:12:10,150 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 13:14:36,468 - CBooster -INFO - Chrome browser is started..
-2020-08-27 13:15:07,052 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (cb28184ecc60595add782dc825be9123)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 13:15:15,769 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (cb28184ecc60595add782dc825be9123)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 13:15:22,165 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 13:28:52,972 - CBooster -INFO - Chrome browser is started..
-2020-08-27 13:29:26,121 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3dc123380769c96e02e231d02bbf956f)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 13:29:34,080 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3dc123380769c96e02e231d02bbf956f)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 13:29:43,152 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 13:32:56,786 - CBooster -INFO - Chrome browser is started..
-2020-08-27 13:33:26,788 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (88265e13c11f550a6b098768ea941d75)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 13:33:35,406 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (88265e13c11f550a6b098768ea941d75)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 13:33:44,173 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 13:37:02,253 - CBooster -INFO - Chrome browser is started..
-2020-08-27 13:37:30,648 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (42789f0ae816b8900e8270f2ac874aa2)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 13:37:39,587 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (42789f0ae816b8900e8270f2ac874aa2)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 13:37:47,454 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 18:13:46,530 - CBooster -INFO - Chrome browser is started..
-2020-08-27 18:14:15,526 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7a0b3bf11c21e7836710929f4a3a11ad)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 18:14:23,722 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7a0b3bf11c21e7836710929f4a3a11ad)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 18:14:33,237 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7a0b3bf11c21e7836710929f4a3a11ad)] -> css selector: input[name=product_type]]
-2020-08-27 18:14:38,388 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7a0b3bf11c21e7836710929f4a3a11ad)] -> css selector: input[name='code']]
-2020-08-27 18:14:43,533 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7a0b3bf11c21e7836710929f4a3a11ad)] -> css selector: input[name='description']]
-2020-08-27 18:14:48,700 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7a0b3bf11c21e7836710929f4a3a11ad)] -> xpath: //button[contains(text(),'ADD')]]
-2020-08-27 18:14:50,538 - CBooster -INFO - New Product Type is Added to the Grid
-2020-08-27 18:14:54,441 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 18:14:54,457 - CBooster -INFO - Chrome browser is started..
-2020-08-27 18:15:19,751 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8e4d34a099aacf256a284967fa020d86)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 18:15:29,913 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8e4d34a099aacf256a284967fa020d86)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 18:15:38,407 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 18:17:12,201 - CBooster -INFO - Chrome browser is started..
-2020-08-27 18:17:39,104 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e8a35ff94882ee8a302dbf774bf506e7)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 18:17:47,514 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e8a35ff94882ee8a302dbf774bf506e7)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 18:17:53,845 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 18:21:16,535 - CBooster -INFO - Chrome browser is started..
-2020-08-27 18:21:42,360 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4619da57eda29516e475566c128d6fc8)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 18:21:50,738 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4619da57eda29516e475566c128d6fc8)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 18:21:56,889 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 18:23:43,456 - CBooster -INFO - Chrome browser is started..
-2020-08-27 18:24:09,079 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1ce42f8b6c62d22e101797b50c7b6289)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 18:24:18,037 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1ce42f8b6c62d22e101797b50c7b6289)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 18:24:26,131 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 18:30:10,864 - CBooster -INFO - Chrome browser is started..
-2020-08-27 18:30:57,397 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c280bc813da23bcc523a5cbd7f150672)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 18:31:05,806 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c280bc813da23bcc523a5cbd7f150672)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 18:31:18,194 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c280bc813da23bcc523a5cbd7f150672)] -> css selector: input[name=product_type]]
-2020-08-27 18:31:23,390 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c280bc813da23bcc523a5cbd7f150672)] -> css selector: input[name='code']]
-2020-08-27 18:31:28,684 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c280bc813da23bcc523a5cbd7f150672)] -> css selector: input[name='description']]
-2020-08-27 18:31:33,987 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c280bc813da23bcc523a5cbd7f150672)] -> xpath: //button[contains(text(),'ADD')]]
-2020-08-27 18:31:36,071 - CBooster -INFO - New Product Type is Added to the Grid
-2020-08-27 18:31:38,316 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 18:31:38,326 - CBooster -INFO - Chrome browser is started..
-2020-08-27 18:32:06,555 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (01fbf73e63aa9130ecc37cd2b1495dfe)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 18:32:15,835 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (01fbf73e63aa9130ecc37cd2b1495dfe)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 18:32:24,845 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 18:38:48,582 - CBooster -INFO - Chrome browser is started..
-2020-08-27 18:39:30,286 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4e423d2628a8154a0fc8e867a20d2805)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 18:39:41,250 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4e423d2628a8154a0fc8e867a20d2805)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 18:39:51,478 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4e423d2628a8154a0fc8e867a20d2805)] -> css selector: input[name=product_type]]
-2020-08-27 18:39:56,667 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4e423d2628a8154a0fc8e867a20d2805)] -> css selector: input[name='code']]
-2020-08-27 18:40:01,839 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4e423d2628a8154a0fc8e867a20d2805)] -> css selector: input[name='description']]
-2020-08-27 18:40:07,021 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4e423d2628a8154a0fc8e867a20d2805)] -> xpath: //button[contains(text(),'ADD')]]
-2020-08-27 18:40:08,850 - CBooster -INFO - New Product Type is Added to the Grid
-2020-08-27 18:40:11,167 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 18:40:11,182 - CBooster -INFO - Chrome browser is started..
-2020-08-27 18:40:39,038 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (22bcfce9ef9b658edeb4327e242519be)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 18:40:47,621 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (22bcfce9ef9b658edeb4327e242519be)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 18:40:56,454 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 19:03:18,620 - CBooster -INFO - Chrome browser is started..
-2020-08-27 19:04:29,177 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4c2816100b7efc476743751cbae39d1e)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 19:04:38,154 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4c2816100b7efc476743751cbae39d1e)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 19:04:49,788 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4c2816100b7efc476743751cbae39d1e)] -> css selector: input[name=product_type]]
-2020-08-27 19:04:54,954 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4c2816100b7efc476743751cbae39d1e)] -> css selector: input[name='code']]
-2020-08-27 19:05:00,221 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4c2816100b7efc476743751cbae39d1e)] -> css selector: input[name='description']]
-2020-08-27 19:05:05,395 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4c2816100b7efc476743751cbae39d1e)] -> xpath: //button[contains(text(),'ADD')]]
-2020-08-27 19:05:08,226 - CBooster -INFO - New Product Type is Added to the Grid
-2020-08-27 19:05:13,103 - CBooster -INFO - Clean up activity: Closed all browser instances..
-2020-08-27 19:05:13,124 - CBooster -INFO - Chrome browser is started..
-2020-08-27 19:05:43,108 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (768b8e455977ed2b6d81c89d6963e282)] -> xpath: //span[contains(text(),'Configure')]]
-2020-08-27 19:05:51,297 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (768b8e455977ed2b6d81c89d6963e282)] -> xpath: //a[contains(text(),'Product Type')]]
-2020-08-27 19:05:57,382 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-27 19:44:30,971 - CBooster -INFO - Chrome browser is started..
+2020-08-27 19:44:58,761 - CBooster -INFO - Smoke Test
+2020-08-27 19:45:04,016 - CBooster -INFO - Element is not available - Method-checkIsAvailable...
+2020-08-27 19:46:08,514 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-27 19:46:08,514 - CBooster -INFO - Chrome browser is started..
+2020-08-27 19:46:32,596 - CBooster -INFO - Element is not available - Method-checkIsAvailable...
+2020-08-27 19:47:36,229 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-27 19:47:36,229 - CBooster -INFO - Chrome browser is started..
+2020-08-27 19:48:00,927 - CBooster -INFO - Element is not available - Method-checkIsAvailable...
+2020-08-27 19:49:05,303 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-27 19:49:05,303 - CBooster -INFO - Chrome browser is started..
+2020-08-28 11:45:29,738 - CBooster -INFO - Chrome browser is started..
+2020-08-28 11:46:24,013 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6fed8454b9b8ad989f2e6d4fb3c538d6)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-28 11:46:32,718 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6fed8454b9b8ad989f2e6d4fb3c538d6)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-28 11:46:43,059 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6fed8454b9b8ad989f2e6d4fb3c538d6)] -> css selector: input[name=product_type]]
+2020-08-28 11:46:48,189 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6fed8454b9b8ad989f2e6d4fb3c538d6)] -> css selector: input[name='code']]
+2020-08-28 11:46:53,324 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6fed8454b9b8ad989f2e6d4fb3c538d6)] -> css selector: input[name='description']]
+2020-08-28 11:46:58,497 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6fed8454b9b8ad989f2e6d4fb3c538d6)] -> xpath: //button[contains(text(),'ADD')]]
+2020-08-28 11:47:02,642 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-28 11:49:31,424 - CBooster -INFO - Chrome browser is started..
+2020-08-28 11:49:59,598 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (2cca3a88222cd83259bbb84877c2737e)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-28 11:50:07,597 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (2cca3a88222cd83259bbb84877c2737e)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-28 11:50:16,191 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (2cca3a88222cd83259bbb84877c2737e)] -> css selector: input[name=product_type]]
+2020-08-28 11:50:21,360 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (2cca3a88222cd83259bbb84877c2737e)] -> css selector: input[name='code']]
+2020-08-28 11:50:26,499 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (2cca3a88222cd83259bbb84877c2737e)] -> css selector: input[name='description']]
+2020-08-28 11:50:31,639 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (2cca3a88222cd83259bbb84877c2737e)] -> xpath: //button[contains(text(),'ADD')]]
+2020-08-28 11:50:36,683 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-28 12:05:07,835 - CBooster -INFO - Chrome browser is started..
+2020-08-28 12:05:44,077 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c55f23e0b3563811faf11552487038d3)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-28 12:05:52,713 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c55f23e0b3563811faf11552487038d3)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-28 12:06:04,372 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c55f23e0b3563811faf11552487038d3)] -> css selector: input[name=product_type]]
+2020-08-28 12:06:09,519 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c55f23e0b3563811faf11552487038d3)] -> css selector: input[name='code']]
+2020-08-28 12:06:14,666 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c55f23e0b3563811faf11552487038d3)] -> css selector: input[name='description']]
+2020-08-28 12:06:19,915 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c55f23e0b3563811faf11552487038d3)] -> xpath: //button[contains(text(),'ADD')]]
+2020-08-28 12:06:23,349 - CBooster -INFO - You are trying to insert duplicate data
+2020-08-28 12:06:27,609 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-08-28 12:06:27,618 - CBooster -INFO - Chrome browser is started..
+2020-08-28 12:06:53,950 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1b95b097605bc2d218d875154089b52e)] -> xpath: //span[contains(text(),'Configure')]]
+2020-08-28 12:07:02,174 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1b95b097605bc2d218d875154089b52e)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-08-28 12:07:06,749 - CBooster -INFO - Test case passed,verified product in the grid is:Food Products
+2020-08-28 12:07:08,540 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 14:36:53,373 - CBooster -INFO - Chrome browser is started..
+2020-09-02 14:37:42,975 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (78bf44389c88f0fbf2df2b334c1ea73c)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 14:37:51,720 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (78bf44389c88f0fbf2df2b334c1ea73c)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 14:37:55,167 - CBooster -INFO - Clicked on Product Level  button:true
+2020-09-02 14:37:57,080 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 14:37:57,093 - CBooster -INFO - Chrome browser is started..
+2020-09-02 14:38:24,666 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1b6d30b341b0fb5aa9499c7205acb837)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 14:38:32,457 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1b6d30b341b0fb5aa9499c7205acb837)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 14:38:41,545 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1b6d30b341b0fb5aa9499c7205acb837)] -> css selector: input[name=level_title]]
+2020-09-02 14:38:46,684 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1b6d30b341b0fb5aa9499c7205acb837)] -> css selector: input[name='code']]
+2020-09-02 14:38:51,830 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1b6d30b341b0fb5aa9499c7205acb837)] -> css selector: input[name='description']]
+2020-09-02 14:38:57,017 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1b6d30b341b0fb5aa9499c7205acb837)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-02 14:40:00,936 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 14:48:53,980 - CBooster -INFO - Chrome browser is started..
+2020-09-02 14:49:22,347 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (343271f4e84d4b48d384af1907a9c466)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 14:49:30,838 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (343271f4e84d4b48d384af1907a9c466)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 14:49:33,297 - CBooster -INFO - Clicked on Product Level  button:true
+2020-09-02 14:49:35,008 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 14:49:35,012 - CBooster -INFO - Chrome browser is started..
+2020-09-02 14:50:02,031 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (548a5949f3f986615f2e324bed590d4b)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 14:50:10,002 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (548a5949f3f986615f2e324bed590d4b)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 14:50:18,900 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (548a5949f3f986615f2e324bed590d4b)] -> css selector: input[name=level_title]]
+2020-09-02 14:50:24,036 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (548a5949f3f986615f2e324bed590d4b)] -> css selector: input[name='code']]
+2020-09-02 14:50:29,201 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (548a5949f3f986615f2e324bed590d4b)] -> css selector: input[name='description']]
+2020-09-02 14:50:34,376 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (548a5949f3f986615f2e324bed590d4b)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-02 14:51:38,198 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 14:58:25,995 - CBooster -INFO - Chrome browser is started..
+2020-09-02 14:58:57,389 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e27281f0d400eb8a8589cf9f814c93ba)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 14:59:05,588 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e27281f0d400eb8a8589cf9f814c93ba)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 14:59:09,133 - CBooster -INFO - Clicked on Product Level  button:true
+2020-09-02 14:59:11,044 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 14:59:11,051 - CBooster -INFO - Chrome browser is started..
+2020-09-02 14:59:37,686 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (bd6abc2f057da907b6c4f73fde5e6e33)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 14:59:45,869 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (bd6abc2f057da907b6c4f73fde5e6e33)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 14:59:55,252 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (bd6abc2f057da907b6c4f73fde5e6e33)] -> css selector: input[name=level_title]]
+2020-09-02 15:00:00,507 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (bd6abc2f057da907b6c4f73fde5e6e33)] -> css selector: input[name='code']]
+2020-09-02 15:00:05,672 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (bd6abc2f057da907b6c4f73fde5e6e33)] -> css selector: input[name='description']]
+2020-09-02 15:00:10,820 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (bd6abc2f057da907b6c4f73fde5e6e33)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-02 15:01:16,769 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 15:05:52,941 - CBooster -INFO - Chrome browser is started..
+2020-09-02 15:06:21,922 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8f6a712b0fb8f4dc8960c0c80861cce8)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 15:06:29,546 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8f6a712b0fb8f4dc8960c0c80861cce8)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 15:06:32,494 - CBooster -INFO - Clicked on Product Level  button:true
+2020-09-02 15:06:33,929 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 15:06:33,933 - CBooster -INFO - Chrome browser is started..
+2020-09-02 15:06:59,585 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4de56fcdd6398e295a919b673ee1305e)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 15:07:07,859 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4de56fcdd6398e295a919b673ee1305e)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 15:07:17,340 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4de56fcdd6398e295a919b673ee1305e)] -> css selector: input[name=level_title]]
+2020-09-02 15:07:22,491 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4de56fcdd6398e295a919b673ee1305e)] -> css selector: input[name='code']]
+2020-09-02 15:07:27,632 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4de56fcdd6398e295a919b673ee1305e)] -> css selector: input[name='description']]
+2020-09-02 15:07:32,799 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4de56fcdd6398e295a919b673ee1305e)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-02 15:08:38,126 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 15:22:36,851 - CBooster -INFO - Chrome browser is started..
+2020-09-02 15:23:06,670 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a18d9ebdee04c7eb5f6d04b40038c0be)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 15:23:16,103 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a18d9ebdee04c7eb5f6d04b40038c0be)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 15:23:19,239 - CBooster -INFO - Clicked on Product Level  button:true
+2020-09-02 15:23:22,946 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 15:23:22,947 - CBooster -INFO - Chrome browser is started..
+2020-09-02 15:23:52,004 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0ef546e57eadab6bbe46dcde5d38b6ee)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 15:24:00,080 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0ef546e57eadab6bbe46dcde5d38b6ee)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 15:24:10,310 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0ef546e57eadab6bbe46dcde5d38b6ee)] -> css selector: input[name=level_title]]
+2020-09-02 15:24:15,594 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0ef546e57eadab6bbe46dcde5d38b6ee)] -> css selector: input[name='code']]
+2020-09-02 15:24:20,881 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0ef546e57eadab6bbe46dcde5d38b6ee)] -> css selector: input[name='description']]
+2020-09-02 15:24:26,118 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0ef546e57eadab6bbe46dcde5d38b6ee)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-02 15:24:28,061 - CBooster -INFO - Not able to find respective alert in the page
+2020-09-02 15:24:28,953 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:24:34,661 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 15:24:34,668 - CBooster -INFO - Chrome browser is started..
+2020-09-02 15:25:06,341 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a15fbd3e959530495c0cb6b2578c283f)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 15:25:14,399 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a15fbd3e959530495c0cb6b2578c283f)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 15:25:17,565 - CBooster -INFO - Test case passed,verified product in the grid is:First Grade
+2020-09-02 15:25:21,093 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 15:42:12,061 - CBooster -INFO - Chrome browser is started..
+2020-09-02 15:42:41,852 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (983978280a2f36ed984816eb9ff76cf4)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 15:42:50,453 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (983978280a2f36ed984816eb9ff76cf4)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 15:42:54,528 - CBooster -INFO - Clicked on Product Level  button:true
+2020-09-02 15:42:58,259 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 15:42:58,271 - CBooster -INFO - Chrome browser is started..
+2020-09-02 15:43:27,225 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5439bdfbd38854e95e732aefae2186da)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 15:43:36,640 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5439bdfbd38854e95e732aefae2186da)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 15:43:46,253 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5439bdfbd38854e95e732aefae2186da)] -> css selector: input[name=level_title]]
+2020-09-02 15:43:51,756 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5439bdfbd38854e95e732aefae2186da)] -> css selector: input[name='code']]
+2020-09-02 15:43:56,905 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5439bdfbd38854e95e732aefae2186da)] -> css selector: input[name='description']]
+2020-09-02 15:44:03,332 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5439bdfbd38854e95e732aefae2186da)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-02 15:44:04,981 - CBooster -INFO - Not able to find respective alert in the page
+2020-09-02 15:44:05,782 - CBooster -INFO - Not able to find respective alert in the page
+2020-09-02 15:44:09,693 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 15:44:09,700 - CBooster -INFO - Chrome browser is started..
+2020-09-02 15:44:37,080 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ef4b7acd56b3f5a67d28f50562b111a8)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 15:44:45,832 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ef4b7acd56b3f5a67d28f50562b111a8)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 15:44:50,555 - CBooster -INFO - Test case passed,verified product in the grid is:First Grade
+2020-09-02 15:44:53,912 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 15:44:54,401 - CBooster -INFO - Chrome browser is started..
+2020-09-02 15:46:22,921 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 15:54:47,537 - CBooster -INFO - Chrome browser is started..
+2020-09-02 15:55:14,088 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6d8904ddc46bfaa1aa4df9949fe207e9)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 15:55:22,174 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6d8904ddc46bfaa1aa4df9949fe207e9)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 15:55:25,325 - CBooster -INFO - Clicked on Product Level  button:true
+2020-09-02 15:55:28,856 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 15:55:28,875 - CBooster -INFO - Chrome browser is started..
+2020-09-02 15:55:53,940 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e27fa21e0dc885901d40c70c1445a784)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 15:56:01,772 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e27fa21e0dc885901d40c70c1445a784)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 15:56:10,508 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e27fa21e0dc885901d40c70c1445a784)] -> css selector: input[name=level_title]]
+2020-09-02 15:56:15,722 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e27fa21e0dc885901d40c70c1445a784)] -> css selector: input[name='code']]
+2020-09-02 15:56:20,873 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e27fa21e0dc885901d40c70c1445a784)] -> css selector: input[name='description']]
+2020-09-02 15:56:26,134 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e27fa21e0dc885901d40c70c1445a784)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-02 15:56:33,014 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:33,183 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:33,309 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:33,436 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:33,547 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:33,656 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:33,803 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:33,924 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:34,042 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:34,178 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:34,289 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:34,389 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:34,528 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:34,634 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:34,728 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:34,858 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:34,976 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:35,089 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:35,228 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:35,342 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:35,435 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:35,531 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:35,615 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:35,711 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:35,801 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:35,925 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:36,006 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:36,092 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:36,195 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:36,290 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:36,398 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:36,496 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:36,593 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:36,717 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:36,805 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:36,892 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:36,974 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:37,059 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:37,149 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:37,230 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:37,323 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:37,405 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:37,496 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:37,584 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:37,677 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:37,768 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:37,861 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:37,960 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:38,032 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:38,121 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:38,227 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:38,328 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:38,445 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:38,520 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:38,629 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:38,721 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:38,807 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:38,888 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:38,979 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:39,074 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:39,160 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:39,255 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:39,343 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:39,454 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:39,538 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:39,640 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:39,729 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:39,826 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:39,938 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:40,014 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:40,128 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:40,225 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:40,302 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:40,391 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:40,483 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:40,575 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:40,674 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:40,778 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:40,863 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:40,974 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:41,066 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:41,146 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:41,225 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:41,314 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:41,396 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:41,487 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:41,561 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:41,644 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:41,740 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:41,807 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:41,876 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:41,952 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:42,015 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:42,093 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:42,175 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:42,259 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:42,370 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:42,456 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:42,539 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:42,616 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:42,696 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:42,809 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:42,963 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:43,076 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:43,191 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:43,320 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:43,413 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:43,512 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:43,613 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:43,726 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:43,815 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:43,953 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:44,055 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:44,163 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:44,254 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:44,355 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:44,440 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:44,526 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:44,616 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:44,697 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:44,790 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:44,881 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:44,972 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:45,058 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:45,160 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:45,249 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:45,333 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:45,423 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:45,500 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:45,642 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:45,744 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:45,861 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:45,951 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:46,035 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:46,155 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:46,253 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:46,376 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:46,462 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:46,551 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:46,649 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:46,750 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:46,863 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:46,953 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:47,044 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:47,140 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:47,228 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:47,318 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:47,402 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:47,485 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:47,571 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:47,654 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:47,735 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:47,827 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:47,921 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:48,000 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:48,094 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:48,213 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:48,345 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:48,435 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:48,526 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:48,631 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:48,733 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:48,870 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:48,974 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:49,076 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:49,172 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:49,297 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:49,391 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:49,483 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:49,576 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:49,668 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:49,760 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:49,856 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:49,950 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:50,041 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:50,141 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:50,235 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:50,328 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:50,441 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:50,529 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:50,661 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:50,751 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:50,842 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:50,945 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:51,029 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:51,129 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:51,221 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:51,330 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:51,424 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:51,516 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:51,615 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:51,706 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:51,799 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:51,890 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:51,982 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:52,084 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:52,215 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:52,318 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:52,433 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:52,528 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:52,632 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:52,724 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:52,811 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:52,898 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:52,983 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:53,066 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:53,154 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:53,237 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:53,323 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:53,406 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:53,504 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:53,603 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:53,685 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:53,772 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:53,854 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:53,943 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:54,028 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:54,124 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:54,207 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:54,292 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:54,378 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:54,463 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:54,553 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:54,635 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:54,727 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:54,815 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:54,903 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:54,985 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:55,067 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:55,150 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:55,261 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:55,349 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:55,436 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:55,518 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:55,601 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:55,681 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:55,773 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:55,859 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:55,944 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:56,028 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:56,119 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:56,204 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:56,296 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:56,419 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:56,515 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:56,599 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:56,678 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:56,768 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:56,855 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:56,939 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:57,020 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:57,103 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:57,191 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:57,274 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:57,357 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:57,443 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:57,550 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:57,643 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:57,722 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:57,810 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:57,901 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:57,986 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:58,070 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:58,186 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:58,266 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:58,347 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:58,427 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:58,504 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:58,582 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:58,657 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:58,743 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:58,824 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:58,893 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:58,980 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:59,053 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:59,145 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:59,243 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:59,318 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:59,404 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:59,474 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:59,561 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:59,654 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:59,733 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:59,816 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:59,900 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:56:59,978 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:00,066 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:00,152 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:00,236 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:00,308 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:00,394 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:00,473 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:00,551 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:00,632 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:00,711 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:00,802 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:00,889 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:01,000 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:01,078 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:01,162 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:01,247 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:01,326 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:01,405 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:01,482 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:01,571 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:01,654 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:01,743 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:01,821 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:01,905 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:02,007 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:02,118 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:02,218 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:02,339 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:02,442 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:02,547 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:02,638 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:02,738 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:02,835 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:02,933 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:03,028 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:03,144 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:03,239 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:03,345 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:03,432 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:03,532 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:03,624 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:03,720 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:03,821 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:03,914 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:04,020 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:04,106 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:04,230 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:04,337 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:04,428 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:04,535 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:04,650 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:04,742 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:04,822 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:04,918 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:05,009 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:05,091 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:05,173 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:05,256 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:05,345 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:05,428 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:05,511 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:05,588 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:05,679 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:05,761 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:05,840 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:05,930 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:06,014 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:06,105 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:06,188 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:06,269 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:06,355 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:06,437 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:06,538 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:06,622 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:06,707 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:06,785 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:06,877 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:06,957 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:07,038 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:07,147 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:07,233 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:07,324 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:07,407 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:07,494 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:07,582 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:07,664 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:07,740 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:07,839 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:07,946 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:08,068 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:08,160 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:08,238 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:08,326 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:08,432 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:08,529 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:08,629 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:08,729 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:08,828 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:08,955 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:09,091 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:09,189 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:09,280 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:09,377 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:09,469 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:09,591 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:09,725 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:09,815 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:09,914 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:10,019 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:10,108 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:10,210 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:10,305 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:10,416 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:10,534 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:10,635 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:10,734 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:10,838 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:10,945 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:11,046 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:11,141 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:11,234 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:11,336 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:11,444 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:11,550 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:11,651 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:11,760 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:11,922 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:12,027 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:12,128 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:12,228 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:12,319 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:12,416 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:12,510 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:12,607 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:12,701 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:12,812 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:12,939 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:13,037 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:13,115 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:13,260 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:13,350 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:13,434 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:13,521 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:13,608 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:13,702 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:13,781 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:13,877 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:13,988 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:14,077 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:14,191 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:14,299 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:14,411 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:14,502 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:14,607 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:14,708 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:14,788 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:14,869 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:14,956 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:15,047 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:15,137 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:15,234 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:15,364 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:15,476 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:15,563 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:15,662 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:15,758 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:15,873 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:15,969 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:16,076 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:16,178 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:16,267 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:16,386 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:16,486 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:16,604 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:16,712 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:16,810 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:16,966 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:17,073 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:17,175 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:17,267 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:17,384 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:17,492 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:17,596 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:17,716 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:17,821 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:17,927 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:18,020 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:18,114 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:18,216 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:18,320 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:18,419 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:18,512 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:18,610 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:18,702 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:18,798 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:18,904 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:19,007 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:19,114 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:19,214 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:19,309 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:19,418 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:19,526 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:19,623 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:19,715 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:19,810 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:19,931 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:20,021 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:20,126 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:20,218 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:20,309 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:20,484 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:20,571 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:20,653 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:20,760 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:20,962 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:21,068 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:21,170 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:21,281 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:21,383 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:21,511 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:21,616 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:21,713 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:21,860 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:22,034 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:22,146 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:22,230 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:22,315 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:22,409 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:22,497 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:22,596 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:22,687 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:22,777 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:22,870 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:22,982 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:23,079 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:23,172 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:23,264 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:23,352 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:23,448 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:23,536 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:23,619 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:23,703 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:23,786 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:23,870 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:23,953 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:24,040 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:24,122 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:24,205 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:24,309 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:24,393 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:24,477 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:24,568 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:24,650 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:24,732 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:25,698 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:25,793 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:25,912 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:26,005 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:26,098 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:26,188 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:26,277 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:26,369 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:26,458 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:26,553 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:26,640 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:26,731 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:26,827 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:26,918 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:27,009 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:27,098 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:27,189 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:27,280 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:27,370 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:27,460 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:27,560 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:27,649 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:27,740 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:27,829 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:27,921 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:28,021 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:28,110 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:28,234 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:28,326 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:28,418 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:28,510 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:28,599 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:28,689 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:28,783 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:28,872 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:28,964 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:29,045 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:29,159 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:29,261 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:29,353 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:29,440 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:29,525 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:29,618 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:29,712 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:29,807 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:29,953 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:30,044 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:30,170 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:30,333 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:30,465 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:30,566 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:30,663 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:30,765 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:30,858 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:30,955 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:31,051 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:31,154 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:31,262 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:31,516 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:31,646 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:31,755 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:31,888 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:31,991 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:32,092 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:32,188 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:32,282 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:32,378 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:32,491 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:32,605 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:32,694 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:32,803 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:32,915 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:33,017 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:33,159 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:33,259 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:33,355 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:33,455 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:33,548 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:33,656 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:33,826 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:33,994 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:34,121 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:34,261 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:34,352 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:34,472 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:34,593 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:34,722 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:34,837 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:34,941 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:35,030 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:35,146 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:35,249 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:35,359 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:35,452 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:35,595 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:35,702 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:35,802 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:35,917 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:36,019 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:36,096 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:36,201 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:36,309 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:36,427 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:36,537 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:36,644 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:36,750 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:36,852 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:36,956 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:37,053 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:37,149 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:37,230 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:37,307 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:37,388 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:37,464 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:37,565 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:37,681 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:37,787 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:37,904 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:38,020 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:38,123 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:38,203 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:38,280 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:38,372 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:38,471 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:38,583 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:38,712 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:38,796 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:38,882 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:38,999 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:39,086 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:39,194 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:39,279 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:39,360 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:39,447 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:39,525 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:39,607 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:39,688 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:39,763 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:39,864 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:39,998 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:40,107 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:40,185 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:40,261 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:40,339 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:40,413 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:40,493 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:40,597 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:40,690 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:40,790 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:40,884 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:40,987 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:41,091 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:41,205 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:41,320 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:41,433 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:41,536 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:41,644 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:41,750 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:41,867 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:41,993 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:42,109 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:42,262 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:42,405 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:42,499 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:42,601 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:42,703 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:42,790 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:42,891 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:42,985 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:43,093 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:43,178 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:43,272 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:43,357 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:43,448 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:43,543 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:43,634 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:43,736 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:43,829 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:43,932 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:44,047 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:44,145 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:44,242 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:44,355 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:44,440 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:44,540 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:44,629 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:44,720 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:44,822 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:44,919 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:45,001 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:45,089 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:45,166 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:45,265 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:45,351 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:45,435 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:45,552 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:45,724 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:45,827 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:45,915 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:45,992 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:46,111 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:46,198 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:46,279 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:46,378 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:46,483 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:46,564 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:46,643 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:46,726 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:46,806 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:46,887 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:46,966 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:47,057 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:47,149 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:47,253 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:47,350 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:47,434 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:47,525 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:47,625 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:47,719 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:47,814 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:47,909 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:47,999 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:48,094 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:48,200 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:48,282 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:48,378 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:48,465 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:57:48,548 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 15:58:23,579 - CBooster -INFO - Chrome browser is started..
+2020-09-02 15:58:52,467 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c58d937a6c1f0eef6c2468d6a897ea61)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 15:59:00,825 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c58d937a6c1f0eef6c2468d6a897ea61)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 15:59:03,839 - CBooster -INFO - Clicked on Product Level  button:true
+2020-09-02 15:59:05,363 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 15:59:05,368 - CBooster -INFO - Chrome browser is started..
+2020-09-02 15:59:31,332 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7830f57cecd4bbbc7ea3bbc1d93b3834)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 15:59:39,436 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7830f57cecd4bbbc7ea3bbc1d93b3834)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 15:59:48,003 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7830f57cecd4bbbc7ea3bbc1d93b3834)] -> css selector: input[name=level_title]]
+2020-09-02 15:59:53,174 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7830f57cecd4bbbc7ea3bbc1d93b3834)] -> css selector: input[name='code']]
+2020-09-02 15:59:58,349 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7830f57cecd4bbbc7ea3bbc1d93b3834)] -> css selector: input[name='description']]
+2020-09-02 16:00:03,514 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7830f57cecd4bbbc7ea3bbc1d93b3834)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-02 16:00:10,477 - CBooster -INFO - You are trying to insert duplicate data
+2020-09-02 16:00:12,120 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 16:00:12,131 - CBooster -INFO - Chrome browser is started..
+2020-09-02 16:00:37,880 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (437ddf3a6489639b1a6af87646aacca2)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 16:00:46,556 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (437ddf3a6489639b1a6af87646aacca2)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 16:00:50,100 - CBooster -INFO - Test case passed,verified product in the grid is:First Grade
+2020-09-02 16:00:53,430 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 16:00:53,494 - CBooster -INFO - Chrome browser is started..
+2020-09-02 16:01:18,333 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fd65c3d526ff457b2ab00f0711c84627)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 16:01:26,482 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fd65c3d526ff457b2ab00f0711c84627)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-02 16:01:34,024 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fd65c3d526ff457b2ab00f0711c84627)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-02 16:01:36,019 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 17:40:01,509 - CBooster -INFO - Chrome browser is started..
+2020-09-02 17:40:35,231 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6c6c69d0b7c0c88f96f75658a94b4ced)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 17:40:43,271 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6c6c69d0b7c0c88f96f75658a94b4ced)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 17:40:46,850 - CBooster -INFO - Clicked on SLA  button and SLA page displayed:true
+2020-09-02 17:40:50,871 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 17:40:51,028 - CBooster -INFO - Chrome browser is started..
+2020-09-02 17:41:16,634 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (41950f0fa923fc5ab1c4dd6964f67167)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 17:41:25,994 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (41950f0fa923fc5ab1c4dd6964f67167)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 17:41:34,699 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (41950f0fa923fc5ab1c4dd6964f67167)] -> css selector: input[name=sla_title]]
+2020-09-02 17:41:39,863 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (41950f0fa923fc5ab1c4dd6964f67167)] -> css selector: input[name=description]]
+2020-09-02 17:41:45,156 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (41950f0fa923fc5ab1c4dd6964f67167)] -> css selector: input[name=days]]
+2020-09-02 17:41:50,289 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (41950f0fa923fc5ab1c4dd6964f67167)] -> css selector: input[name=days]]
+2020-09-02 17:42:59,039 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 17:45:22,150 - CBooster -INFO - Chrome browser is started..
+2020-09-02 17:45:49,452 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a236f39df7530035741e263ae16e267d)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 17:45:57,328 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a236f39df7530035741e263ae16e267d)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 17:46:00,196 - CBooster -INFO - Clicked on SLA  button and SLA page displayed:true
+2020-09-02 17:46:03,690 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 17:46:03,690 - CBooster -INFO - Chrome browser is started..
+2020-09-02 17:46:29,060 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c29715d4a1836eda6672ff57db64be31)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 17:46:37,142 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c29715d4a1836eda6672ff57db64be31)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 17:46:45,862 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c29715d4a1836eda6672ff57db64be31)] -> css selector: input[name=sla_title]]
+2020-09-02 17:46:51,026 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c29715d4a1836eda6672ff57db64be31)] -> css selector: input[name=description]]
+2020-09-02 17:46:56,175 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c29715d4a1836eda6672ff57db64be31)] -> css selector: input[name=days]]
+2020-09-02 17:47:01,355 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (c29715d4a1836eda6672ff57db64be31)] -> css selector: input[name=hours]]
+2020-09-02 17:48:08,135 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 17:49:59,064 - CBooster -INFO - Chrome browser is started..
+2020-09-02 17:50:26,221 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ca5c22e7ba812b89feec4b8e9765fbd0)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 17:50:34,044 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ca5c22e7ba812b89feec4b8e9765fbd0)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 17:50:36,776 - CBooster -INFO - Clicked on SLA  button and SLA page displayed:true
+2020-09-02 17:50:40,377 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 17:50:40,377 - CBooster -INFO - Chrome browser is started..
+2020-09-02 17:51:05,684 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ef16b692263702aec3affcb9daa748b4)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 17:51:13,885 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ef16b692263702aec3affcb9daa748b4)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 17:51:24,614 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ef16b692263702aec3affcb9daa748b4)] -> css selector: input[name=sla_title]]
+2020-09-02 17:51:29,888 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ef16b692263702aec3affcb9daa748b4)] -> css selector: input[name=description]]
+2020-09-02 17:51:35,068 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ef16b692263702aec3affcb9daa748b4)] -> css selector: input[name=days]]
+2020-09-02 17:51:40,249 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ef16b692263702aec3affcb9daa748b4)] -> css selector: input[name=hours]]
+2020-09-02 17:51:45,460 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ef16b692263702aec3affcb9daa748b4)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-02 17:52:51,382 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 18:05:48,909 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:06:16,150 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (253e42212315a979cf54826050af4a31)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 18:06:24,332 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (253e42212315a979cf54826050af4a31)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 18:06:28,297 - CBooster -INFO - Clicked on SLA  button and SLA page displayed:true
+2020-09-02 18:06:31,852 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 18:06:31,852 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:06:56,391 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (502654c0cb640d59b3fb69380b90db1a)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 18:07:04,350 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (502654c0cb640d59b3fb69380b90db1a)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 18:07:14,493 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (502654c0cb640d59b3fb69380b90db1a)] -> css selector: input[name=sla_title]]
+2020-09-02 18:07:19,673 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (502654c0cb640d59b3fb69380b90db1a)] -> css selector: input[name=description]]
+2020-09-02 18:07:24,838 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (502654c0cb640d59b3fb69380b90db1a)] -> css selector: input[name=days]]
+2020-09-02 18:07:30,018 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (502654c0cb640d59b3fb69380b90db1a)] -> css selector: input[name=hours]]
+2020-09-02 18:07:35,214 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (502654c0cb640d59b3fb69380b90db1a)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-02 18:08:40,827 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 18:08:40,974 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:09:06,433 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a7e53cd371716cbc1ba151c47a32fb89)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 18:09:14,308 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a7e53cd371716cbc1ba151c47a32fb89)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 18:09:22,112 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a7e53cd371716cbc1ba151c47a32fb89)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-02 18:09:22,739 - CBooster -INFO - Clicking on add button without entering the product type details
+2020-09-02 18:09:24,355 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 18:22:42,517 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:23:19,960 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5df756bc30c92998b01800ea81713522)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 18:23:32,456 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5df756bc30c92998b01800ea81713522)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 18:23:36,895 - CBooster -INFO - Clicked on SLA  button and SLA page displayed:true
+2020-09-02 18:23:39,437 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 18:23:39,598 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:24:07,361 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (78ac54b068f1b1a219613c9c5e6c0c02)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 18:24:15,669 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (78ac54b068f1b1a219613c9c5e6c0c02)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 18:24:25,084 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (78ac54b068f1b1a219613c9c5e6c0c02)] -> css selector: input[name=sla_title]]
+2020-09-02 18:24:30,235 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (78ac54b068f1b1a219613c9c5e6c0c02)] -> css selector: input[name=description]]
+2020-09-02 18:24:35,401 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (78ac54b068f1b1a219613c9c5e6c0c02)] -> css selector: input[name=days]]
+2020-09-02 18:24:40,602 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (78ac54b068f1b1a219613c9c5e6c0c02)] -> css selector: input[name=hours]]
+2020-09-02 18:24:45,798 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (78ac54b068f1b1a219613c9c5e6c0c02)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-02 18:24:50,768 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 18:24:50,768 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:25:16,251 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (91937f31fc01c97d679c8f857b666eb1)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 18:25:24,215 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (91937f31fc01c97d679c8f857b666eb1)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 18:25:28,751 - CBooster -INFO - Test case passed,verified product in the grid is:SLA1
+2020-09-02 18:25:32,144 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 18:25:32,375 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:25:58,043 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ba416c3f1251797378e556ab81a3b129)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 18:26:06,374 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ba416c3f1251797378e556ab81a3b129)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 18:26:14,303 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ba416c3f1251797378e556ab81a3b129)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-02 18:26:14,931 - CBooster -INFO - Clicking on add button without entering the product type details
+2020-09-02 18:26:18,640 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 18:28:37,134 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:29:04,592 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (584352ba669f72dc94e9c6ccf4ecb250)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 18:29:12,553 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (584352ba669f72dc94e9c6ccf4ecb250)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 18:29:15,631 - CBooster -INFO - Clicked on SLA  button and SLA page displayed:true
+2020-09-02 18:29:19,065 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 18:29:19,065 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:29:45,080 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a648043401e6d09bb81e293f606dbdba)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 18:29:54,001 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a648043401e6d09bb81e293f606dbdba)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 18:30:06,369 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a648043401e6d09bb81e293f606dbdba)] -> css selector: input[name=sla_title]]
+2020-09-02 18:30:11,530 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a648043401e6d09bb81e293f606dbdba)] -> css selector: input[name=description]]
+2020-09-02 18:30:16,691 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a648043401e6d09bb81e293f606dbdba)] -> css selector: input[name=days]]
+2020-09-02 18:30:21,842 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a648043401e6d09bb81e293f606dbdba)] -> css selector: input[name=hours]]
+2020-09-02 18:30:27,023 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a648043401e6d09bb81e293f606dbdba)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-02 18:30:37,305 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 18:30:37,315 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:31:02,673 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9f4266d89cac06657194bcdb7d7945dc)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 18:31:23,439 - CBooster -INFO - ELement is not found in the Webpage[[ChromeDriver: chrome on WINDOWS (9f4266d89cac06657194bcdb7d7945dc)] -> xpath: //h2[@class='header_name mb-0']]
+2020-09-02 18:31:28,698 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9f4266d89cac06657194bcdb7d7945dc)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 18:31:32,064 - CBooster -INFO - Test case passed,verified product in the grid is:SLA1
+2020-09-02 18:31:35,632 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 18:31:35,723 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:33:18,092 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:33:44,779 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3a5e6ef286a71b90ecb1d94cac585798)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 18:33:53,737 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3a5e6ef286a71b90ecb1d94cac585798)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 18:34:35,473 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:35:02,455 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7c11ebfe55fdad839350cb8f165e6047)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 18:35:11,223 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7c11ebfe55fdad839350cb8f165e6047)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-02 18:35:14,529 - CBooster -INFO - Clicked on SLA  button and SLA page displayed:true
+2020-09-02 18:35:17,975 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-02 18:35:17,975 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:35:42,662 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8fb8cf8f108e624917a45e60f0bd1009)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-02 18:38:52,296 - CBooster -INFO - ELement is not found in the WebpageProxy element for: DefaultElementLocator 'By.xpath: //h2[@class='header_name mb-0']'
+2020-09-02 18:39:05,855 - CBooster -INFO - Chrome browser is started..
+2020-09-02 18:39:15,496 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:29:57,742 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:30:30,559 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (99d6b8832f27f14b8c9c856e25a64f7c)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:30:38,115 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (99d6b8832f27f14b8c9c856e25a64f7c)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:30:41,131 - CBooster -INFO - Clicked on SLA  button and SLA page displayed:true
+2020-09-03 09:30:42,476 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-03 09:30:42,483 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:31:04,804 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-03 09:31:05,174 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:32:02,882 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9f0d158b673e3de6ab460f06bdcbf57e)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:32:12,687 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9f0d158b673e3de6ab460f06bdcbf57e)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:35:36,185 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:36:00,973 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6a2b67220aeec4e1f7f3c14b4b5a638d)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:36:08,534 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6a2b67220aeec4e1f7f3c14b4b5a638d)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:36:11,367 - CBooster -INFO - Clicked on SLA  button and SLA page displayed:true
+2020-09-03 09:36:14,538 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-03 09:36:14,544 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:36:47,920 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0cfc91da78b5a302944ff89724ff1b35)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:36:56,556 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0cfc91da78b5a302944ff89724ff1b35)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:37:04,930 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0cfc91da78b5a302944ff89724ff1b35)] -> css selector: input[name=sla_title]]
+2020-09-03 09:37:10,078 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0cfc91da78b5a302944ff89724ff1b35)] -> css selector: input[name=description]]
+2020-09-03 09:37:15,201 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0cfc91da78b5a302944ff89724ff1b35)] -> css selector: input[name=days]]
+2020-09-03 09:37:20,424 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0cfc91da78b5a302944ff89724ff1b35)] -> css selector: input[name=hours]]
+2020-09-03 09:37:25,583 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0cfc91da78b5a302944ff89724ff1b35)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-03 09:37:31,627 - CBooster -INFO - Success msg displayed
+2020-09-03 09:37:35,180 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-03 09:37:35,180 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:38:05,967 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a2c666b118a056963bffe6467c81940c)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:38:14,656 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a2c666b118a056963bffe6467c81940c)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:38:17,691 - CBooster -INFO - Test case passed,verified product in the grid is:SLA1
+2020-09-03 09:38:18,958 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-03 09:38:19,021 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:38:53,868 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (b7d8e13179d9becc5ebcdc552ae8da45)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:39:01,281 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (b7d8e13179d9becc5ebcdc552ae8da45)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:39:08,885 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (b7d8e13179d9becc5ebcdc552ae8da45)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-03 09:39:09,188 - CBooster -INFO - Clicking on add button without entering the product type detailstrue
+2020-09-03 09:39:12,443 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-03 09:40:24,421 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:40:51,965 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fd1b31b2956b27f785e92da78f2dd23c)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:40:59,801 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fd1b31b2956b27f785e92da78f2dd23c)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:41:02,627 - CBooster -INFO - Clicked on SLA  button and SLA page displayed:true
+2020-09-03 09:41:04,020 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-03 09:41:04,020 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:41:29,957 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3a3d2bafeb181524177521496979c61f)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:41:37,900 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3a3d2bafeb181524177521496979c61f)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:41:45,783 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3a3d2bafeb181524177521496979c61f)] -> css selector: input[name=sla_title]]
+2020-09-03 09:41:51,027 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3a3d2bafeb181524177521496979c61f)] -> css selector: input[name=description]]
+2020-09-03 09:41:56,192 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3a3d2bafeb181524177521496979c61f)] -> css selector: input[name=days]]
+2020-09-03 09:42:13,189 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3a3d2bafeb181524177521496979c61f)] -> css selector: input[name=hours]]
+2020-09-03 09:42:18,271 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3a3d2bafeb181524177521496979c61f)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-03 09:42:29,560 - CBooster -INFO - Success msg displayed
+2020-09-03 09:42:30,922 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-03 09:42:30,922 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:44:11,245 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:44:39,676 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (2e1693e91ed0d9d0efdc78064f9c901d)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:44:47,409 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (2e1693e91ed0d9d0efdc78064f9c901d)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:44:55,513 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (2e1693e91ed0d9d0efdc78064f9c901d)] -> css selector: input[name=sla_title]]
+2020-09-03 09:45:00,668 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (2e1693e91ed0d9d0efdc78064f9c901d)] -> css selector: input[name=description]]
+2020-09-03 09:45:05,867 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (2e1693e91ed0d9d0efdc78064f9c901d)] -> css selector: input[name=days]]
+2020-09-03 09:45:11,031 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (2e1693e91ed0d9d0efdc78064f9c901d)] -> css selector: input[name=hours]]
+2020-09-03 09:45:16,166 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (2e1693e91ed0d9d0efdc78064f9c901d)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-03 09:45:27,403 - CBooster -INFO - Already Taken
+2020-09-03 09:45:30,710 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-03 09:45:30,726 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:46:06,440 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:46:35,651 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d6012353fe213c1d820e4672c7202269)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:46:44,145 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d6012353fe213c1d820e4672c7202269)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:46:52,460 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d6012353fe213c1d820e4672c7202269)] -> css selector: input[name=sla_title]]
+2020-09-03 09:46:57,613 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d6012353fe213c1d820e4672c7202269)] -> css selector: input[name=description]]
+2020-09-03 09:47:02,770 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d6012353fe213c1d820e4672c7202269)] -> css selector: input[name=days]]
+2020-09-03 09:47:08,112 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d6012353fe213c1d820e4672c7202269)] -> css selector: input[name=hours]]
+2020-09-03 09:47:13,260 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d6012353fe213c1d820e4672c7202269)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-03 09:47:24,416 - CBooster -INFO - Success msg displayed
+2020-09-03 09:47:27,657 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-03 09:47:27,657 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:54:12,984 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:54:40,728 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1b6d37172ffdde321742427bf4e2ddbb)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:54:48,743 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (1b6d37172ffdde321742427bf4e2ddbb)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:54:51,275 - CBooster -INFO - Clicked on SLA  button and SLA page displayed:true
+2020-09-03 09:54:54,453 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-03 09:54:54,453 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:55:19,758 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6770fdbd8a167e8f16178690b41fb61f)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:55:27,275 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6770fdbd8a167e8f16178690b41fb61f)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:55:35,441 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6770fdbd8a167e8f16178690b41fb61f)] -> css selector: input[name=sla_title]]
+2020-09-03 09:55:40,559 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6770fdbd8a167e8f16178690b41fb61f)] -> css selector: input[name=description]]
+2020-09-03 09:55:45,720 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6770fdbd8a167e8f16178690b41fb61f)] -> css selector: input[name=days]]
+2020-09-03 09:55:50,885 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6770fdbd8a167e8f16178690b41fb61f)] -> css selector: input[name=hours]]
+2020-09-03 09:55:56,058 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6770fdbd8a167e8f16178690b41fb61f)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-03 09:56:07,138 - CBooster -INFO - New data inserted to the grid successfully
+2020-09-03 09:56:09,039 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-03 09:56:09,039 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:56:39,620 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (adeb0964f8bb9ab3595d224717dd5eba)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:57:12,658 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (adeb0964f8bb9ab3595d224717dd5eba)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:57:24,214 - CBooster -INFO - Test case passed,verified product in the grid is:SLA1
+2020-09-03 09:57:25,630 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-03 09:57:25,646 - CBooster -INFO - Chrome browser is started..
+2020-09-03 09:58:07,483 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8ce849399b2555423a154b5dd7ae0907)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-03 09:58:15,521 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8ce849399b2555423a154b5dd7ae0907)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-03 09:58:24,146 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8ce849399b2555423a154b5dd7ae0907)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-03 09:58:24,351 - CBooster -INFO - Clicking on add button without entering the product type detailstrue
+2020-09-03 09:58:25,599 - CBooster -INFO - Clean up activity: Closed all browser instances..
