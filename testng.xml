@@ -14,16 +14,54 @@
 </run>
 </groups>
    
-  <test name="ConfigurationPLPositive">
+ 
+   <test name="ConfigurationPTPositive">
+  <classes>
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases"/>
+  </classes>
+  </test>
+  
+  <test name="ConfigurationPTNegative">
+  <classes>
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_PT_Negative_Testcases"/>
+  </classes>
+  </test>
+  
+     <test name="ConfigurationPLPositive">
+  <classes>
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases"/>
+  </classes>
+  </test>
+  
+  <test name="ConfigurationPLNegative">
+  <classes>
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_PL_Negative_Testcases"/>
+  </classes>
+  </test>
+   
+     <test name="ConfigurationSLAPositive">
   <classes>
       <class name="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases"/>
   </classes>
   </test>
-   
-     <test name="ConfigurationPLNegative">
+  
+  <test name="ConfigurationSLANegative">
   <classes>
       <class name="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases"/>
   </classes>
   </test>
-   
+  
+     <test name="ConfigurationCurrencyPositive">
+  <classes>
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases"/>
+  </classes>
+  </test>
+  
+  <test name="ConfigurationCurrencyNegative">
+  <classes>
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Negative_Testcases"/>
+  </classes>
+  </test>
+ 
+  
 </suite>

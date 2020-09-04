@@ -1,73 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-03T09:54:12 IST" name="CBoosterTestSuite" finished-at="2020-09-03T09:58:25 IST" duration-ms="252677">
+  <suite started-at="2020-09-03T10:58:55 IST" name="CBoosterTestSuite" finished-at="2020-09-03T11:01:28 IST" duration-ms="153122">
     <groups>
-      <group name="FunctionalNegative">
-        <method signature="Configure_SLA_Negative_Testcases.tc1_clickadd_withoutdata()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases@17f9d882]" name="tc1_clickadd_withoutdata" class="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases"/>
-      </group> <!-- FunctionalNegative -->
       <group name="FunctionalPositive">
-        <method signature="Configure_SLA_Positive_Testcases.tc1_click_sla_btn()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@7d0b7e3c]" name="tc1_click_sla_btn" class="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases"/>
-        <method signature="Configure_SLA_Positive_Testcases.tc2_add_sla()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@7d0b7e3c]" name="tc2_add_sla" class="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases"/>
-        <method signature="Configure_SLA_Positive_Testcases.tc3_verify_added_sla()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@7d0b7e3c]" name="tc3_verify_added_sla" class="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases"/>
+        <method signature="Configure_Currency_Positive_Testcases.tc2_add_currency()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@6e9175d8]" name="tc2_add_currency" class="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases"/>
+        <method signature="Configure_Currency_Positive_Testcases.tc3_verify_addedCurrency()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@6e9175d8]" name="tc3_verify_addedCurrency" class="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases"/>
+        <method signature="Configure_Currency_Positive_Testcases.tc1_click_currency_btn()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@6e9175d8]" name="tc1_click_currency_btn" class="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases"/>
       </group> <!-- FunctionalPositive -->
     </groups>
-    <test started-at="2020-09-03T09:54:12 IST" name="ConfigurationPLPositive" finished-at="2020-09-03T09:57:25 IST" duration-ms="192708">
-      <class name="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@7d0b7e3c]" started-at="2020-09-03T09:54:12 IST" name="setup" finished-at="2020-09-03T09:54:35 IST" duration-ms="22565" status="PASS">
+    <test started-at="2020-09-03T10:58:55 IST" name="ConfigurationCurrencyPositive" finished-at="2020-09-03T11:01:28 IST" duration-ms="153122">
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@6e9175d8]" started-at="2020-09-03T10:58:55 IST" name="setup" finished-at="2020-09-03T10:59:15 IST" duration-ms="20051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc1_click_sla_btn()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@7d0b7e3c]" started-at="2020-09-03T09:54:35 IST" name="tc1_click_sla_btn" finished-at="2020-09-03T09:54:51 IST" duration-ms="15731" status="PASS">
+        <test-method signature="tc1_click_currency_btn()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@6e9175d8]" started-at="2020-09-03T10:59:15 IST" name="tc1_click_currency_btn" finished-at="2020-09-03T10:59:33 IST" duration-ms="17779" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc1_click_sla_btn -->
-        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@7d0b7e3c]" started-at="2020-09-03T09:54:51 IST" name="exitbrowser" finished-at="2020-09-03T09:54:54 IST" duration-ms="2799" status="PASS">
+        </test-method> <!-- tc1_click_currency_btn -->
+        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@6e9175d8]" started-at="2020-09-03T10:59:33 IST" name="exitbrowser" finished-at="2020-09-03T10:59:34 IST" duration-ms="1063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitbrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@7d0b7e3c]" started-at="2020-09-03T09:54:54 IST" name="setup" finished-at="2020-09-03T09:55:14 IST" duration-ms="20120" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@6e9175d8]" started-at="2020-09-03T10:59:34 IST" name="setup" finished-at="2020-09-03T10:59:59 IST" duration-ms="25131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc2_add_sla()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@7d0b7e3c]" started-at="2020-09-03T09:55:14 IST" name="tc2_add_sla" finished-at="2020-09-03T09:56:07 IST" duration-ms="52580" status="PASS">
+        <test-method signature="tc2_add_currency()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@6e9175d8]" started-at="2020-09-03T10:59:59 IST" name="tc2_add_currency" finished-at="2020-09-03T11:00:47 IST" duration-ms="47271" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc2_add_sla -->
-        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@7d0b7e3c]" started-at="2020-09-03T09:56:07 IST" name="exitbrowser" finished-at="2020-09-03T09:56:09 IST" duration-ms="1415" status="PASS">
+        </test-method> <!-- tc2_add_currency -->
+        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@6e9175d8]" started-at="2020-09-03T11:00:47 IST" name="exitbrowser" finished-at="2020-09-03T11:00:50 IST" duration-ms="2795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitbrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@7d0b7e3c]" started-at="2020-09-03T09:56:09 IST" name="setup" finished-at="2020-09-03T09:56:34 IST" duration-ms="25375" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@6e9175d8]" started-at="2020-09-03T11:00:50 IST" name="setup" finished-at="2020-09-03T11:01:08 IST" duration-ms="18094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc3_verify_added_sla()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@7d0b7e3c]" started-at="2020-09-03T09:56:34 IST" name="tc3_verify_added_sla" finished-at="2020-09-03T09:57:24 IST" depends-on-methods="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases.tc2_add_sla" duration-ms="49800" status="PASS">
+        <test-method signature="tc3_verify_addedCurrency()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@6e9175d8]" started-at="2020-09-03T11:01:08 IST" name="tc3_verify_addedCurrency" finished-at="2020-09-03T11:01:25 IST" depends-on-methods="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases.tc2_add_currency" duration-ms="16941" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc3_verify_added_sla -->
-        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@7d0b7e3c]" started-at="2020-09-03T09:57:24 IST" name="exitbrowser" finished-at="2020-09-03T09:57:25 IST" duration-ms="750" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- exitbrowser -->
-      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases -->
-    </test> <!-- ConfigurationPLPositive -->
-    <test started-at="2020-09-03T09:57:25 IST" name="ConfigurationPLNegative" finished-at="2020-09-03T09:58:25 IST" duration-ms="59953">
-      <class name="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases@17f9d882]" started-at="2020-09-03T09:57:25 IST" name="setup" finished-at="2020-09-03T09:58:02 IST" duration-ms="36744" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="tc1_clickadd_withoutdata()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases@17f9d882]" started-at="2020-09-03T09:58:02 IST" name="tc1_clickadd_withoutdata" finished-at="2020-09-03T09:58:24 IST" duration-ms="21961" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc1_clickadd_withoutdata -->
-        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases@17f9d882]" started-at="2020-09-03T09:58:24 IST" name="exitbrowser" finished-at="2020-09-03T09:58:25 IST" duration-ms="870" status="PASS">
+        </test-method> <!-- tc3_verify_addedCurrency -->
+        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@6e9175d8]" started-at="2020-09-03T11:01:25 IST" name="exitbrowser" finished-at="2020-09-03T11:01:28 IST" duration-ms="2867" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitbrowser -->
-      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases -->
-    </test> <!-- ConfigurationPLNegative -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases -->
+    </test> <!-- ConfigurationCurrencyPositive -->
   </suite> <!-- CBoosterTestSuite -->
 </testng-results>

@@ -5,7 +5,7 @@
     <listener class-name="com.bixbytes.qa.cbooster.utilities.ExtentReportNG"/>
     <listener class-name="com.bixbytes.qa.cbooster.utilities.ITestListner"/>
   </listeners>
-  <test thread-count="5" parallel="classes" name="ConfigurationPLPositive(failed)">
+  <test thread-count="5" parallel="classes" name="ConfigurationCurrencyPositive(failed)">
     <groups>
       <run>
         <include name="SmokeTest"/>
@@ -14,14 +14,14 @@
       </run>
     </groups>
     <classes>
-      <class name="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases">
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases">
         <methods>
-          <include name="tc3_verify_added_sla"/>
+          <include name="tc2_add_currency"/>
+          <include name="tc3_verify_addedCurrency"/>
           <include name="setup"/>
-          <include name="tc2_add_sla"/>
           <include name="exitbrowser"/>
         </methods>
-      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases -->
     </classes>
-  </test> <!-- ConfigurationPLPositive(failed) -->
+  </test> <!-- ConfigurationCurrencyPositive(failed) -->
 </suite> <!-- Failed suite [CBoosterTestSuite] -->
