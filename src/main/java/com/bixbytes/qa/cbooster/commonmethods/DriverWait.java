@@ -16,7 +16,7 @@ public class DriverWait extends Base_Main{
 	{
 		try {
 	
-		WebDriverWait wait = new WebDriverWait(driver, 20);
+		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.visibilityOf(element));
 		}
 		catch(Exception e)
