@@ -1,82 +1,414 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="27" passed="27">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-07T10:04:47 IST" name="CBoosterTestSuite" finished-at="2020-09-07T10:07:23 IST" duration-ms="155381">
+  <suite name="CBoosterTestSuite" duration-ms="888460" started-at="2020-09-07T16:14:51 IST" finished-at="2020-09-07T16:29:39 IST">
     <groups>
       <group name="SmokeTest">
-        <method signature="Configure_PT_Positive_Testcases.tc1_validate_configpage()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" name="tc1_validate_configpage" class="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases"/>
+        <method signature="SignIn_Positive_Testcases.tc1_signin_checktitle_action_case()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@64f6106c]" name="tc1_signin_checktitle_action_case" class="com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases"/>
+        <method signature="SignIn_Negative_Cases.tc1_signin_checktitle_action_case()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases@1786f9d5]" name="tc1_signin_checktitle_action_case" class="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases"/>
+        <method signature="Configure_PT_Positive_Testcases.tc1_validate_configpage()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="tc1_validate_configpage" class="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases"/>
       </group> <!-- SmokeTest -->
+      <group name="FunctionalNegative">
+        <method signature="SignIn_Negative_Cases.tc2_signin_case_invalid_unpwd()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases@1786f9d5]" name="tc2_signin_case_invalid_unpwd" class="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases"/>
+        <method signature="Forgotpassword_Negative_Testcases.tc1_forgot_password_submit_invalid_case()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Forgotpassword_Negative_Testcases@78186a70]" name="tc1_forgot_password_submit_invalid_case" class="com.bixbytes.qa.cbooster.testcases.Forgotpassword_Negative_Testcases"/>
+        <method signature="Configure_PT_Negative_Testcases.tc1_clickadd_withoutdata()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Negative_Testcases@2fd66ad3]" name="tc1_clickadd_withoutdata" class="com.bixbytes.qa.cbooster.testcases.Configure_PT_Negative_Testcases"/>
+        <method signature="Configure_PL_Negative_Testcases.tc1_clickadd_withoutdata()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Negative_Testcases@4ae82894]" name="tc1_clickadd_withoutdata" class="com.bixbytes.qa.cbooster.testcases.Configure_PL_Negative_Testcases"/>
+        <method signature="Configure_SLA_Negative_Testcases.tc1_clickadd_withoutdata()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases@2f8f5f62]" name="tc1_clickadd_withoutdata" class="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases"/>
+        <method signature="Configure_Currency_Negative_Testcases.tc1_clickadd_withoutdata()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Negative_Testcases@44f75083]" name="tc1_clickadd_withoutdata" class="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Negative_Testcases"/>
+      </group> <!-- FunctionalNegative -->
       <group name="FunctionalPositive">
-        <method signature="Configure_PT_Positive_Testcases.tc4_add_producttype()[pri:4, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" name="tc4_add_producttype" class="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases"/>
-        <method signature="Configure_PT_Positive_Testcases.tc5_verify_addedProducttype()[pri:5, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" name="tc5_verify_addedProducttype" class="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases"/>
-        <method signature="Configure_PT_Positive_Testcases.tc2_click_overview_btn()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" name="tc2_click_overview_btn" class="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases"/>
-        <method signature="Configure_PT_Positive_Testcases.tc3_click_producttype_btn()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" name="tc3_click_producttype_btn" class="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases"/>
+        <method signature="SignIn_Positive_Testcases.tc2_sign_case_valid()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@64f6106c]" name="tc2_sign_case_valid" class="com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases"/>
+        <method signature="SignIn_Positive_Testcases.tc3_checktitle_afterlogin_case()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@64f6106c]" name="tc3_checktitle_afterlogin_case" class="com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases"/>
+        <method signature="ForgotPassword_Positive_Testcases.tc1_forgorpassword_displayed_check_case()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases@47db50c5]" name="tc1_forgorpassword_displayed_check_case" class="com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases"/>
+        <method signature="ForgotPassword_Positive_Testcases.tc2_validate_forgorpwd_page_case()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases@47db50c5]" name="tc2_validate_forgorpwd_page_case" class="com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases"/>
+        <method signature="ForgotPassword_Positive_Testcases.tc3_forgot_password_submit_valid_case()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases@47db50c5]" name="tc3_forgot_password_submit_valid_case" class="com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases"/>
+        <method signature="Configure_PT_Positive_Testcases.tc4_add_producttype()[pri:4, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="tc4_add_producttype" class="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases"/>
+        <method signature="Configure_PT_Positive_Testcases.tc5_verify_addedProducttype()[pri:5, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="tc5_verify_addedProducttype" class="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases"/>
+        <method signature="Configure_PT_Positive_Testcases.tc2_click_overview_btn()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="tc2_click_overview_btn" class="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases"/>
+        <method signature="Configure_PT_Positive_Testcases.tc3_click_producttype_btn()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="tc3_click_producttype_btn" class="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases"/>
+        <method signature="Configure_PL_Positive_Testcases.tc2_add_productlevel()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases@52525845]" name="tc2_add_productlevel" class="com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases"/>
+        <method signature="Configure_PL_Positive_Testcases.tc3_verify_addedProductlevel()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases@52525845]" name="tc3_verify_addedProductlevel" class="com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases"/>
+        <method signature="Configure_PL_Positive_Testcases.tc1_click_productlevel_btn()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases@52525845]" name="tc1_click_productlevel_btn" class="com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases"/>
+        <method signature="Configure_SLA_Positive_Testcases.tc1_click_sla_btn()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@768b970c]" name="tc1_click_sla_btn" class="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases"/>
+        <method signature="Configure_SLA_Positive_Testcases.tc2_add_sla()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@768b970c]" name="tc2_add_sla" class="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases"/>
+        <method signature="Configure_SLA_Positive_Testcases.tc3_verify_added_sla()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@768b970c]" name="tc3_verify_added_sla" class="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases"/>
+        <method signature="Configure_Currency_Positive_Testcases.tc2_add_currency()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@382db087]" name="tc2_add_currency" class="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases"/>
+        <method signature="Configure_Currency_Positive_Testcases.tc3_verify_addedCurrency()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@382db087]" name="tc3_verify_addedCurrency" class="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases"/>
+        <method signature="Configure_Currency_Positive_Testcases.tc1_click_currency_btn()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@382db087]" name="tc1_click_currency_btn" class="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases"/>
       </group> <!-- FunctionalPositive -->
     </groups>
-    <test started-at="2020-09-07T10:04:47 IST" name="ConfigurationPTPositive" finished-at="2020-09-07T10:07:23 IST" duration-ms="155381">
-      <class name="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:04:47 IST" name="setup" finished-at="2020-09-07T10:05:20 IST" duration-ms="33144" status="PASS">
+    <test name="SignInPagePositive" duration-ms="71000" started-at="2020-09-07T16:14:51 IST" finished-at="2020-09-07T16:16:02 IST">
+      <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@64f6106c]" name="setup" is-config="true" duration-ms="22655" started-at="2020-09-07T16:14:51 IST" finished-at="2020-09-07T16:15:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc1_validate_configpage()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:05:20 IST" name="tc1_validate_configpage" finished-at="2020-09-07T10:05:24 IST" duration-ms="3154" status="PASS">
+        <test-method status="PASS" signature="tc1_signin_checktitle_action_case()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@64f6106c]" name="tc1_signin_checktitle_action_case" duration-ms="177" started-at="2020-09-07T16:15:14 IST" finished-at="2020-09-07T16:15:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_signin_checktitle_action_case -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@64f6106c]" name="exitbrowser" is-config="true" duration-ms="1821" started-at="2020-09-07T16:15:15 IST" finished-at="2020-09-07T16:15:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@64f6106c]" name="setup" is-config="true" duration-ms="12273" started-at="2020-09-07T16:15:17 IST" finished-at="2020-09-07T16:15:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc2_sign_case_valid()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@64f6106c]" name="tc2_sign_case_valid" duration-ms="3349" started-at="2020-09-07T16:15:29 IST" finished-at="2020-09-07T16:15:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_sign_case_valid -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@64f6106c]" name="exitbrowser" is-config="true" duration-ms="4899" started-at="2020-09-07T16:15:33 IST" finished-at="2020-09-07T16:15:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@64f6106c]" name="setup" is-config="true" duration-ms="12242" started-at="2020-09-07T16:15:38 IST" finished-at="2020-09-07T16:15:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc3_checktitle_afterlogin_case()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@64f6106c]" name="tc3_checktitle_afterlogin_case" duration-ms="9089" started-at="2020-09-07T16:15:51 IST" finished-at="2020-09-07T16:16:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3_checktitle_afterlogin_case -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases@64f6106c]" name="exitbrowser" is-config="true" duration-ms="1825" started-at="2020-09-07T16:16:00 IST" finished-at="2020-09-07T16:16:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.SignIn_Positive_Testcases -->
+    </test> <!-- SignInPagePositive -->
+    <test name="SignInPageNegative" duration-ms="47269" started-at="2020-09-07T16:16:03 IST" finished-at="2020-09-07T16:16:51 IST">
+      <class name="com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases@1786f9d5]" name="setup" is-config="true" duration-ms="13049" started-at="2020-09-07T16:16:03 IST" finished-at="2020-09-07T16:16:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc1_signin_checktitle_action_case()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases@1786f9d5]" name="tc1_signin_checktitle_action_case" duration-ms="64" started-at="2020-09-07T16:16:16 IST" finished-at="2020-09-07T16:16:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_signin_checktitle_action_case -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases@1786f9d5]" name="exitbrowser" is-config="true" duration-ms="4852" started-at="2020-09-07T16:16:17 IST" finished-at="2020-09-07T16:16:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases@1786f9d5]" name="setup" is-config="true" duration-ms="12261" started-at="2020-09-07T16:16:22 IST" finished-at="2020-09-07T16:16:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc2_signin_case_invalid_unpwd()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases@1786f9d5]" name="tc2_signin_case_invalid_unpwd" duration-ms="10251" started-at="2020-09-07T16:16:34 IST" finished-at="2020-09-07T16:16:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_signin_case_invalid_unpwd -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases@1786f9d5]" name="exitbrowser" is-config="true" duration-ms="5267" started-at="2020-09-07T16:16:45 IST" finished-at="2020-09-07T16:16:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.SignIn_Negative_Cases -->
+    </test> <!-- SignInPageNegative -->
+    <test name="ForgotPasswordPositive" duration-ms="59661" started-at="2020-09-07T16:16:52 IST" finished-at="2020-09-07T16:17:52 IST">
+      <class name="com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases@47db50c5]" name="setup" is-config="true" duration-ms="13486" started-at="2020-09-07T16:16:52 IST" finished-at="2020-09-07T16:17:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc1_forgorpassword_displayed_check_case()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases@47db50c5]" name="tc1_forgorpassword_displayed_check_case" duration-ms="424" started-at="2020-09-07T16:17:05 IST" finished-at="2020-09-07T16:17:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_forgorpassword_displayed_check_case -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases@47db50c5]" name="exitbrowser" is-config="true" duration-ms="1086" started-at="2020-09-07T16:17:06 IST" finished-at="2020-09-07T16:17:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases@47db50c5]" name="setup" is-config="true" duration-ms="15950" started-at="2020-09-07T16:17:08 IST" finished-at="2020-09-07T16:17:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc2_validate_forgorpwd_page_case()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases@47db50c5]" name="tc2_validate_forgorpwd_page_case" duration-ms="5533" started-at="2020-09-07T16:17:24 IST" finished-at="2020-09-07T16:17:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_validate_forgorpwd_page_case -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases@47db50c5]" name="exitbrowser" is-config="true" duration-ms="1274" started-at="2020-09-07T16:17:30 IST" finished-at="2020-09-07T16:17:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases@47db50c5]" name="setup" is-config="true" duration-ms="13763" started-at="2020-09-07T16:17:31 IST" finished-at="2020-09-07T16:17:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc3_forgot_password_submit_valid_case()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases@47db50c5]" name="tc3_forgot_password_submit_valid_case" duration-ms="1185" started-at="2020-09-07T16:17:45 IST" finished-at="2020-09-07T16:17:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3_forgot_password_submit_valid_case -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases@47db50c5]" name="exitbrowser" is-config="true" duration-ms="4866" started-at="2020-09-07T16:17:47 IST" finished-at="2020-09-07T16:17:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.ForgotPassword_Positive_Testcases -->
+    </test> <!-- ForgotPasswordPositive -->
+    <test name="ForgotPasswordNegative" duration-ms="25586" started-at="2020-09-07T16:17:52 IST" finished-at="2020-09-07T16:18:17 IST">
+      <class name="com.bixbytes.qa.cbooster.testcases.Forgotpassword_Negative_Testcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Forgotpassword_Negative_Testcases@78186a70]" name="setup" is-config="true" duration-ms="13302" started-at="2020-09-07T16:17:52 IST" finished-at="2020-09-07T16:18:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc1_forgot_password_submit_invalid_case()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Forgotpassword_Negative_Testcases@78186a70]" name="tc1_forgot_password_submit_invalid_case" duration-ms="6557" started-at="2020-09-07T16:18:05 IST" finished-at="2020-09-07T16:18:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_forgot_password_submit_invalid_case -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Forgotpassword_Negative_Testcases@78186a70]" name="exitbrowser" is-config="true" duration-ms="4984" started-at="2020-09-07T16:18:12 IST" finished-at="2020-09-07T16:18:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.Forgotpassword_Negative_Testcases -->
+    </test> <!-- ForgotPasswordNegative -->
+    <test name="ConfigurationPTPositive" duration-ms="181860" started-at="2020-09-07T16:18:17 IST" finished-at="2020-09-07T16:21:19 IST">
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="setup" is-config="true" duration-ms="24586" started-at="2020-09-07T16:18:17 IST" finished-at="2020-09-07T16:18:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc1_validate_configpage()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="tc1_validate_configpage" duration-ms="2903" started-at="2020-09-07T16:18:42 IST" finished-at="2020-09-07T16:18:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc1_validate_configpage -->
-        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:05:24 IST" name="exitbrowser" finished-at="2020-09-07T10:05:25 IST" duration-ms="866" status="PASS">
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="exitbrowser" is-config="true" duration-ms="2263" started-at="2020-09-07T16:18:45 IST" finished-at="2020-09-07T16:18:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitbrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:05:25 IST" name="setup" finished-at="2020-09-07T10:05:45 IST" duration-ms="19737" status="PASS">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="setup" is-config="true" duration-ms="25388" started-at="2020-09-07T16:18:47 IST" finished-at="2020-09-07T16:19:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc2_click_overview_btn()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:05:45 IST" name="tc2_click_overview_btn" finished-at="2020-09-07T10:05:49 IST" duration-ms="3946" status="PASS">
+        <test-method status="PASS" signature="tc2_click_overview_btn()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="tc2_click_overview_btn" duration-ms="4346" started-at="2020-09-07T16:19:13 IST" finished-at="2020-09-07T16:19:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc2_click_overview_btn -->
-        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:05:49 IST" name="exitbrowser" finished-at="2020-09-07T10:05:50 IST" duration-ms="767" status="PASS">
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="exitbrowser" is-config="true" duration-ms="1594" started-at="2020-09-07T16:19:18 IST" finished-at="2020-09-07T16:19:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitbrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:05:50 IST" name="setup" finished-at="2020-09-07T10:06:09 IST" duration-ms="19000" status="PASS">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="setup" is-config="true" duration-ms="27905" started-at="2020-09-07T16:19:20 IST" finished-at="2020-09-07T16:19:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc3_click_producttype_btn()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:06:09 IST" name="tc3_click_producttype_btn" finished-at="2020-09-07T10:06:16 IST" duration-ms="6853" status="PASS">
+        <test-method status="PASS" signature="tc3_click_producttype_btn()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="tc3_click_producttype_btn" duration-ms="5433" started-at="2020-09-07T16:19:47 IST" finished-at="2020-09-07T16:19:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc3_click_producttype_btn -->
-        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:06:16 IST" name="exitbrowser" finished-at="2020-09-07T10:06:17 IST" duration-ms="932" status="PASS">
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="exitbrowser" is-config="true" duration-ms="1189" started-at="2020-09-07T16:19:53 IST" finished-at="2020-09-07T16:19:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitbrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:06:17 IST" name="setup" finished-at="2020-09-07T10:06:37 IST" duration-ms="20600" status="PASS">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="setup" is-config="true" duration-ms="26698" started-at="2020-09-07T16:19:55 IST" finished-at="2020-09-07T16:20:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc4_add_producttype()[pri:4, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:06:37 IST" name="tc4_add_producttype" finished-at="2020-09-07T10:06:55 IST" duration-ms="17924" status="PASS">
+        <test-method status="PASS" signature="tc4_add_producttype()[pri:4, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="tc4_add_producttype" duration-ms="19991" started-at="2020-09-07T16:20:21 IST" finished-at="2020-09-07T16:20:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc4_add_producttype -->
-        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:06:56 IST" name="exitbrowser" finished-at="2020-09-07T10:06:58 IST" duration-ms="2776" status="PASS">
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="exitbrowser" is-config="true" duration-ms="1463" started-at="2020-09-07T16:20:42 IST" finished-at="2020-09-07T16:20:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitbrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:06:58 IST" name="setup" finished-at="2020-09-07T10:07:16 IST" duration-ms="18056" status="PASS">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="setup" is-config="true" duration-ms="27469" started-at="2020-09-07T16:20:43 IST" finished-at="2020-09-07T16:21:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="tc5_verify_addedProducttype()[pri:5, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:07:16 IST" name="tc5_verify_addedProducttype" finished-at="2020-09-07T10:07:21 IST" depends-on-methods="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases.tc4_add_producttype" duration-ms="4806" status="PASS">
+        <test-method status="PASS" signature="tc5_verify_addedProducttype()[pri:5, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="tc5_verify_addedProducttype" duration-ms="6579" started-at="2020-09-07T16:21:11 IST" depends-on-methods="com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases.tc4_add_producttype" finished-at="2020-09-07T16:21:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc5_verify_addedProducttype -->
-        <test-method is-config="true" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@15bb5034]" started-at="2020-09-07T10:07:22 IST" name="exitbrowser" finished-at="2020-09-07T10:07:23 IST" duration-ms="941" status="PASS">
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases@16f7c8c1]" name="exitbrowser" is-config="true" duration-ms="1164" started-at="2020-09-07T16:21:18 IST" finished-at="2020-09-07T16:21:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitbrowser -->
       </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_PT_Positive_Testcases -->
     </test> <!-- ConfigurationPTPositive -->
+    <test name="ConfigurationPTNegative" duration-ms="34750" started-at="2020-09-07T16:21:19 IST" finished-at="2020-09-07T16:21:54 IST">
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_PT_Negative_Testcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Negative_Testcases@2fd66ad3]" name="setup" is-config="true" duration-ms="25441" started-at="2020-09-07T16:21:19 IST" finished-at="2020-09-07T16:21:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc1_clickadd_withoutdata()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Negative_Testcases@2fd66ad3]" name="tc1_clickadd_withoutdata" duration-ms="6216" started-at="2020-09-07T16:21:45 IST" finished-at="2020-09-07T16:21:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_clickadd_withoutdata -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PT_Negative_Testcases@2fd66ad3]" name="exitbrowser" is-config="true" duration-ms="2518" started-at="2020-09-07T16:21:51 IST" finished-at="2020-09-07T16:21:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_PT_Negative_Testcases -->
+    </test> <!-- ConfigurationPTNegative -->
+    <test name="ConfigurationPLPositive" duration-ms="111455" started-at="2020-09-07T16:21:54 IST" finished-at="2020-09-07T16:23:45 IST">
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases@52525845]" name="setup" is-config="true" duration-ms="24986" started-at="2020-09-07T16:21:54 IST" finished-at="2020-09-07T16:22:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc1_click_productlevel_btn()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases@52525845]" name="tc1_click_productlevel_btn" duration-ms="5433" started-at="2020-09-07T16:22:19 IST" finished-at="2020-09-07T16:22:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_click_productlevel_btn -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases@52525845]" name="exitbrowser" is-config="true" duration-ms="1175" started-at="2020-09-07T16:22:25 IST" finished-at="2020-09-07T16:22:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases@52525845]" name="setup" is-config="true" duration-ms="25078" started-at="2020-09-07T16:22:26 IST" finished-at="2020-09-07T16:22:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc2_add_productlevel()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases@52525845]" name="tc2_add_productlevel" duration-ms="18901" started-at="2020-09-07T16:22:51 IST" finished-at="2020-09-07T16:23:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_add_productlevel -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases@52525845]" name="exitbrowser" is-config="true" duration-ms="1585" started-at="2020-09-07T16:23:11 IST" finished-at="2020-09-07T16:23:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases@52525845]" name="setup" is-config="true" duration-ms="25285" started-at="2020-09-07T16:23:12 IST" finished-at="2020-09-07T16:23:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc3_verify_addedProductlevel()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases@52525845]" name="tc3_verify_addedProductlevel" duration-ms="5746" started-at="2020-09-07T16:23:37 IST" depends-on-methods="com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases.tc2_add_productlevel" finished-at="2020-09-07T16:23:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3_verify_addedProductlevel -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases@52525845]" name="exitbrowser" is-config="true" duration-ms="1720" started-at="2020-09-07T16:23:44 IST" finished-at="2020-09-07T16:23:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_PL_Positive_Testcases -->
+    </test> <!-- ConfigurationPLPositive -->
+    <test name="ConfigurationPLNegative" duration-ms="37329" started-at="2020-09-07T16:23:45 IST" finished-at="2020-09-07T16:24:23 IST">
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_PL_Negative_Testcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Negative_Testcases@4ae82894]" name="setup" is-config="true" duration-ms="27380" started-at="2020-09-07T16:23:45 IST" finished-at="2020-09-07T16:24:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc1_clickadd_withoutdata()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Negative_Testcases@4ae82894]" name="tc1_clickadd_withoutdata" duration-ms="5599" started-at="2020-09-07T16:24:13 IST" finished-at="2020-09-07T16:24:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_clickadd_withoutdata -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_PL_Negative_Testcases@4ae82894]" name="exitbrowser" is-config="true" duration-ms="3615" started-at="2020-09-07T16:24:19 IST" finished-at="2020-09-07T16:24:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_PL_Negative_Testcases -->
+    </test> <!-- ConfigurationPLNegative -->
+    <test name="ConfigurationSLAPositive" duration-ms="128043" started-at="2020-09-07T16:24:23 IST" finished-at="2020-09-07T16:26:31 IST">
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@768b970c]" name="setup" is-config="true" duration-ms="30052" started-at="2020-09-07T16:24:23 IST" finished-at="2020-09-07T16:24:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc1_click_sla_btn()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@768b970c]" name="tc1_click_sla_btn" duration-ms="8092" started-at="2020-09-07T16:24:53 IST" finished-at="2020-09-07T16:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_click_sla_btn -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@768b970c]" name="exitbrowser" is-config="true" duration-ms="1516" started-at="2020-09-07T16:25:02 IST" finished-at="2020-09-07T16:25:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@768b970c]" name="setup" is-config="true" duration-ms="26947" started-at="2020-09-07T16:25:04 IST" finished-at="2020-09-07T16:25:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc2_add_sla()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@768b970c]" name="tc2_add_sla" duration-ms="20028" started-at="2020-09-07T16:25:31 IST" finished-at="2020-09-07T16:25:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_add_sla -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@768b970c]" name="exitbrowser" is-config="true" duration-ms="1595" started-at="2020-09-07T16:25:52 IST" finished-at="2020-09-07T16:25:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@768b970c]" name="setup" is-config="true" duration-ms="27177" started-at="2020-09-07T16:25:53 IST" finished-at="2020-09-07T16:26:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc3_verify_added_sla()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@768b970c]" name="tc3_verify_added_sla" duration-ms="8762" started-at="2020-09-07T16:26:20 IST" depends-on-methods="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases.tc2_add_sla" finished-at="2020-09-07T16:26:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3_verify_added_sla -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases@768b970c]" name="exitbrowser" is-config="true" duration-ms="1229" started-at="2020-09-07T16:26:30 IST" finished-at="2020-09-07T16:26:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_SLA_Positive_Testcases -->
+    </test> <!-- ConfigurationSLAPositive -->
+    <test name="ConfigurationSLANegative" duration-ms="36472" started-at="2020-09-07T16:26:31 IST" finished-at="2020-09-07T16:27:07 IST">
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases@2f8f5f62]" name="setup" is-config="true" duration-ms="26292" started-at="2020-09-07T16:26:31 IST" finished-at="2020-09-07T16:26:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc1_clickadd_withoutdata()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases@2f8f5f62]" name="tc1_clickadd_withoutdata" duration-ms="5895" started-at="2020-09-07T16:26:57 IST" finished-at="2020-09-07T16:27:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_clickadd_withoutdata -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases@2f8f5f62]" name="exitbrowser" is-config="true" duration-ms="3800" started-at="2020-09-07T16:27:04 IST" finished-at="2020-09-07T16:27:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_SLA_Negative_Testcases -->
+    </test> <!-- ConfigurationSLANegative -->
+    <test name="ConfigurationCurrencyPositive" duration-ms="116227" started-at="2020-09-07T16:27:07 IST" finished-at="2020-09-07T16:29:04 IST">
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@382db087]" name="setup" is-config="true" duration-ms="27163" started-at="2020-09-07T16:27:07 IST" finished-at="2020-09-07T16:27:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc1_click_currency_btn()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@382db087]" name="tc1_click_currency_btn" duration-ms="6486" started-at="2020-09-07T16:27:35 IST" finished-at="2020-09-07T16:27:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_click_currency_btn -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@382db087]" name="exitbrowser" is-config="true" duration-ms="1440" started-at="2020-09-07T16:27:42 IST" finished-at="2020-09-07T16:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@382db087]" name="setup" is-config="true" duration-ms="25166" started-at="2020-09-07T16:27:43 IST" finished-at="2020-09-07T16:28:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc2_add_currency()[pri:2, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@382db087]" name="tc2_add_currency" duration-ms="17851" started-at="2020-09-07T16:28:08 IST" finished-at="2020-09-07T16:28:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_add_currency -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@382db087]" name="exitbrowser" is-config="true" duration-ms="1118" started-at="2020-09-07T16:28:27 IST" finished-at="2020-09-07T16:28:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@382db087]" name="setup" is-config="true" duration-ms="26758" started-at="2020-09-07T16:28:28 IST" finished-at="2020-09-07T16:28:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc3_verify_addedCurrency()[pri:3, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@382db087]" name="tc3_verify_addedCurrency" duration-ms="5899" started-at="2020-09-07T16:28:55 IST" depends-on-methods="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases.tc2_add_currency" finished-at="2020-09-07T16:29:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3_verify_addedCurrency -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases@382db087]" name="exitbrowser" is-config="true" duration-ms="2432" started-at="2020-09-07T16:29:01 IST" finished-at="2020-09-07T16:29:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_Currency_Positive_Testcases -->
+    </test> <!-- ConfigurationCurrencyPositive -->
+    <test name="ConfigurationCurrencyNegative" duration-ms="35765" started-at="2020-09-07T16:29:04 IST" finished-at="2020-09-07T16:29:39 IST">
+      <class name="com.bixbytes.qa.cbooster.testcases.Configure_Currency_Negative_Testcases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Negative_Testcases@44f75083]" name="setup" is-config="true" duration-ms="26188" started-at="2020-09-07T16:29:04 IST" finished-at="2020-09-07T16:29:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc1_clickadd_withoutdata()[pri:1, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Negative_Testcases@44f75083]" name="tc1_clickadd_withoutdata" duration-ms="6134" started-at="2020-09-07T16:29:30 IST" finished-at="2020-09-07T16:29:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_clickadd_withoutdata -->
+        <test-method status="PASS" signature="exitbrowser()[pri:0, instance:com.bixbytes.qa.cbooster.testcases.Configure_Currency_Negative_Testcases@44f75083]" name="exitbrowser" is-config="true" duration-ms="2721" started-at="2020-09-07T16:29:37 IST" finished-at="2020-09-07T16:29:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitbrowser -->
+      </class> <!-- com.bixbytes.qa.cbooster.testcases.Configure_Currency_Negative_Testcases -->
+    </test> <!-- ConfigurationCurrencyNegative -->
   </suite> <!-- CBoosterTestSuite -->
 </testng-results>

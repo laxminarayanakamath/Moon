@@ -1840,3 +1840,326 @@
 2020-09-07 10:07:19,551 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (50ee4d4763788546815055123e1a0def)] -> xpath: //a[contains(text(),'Product Type')]]
 2020-09-07 10:07:21,794 - CBooster -INFO - Test case passed,verified product in the grid is:Food Products
 2020-09-07 10:07:23,087 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:16:17,892 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:17:09,212 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8325692a5f15fdb772c26b85f3c9ab9f)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:17:12,052 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8325692a5f15fdb772c26b85f3c9ab9f)] -> xpath: //a[contains(text(),'Currency')]]
+2020-09-07 15:17:15,559 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (8325692a5f15fdb772c26b85f3c9ab9f)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-07 15:17:16,102 - CBooster -INFO - Clicking on add button without entering the details
+2020-09-07 15:17:18,252 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:35:14,792 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:36:12,553 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d1acdfc10fd59ef02663d61f0a8abbc8)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:36:15,638 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d1acdfc10fd59ef02663d61f0a8abbc8)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-07 15:36:18,522 - CBooster -INFO - Clicked on SLA  button and SLA page displayed:true
+2020-09-07 15:36:21,888 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:36:21,967 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:36:48,016 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d60ce9ec914f26a848460a1f87e2b685)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:36:50,608 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d60ce9ec914f26a848460a1f87e2b685)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-07 15:36:54,977 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d60ce9ec914f26a848460a1f87e2b685)] -> css selector: input[name=sla_title]]
+2020-09-07 15:36:55,149 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d60ce9ec914f26a848460a1f87e2b685)] -> css selector: input[name=description]]
+2020-09-07 15:36:55,311 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d60ce9ec914f26a848460a1f87e2b685)] -> css selector: input[name=days]]
+2020-09-07 15:36:55,456 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d60ce9ec914f26a848460a1f87e2b685)] -> css selector: input[name=hours]]
+2020-09-07 15:36:55,616 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d60ce9ec914f26a848460a1f87e2b685)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-07 15:37:06,933 - CBooster -INFO - It looks like data you are trying to insert already exist in the grid
+2020-09-07 15:37:11,342 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:37:11,346 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:37:39,426 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5421031b8ecb438bd607515ef0a5bff4)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:37:41,996 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5421031b8ecb438bd607515ef0a5bff4)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-07 15:37:45,147 - CBooster -INFO - Test case passed,verified product in the grid is:SLA1
+2020-09-07 15:37:46,334 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:37:46,342 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:38:03,109 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (668bfb1837d0291e2f7c17244dd63aac)] -> id: email]
+2020-09-07 15:38:04,195 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (668bfb1837d0291e2f7c17244dd63aac)] -> id: password]
+2020-09-07 15:38:05,001 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (668bfb1837d0291e2f7c17244dd63aac)] -> xpath: //button[contains(text(),'Login')]]
+2020-09-07 15:38:05,319 - CBooster -INFO - Smoke Test
+2020-09-07 15:38:17,090 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:38:17,098 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:38:32,898 - CBooster -INFO - Smoke Test
+2020-09-07 15:38:32,959 - CBooster -INFO - Checking LoginPage Title Completed:CBooster PM Tool
+2020-09-07 15:38:37,812 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:38:37,816 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:38:52,326 - CBooster -INFO - Functional Test
+2020-09-07 15:38:53,043 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d48e94659376008d5e925066d941ac5e)] -> id: email]
+2020-09-07 15:38:53,935 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d48e94659376008d5e925066d941ac5e)] -> id: password]
+2020-09-07 15:38:54,738 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d48e94659376008d5e925066d941ac5e)] -> xpath: //button[contains(text(),'Login')]]
+2020-09-07 15:39:00,220 - CBooster -INFO - Checking the alert for invalid username and passwords:true
+2020-09-07 15:39:05,094 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:39:05,100 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:39:33,477 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5c8b0dcc430a5e98a94c01c8f221aee9)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:39:36,138 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5c8b0dcc430a5e98a94c01c8f221aee9)] -> xpath: //a[contains(text(),'Currency')]]
+2020-09-07 15:39:39,598 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5c8b0dcc430a5e98a94c01c8f221aee9)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-07 15:39:39,909 - CBooster -INFO - Clicking on add button without entering the details
+2020-09-07 15:39:41,368 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:39:41,372 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:40:09,957 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0d1fc77703a92b24e252674ab821500e)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:40:12,839 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0d1fc77703a92b24e252674ab821500e)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-07 15:40:15,569 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0d1fc77703a92b24e252674ab821500e)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-07 15:40:15,916 - CBooster -INFO - Clicking on add button without entering the product type details
+2020-09-07 15:40:18,836 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:40:18,855 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:40:44,377 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d024209d61be980a67287d47419fa594)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:40:47,501 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (d024209d61be980a67287d47419fa594)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-07 15:40:50,072 - CBooster -INFO - Clicked on Product Level  button and PL page displayed:true
+2020-09-07 15:40:56,883 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:40:56,887 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:41:26,662 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (31b51eadbfd5e122e53b137b3d843dda)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:41:29,416 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (31b51eadbfd5e122e53b137b3d843dda)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-07 15:41:33,286 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (31b51eadbfd5e122e53b137b3d843dda)] -> css selector: input[name=level_title]]
+2020-09-07 15:41:33,462 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (31b51eadbfd5e122e53b137b3d843dda)] -> css selector: input[name='code']]
+2020-09-07 15:41:33,641 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (31b51eadbfd5e122e53b137b3d843dda)] -> css selector: input[name='description']]
+2020-09-07 15:41:33,893 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (31b51eadbfd5e122e53b137b3d843dda)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-07 15:41:45,491 - CBooster -INFO - It looks like data you are trying to insert already exist in the grid
+2020-09-07 15:41:46,615 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:41:46,621 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:42:12,759 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e9dd6929c4db7f5938631025386a51d5)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:42:15,288 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e9dd6929c4db7f5938631025386a51d5)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-07 15:42:17,908 - CBooster -INFO - Test case passed,verified product in the grid is:First Grade
+2020-09-07 15:42:18,964 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:42:18,974 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:42:30,680 - CBooster -INFO - Functional Test
+2020-09-07 15:42:35,877 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:42:35,882 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:42:46,652 - CBooster -INFO - Functional Test
+2020-09-07 15:42:53,442 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:42:53,448 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:43:04,977 - CBooster -INFO - Functional Test
+2020-09-07 15:43:11,294 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:43:11,300 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:43:25,660 - CBooster -INFO - Smoke Test
+2020-09-07 15:43:25,678 - CBooster -INFO - Checking LoginPage Title Completed:CBooster PM Tool
+2020-09-07 15:43:27,846 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:43:27,852 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:43:41,554 - CBooster -INFO - Functional Test
+2020-09-07 15:43:42,137 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fdde0b29209aec8b1a94520e7e1fefa1)] -> id: email]
+2020-09-07 15:43:43,155 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fdde0b29209aec8b1a94520e7e1fefa1)] -> id: password]
+2020-09-07 15:43:44,058 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (fdde0b29209aec8b1a94520e7e1fefa1)] -> xpath: //button[contains(text(),'Login')]]
+2020-09-07 15:43:44,492 - CBooster -INFO - Clicked on Login Button
+2020-09-07 15:43:49,662 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:43:49,667 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:44:02,461 - CBooster -INFO - Functional Test
+2020-09-07 15:44:02,861 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (dff0fd4b979d05cc3f025dc39e4ac991)] -> id: email]
+2020-09-07 15:44:03,811 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (dff0fd4b979d05cc3f025dc39e4ac991)] -> id: password]
+2020-09-07 15:44:04,588 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (dff0fd4b979d05cc3f025dc39e4ac991)] -> xpath: //button[contains(text(),'Login')]]
+2020-09-07 15:44:04,879 - CBooster -INFO - Successfully logged in...
+2020-09-07 15:44:09,210 - CBooster -INFO - Checking Dashboard page title after Login:true
+2020-09-07 15:44:11,621 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:44:11,623 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:44:37,347 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3c0ad8bd39a5500848423a8433aa2129)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:44:39,846 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (3c0ad8bd39a5500848423a8433aa2129)] -> xpath: //a[contains(text(),'Currency')]]
+2020-09-07 15:44:42,520 - CBooster -INFO - Clicked on Currency  button and Currency Add page displayed:true
+2020-09-07 15:44:43,635 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:44:43,640 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:45:08,770 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0ced3d01dd203e93589e171c1eb8f6de)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:45:11,676 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0ced3d01dd203e93589e171c1eb8f6de)] -> xpath: //a[contains(text(),'Currency')]]
+2020-09-07 15:45:14,451 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0ced3d01dd203e93589e171c1eb8f6de)] -> css selector: input[name=currency_title]]
+2020-09-07 15:45:14,582 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0ced3d01dd203e93589e171c1eb8f6de)] -> css selector: input[name=description]]
+2020-09-07 15:45:14,719 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0ced3d01dd203e93589e171c1eb8f6de)] -> css selector: input[name=round_factor]]
+2020-09-07 15:45:14,901 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0ced3d01dd203e93589e171c1eb8f6de)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-07 15:45:26,225 - CBooster -INFO - It looks like data you are trying to insert already exist in the grid
+2020-09-07 15:45:27,745 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:45:27,750 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:45:54,517 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6d44441782c8a56f441a632522800b05)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:45:57,386 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6d44441782c8a56f441a632522800b05)] -> xpath: //a[contains(text(),'Currency')]]
+2020-09-07 15:46:00,066 - CBooster -INFO - Test case passed,verified Currency in the grid is:Rs
+2020-09-07 15:46:02,594 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:46:02,599 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:46:27,025 - CBooster -INFO - Smoke Test
+2020-09-07 15:46:29,174 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (a04181e5231464badb56529397082ba3)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:46:31,651 - CBooster -INFO - Validating navigated page is Config Page Or not:true
+2020-09-07 15:46:32,743 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:46:32,747 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:46:56,008 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e01cbf38cc2038e472aa0aef6df1d699)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:46:59,402 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e01cbf38cc2038e472aa0aef6df1d699)] -> xpath: //a[contains(text(),'OVERVIEW')]]
+2020-09-07 15:47:00,499 - CBooster -INFO - Clicked on Over view button
+2020-09-07 15:47:01,987 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:47:01,991 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:47:35,229 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (f11a423530f5dc661744b00ea023e343)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:47:38,462 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (f11a423530f5dc661744b00ea023e343)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-09-07 15:47:41,176 - CBooster -INFO - Clicked on Product Type button and PT page displayed:true
+2020-09-07 15:47:42,231 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:47:42,235 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:48:06,493 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (420382e59a25dec43777e7576fb876ad)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:48:08,920 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (420382e59a25dec43777e7576fb876ad)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-09-07 15:48:11,709 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (420382e59a25dec43777e7576fb876ad)] -> css selector: input[name=product_type]]
+2020-09-07 15:48:11,847 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (420382e59a25dec43777e7576fb876ad)] -> css selector: input[name='code']]
+2020-09-07 15:48:11,985 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (420382e59a25dec43777e7576fb876ad)] -> css selector: input[name='description']]
+2020-09-07 15:48:12,120 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (420382e59a25dec43777e7576fb876ad)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-07 15:48:23,277 - CBooster -INFO - It looks like data you are trying to insert already exist in the grid
+2020-09-07 15:48:24,332 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:48:24,337 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:48:50,189 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (f77f8653e8e40625c697fbb34dccf0fa)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:48:52,847 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (f77f8653e8e40625c697fbb34dccf0fa)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-09-07 15:48:55,528 - CBooster -INFO - Test case passed,verified product in the grid is:Food Products
+2020-09-07 15:48:56,692 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:48:56,697 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:49:21,540 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (dc32bfd30f366087f85e82a863c863d8)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:49:24,193 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (dc32bfd30f366087f85e82a863c863d8)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-07 15:49:26,867 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (dc32bfd30f366087f85e82a863c863d8)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-07 15:49:27,185 - CBooster -INFO - Clicking on add button without entering the product type detailstrue
+2020-09-07 15:49:28,384 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:49:28,387 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:49:39,498 - CBooster -INFO - Functional Test
+2020-09-07 15:49:50,934 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 15:49:50,939 - CBooster -INFO - Chrome browser is started..
+2020-09-07 15:50:15,093 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6c04c05e083cb9bd9da071edd700e229)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 15:50:17,876 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6c04c05e083cb9bd9da071edd700e229)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-09-07 15:50:20,946 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6c04c05e083cb9bd9da071edd700e229)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-07 15:50:21,228 - CBooster -INFO - Clicking on add button without entering the product type details
+2020-09-07 15:50:22,182 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:14:51,600 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:15:14,282 - CBooster -INFO - Smoke Test
+2020-09-07 16:15:14,415 - CBooster -INFO - Checking LoginPage Title Completed:CBooster PM Tool
+2020-09-07 16:15:17,470 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:15:17,567 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:15:29,857 - CBooster -INFO - Functional Test
+2020-09-07 16:15:30,895 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (009dbcff6e643bb50bb6f8598ccff8e0)] -> id: email]
+2020-09-07 16:15:32,089 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (009dbcff6e643bb50bb6f8598ccff8e0)] -> id: password]
+2020-09-07 16:15:32,896 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (009dbcff6e643bb50bb6f8598ccff8e0)] -> xpath: //button[contains(text(),'Login')]]
+2020-09-07 16:15:33,188 - CBooster -INFO - Clicked on Login Button
+2020-09-07 16:15:38,779 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:15:38,785 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:15:51,041 - CBooster -INFO - Functional Test
+2020-09-07 16:15:51,633 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9be8361646385123922b16f55bbab007)] -> id: email]
+2020-09-07 16:15:52,781 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9be8361646385123922b16f55bbab007)] -> id: password]
+2020-09-07 16:15:53,618 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9be8361646385123922b16f55bbab007)] -> xpath: //button[contains(text(),'Login')]]
+2020-09-07 16:15:54,036 - CBooster -INFO - Successfully logged in...
+2020-09-07 16:16:00,114 - CBooster -INFO - Checking Dashboard page title after Login:true
+2020-09-07 16:16:02,448 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:16:03,911 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:16:16,970 - CBooster -INFO - Smoke Test
+2020-09-07 16:16:17,022 - CBooster -INFO - Checking LoginPage Title Completed:CBooster PM Tool
+2020-09-07 16:16:22,637 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:16:22,642 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:16:34,908 - CBooster -INFO - Functional Test
+2020-09-07 16:16:36,376 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (bd264a3bf88c516c49ae666bb25e5e27)] -> id: email]
+2020-09-07 16:16:38,330 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (bd264a3bf88c516c49ae666bb25e5e27)] -> id: password]
+2020-09-07 16:16:39,333 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (bd264a3bf88c516c49ae666bb25e5e27)] -> xpath: //button[contains(text(),'Login')]]
+2020-09-07 16:16:45,152 - CBooster -INFO - Checking the alert for invalid username and passwords:true
+2020-09-07 16:16:51,165 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:16:52,381 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:17:05,873 - CBooster -INFO - Functional Test
+2020-09-07 16:17:08,066 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:17:08,071 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:17:24,025 - CBooster -INFO - Functional Test
+2020-09-07 16:17:31,531 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:17:31,536 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:17:45,303 - CBooster -INFO - Functional Test
+2020-09-07 16:17:52,031 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:17:52,082 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:18:05,390 - CBooster -INFO - Functional Test
+2020-09-07 16:18:17,657 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:18:17,705 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:18:42,293 - CBooster -INFO - Smoke Test
+2020-09-07 16:18:42,667 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (b21cb9f9663b429d78d312c031c9a226)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:18:45,192 - CBooster -INFO - Validating navigated page is Config Page Or not:true
+2020-09-07 16:18:47,938 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:18:47,943 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:19:13,861 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7b5bd979cf37858c8fbdedd3b1be6869)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:19:16,634 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (7b5bd979cf37858c8fbdedd3b1be6869)] -> xpath: //a[contains(text(),'OVERVIEW')]]
+2020-09-07 16:19:17,677 - CBooster -INFO - Clicked on Over view button
+2020-09-07 16:19:20,023 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:19:20,027 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:19:48,711 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (267055c15a561c4cbf63e162bdc23e2a)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:19:51,159 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (267055c15a561c4cbf63e162bdc23e2a)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-09-07 16:19:53,363 - CBooster -INFO - Clicked on Product Type button and PT page displayed:true
+2020-09-07 16:19:55,156 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:19:55,159 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:20:22,055 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0af0d52d2bdfd989fff046316e7dcf98)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:20:25,600 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0af0d52d2bdfd989fff046316e7dcf98)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-09-07 16:20:30,005 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0af0d52d2bdfd989fff046316e7dcf98)] -> css selector: input[name=product_type]]
+2020-09-07 16:20:30,188 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0af0d52d2bdfd989fff046316e7dcf98)] -> css selector: input[name='code']]
+2020-09-07 16:20:30,344 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0af0d52d2bdfd989fff046316e7dcf98)] -> css selector: input[name='description']]
+2020-09-07 16:20:30,530 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0af0d52d2bdfd989fff046316e7dcf98)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-07 16:20:41,834 - CBooster -INFO - It looks like data you are trying to insert already exist in the grid
+2020-09-07 16:20:43,862 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:20:43,874 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:21:11,942 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (be6c74825e1868d1096c37e764e4f58e)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:21:15,173 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (be6c74825e1868d1096c37e764e4f58e)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-09-07 16:21:17,920 - CBooster -INFO - Test case passed,verified product in the grid is:Food Products
+2020-09-07 16:21:19,552 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:21:19,617 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:21:45,992 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (f86ea86eae7bce77b1553ac119da11a8)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:21:48,540 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (f86ea86eae7bce77b1553ac119da11a8)] -> xpath: //a[contains(text(),'Product Type')]]
+2020-09-07 16:21:50,979 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (f86ea86eae7bce77b1553ac119da11a8)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-07 16:21:51,272 - CBooster -INFO - Clicking on add button without entering the product type details
+2020-09-07 16:21:54,355 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:21:54,402 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:22:19,578 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (808132171dcb107add1638e7eeca20a9)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:22:22,127 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (808132171dcb107add1638e7eeca20a9)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-07 16:22:24,819 - CBooster -INFO - Clicked on Product Level  button and PL page displayed:true
+2020-09-07 16:22:26,458 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:22:26,462 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:22:52,758 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (127fa1541fa14897a142799069113cb8)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:22:55,691 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (127fa1541fa14897a142799069113cb8)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-07 16:22:58,704 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (127fa1541fa14897a142799069113cb8)] -> css selector: input[name=level_title]]
+2020-09-07 16:22:58,845 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (127fa1541fa14897a142799069113cb8)] -> css selector: input[name='code']]
+2020-09-07 16:22:58,984 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (127fa1541fa14897a142799069113cb8)] -> css selector: input[name='description']]
+2020-09-07 16:22:59,147 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (127fa1541fa14897a142799069113cb8)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-07 16:23:10,421 - CBooster -INFO - It looks like data you are trying to insert already exist in the grid
+2020-09-07 16:23:12,614 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:23:12,625 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:23:38,124 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5698c4a149fbf2ce4260c47f716f79f3)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:23:40,649 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (5698c4a149fbf2ce4260c47f716f79f3)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-07 16:23:43,655 - CBooster -INFO - Test case passed,verified product in the grid is:First Grade
+2020-09-07 16:23:45,843 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:23:45,916 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:24:13,513 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e3a2e7c395079cb0dccd29c8ce9f1407)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:24:16,076 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e3a2e7c395079cb0dccd29c8ce9f1407)] -> xpath: //a[contains(text(),'Product Level')]]
+2020-09-07 16:24:18,371 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (e3a2e7c395079cb0dccd29c8ce9f1407)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-07 16:24:18,896 - CBooster -INFO - Clicking on add button without entering the product type details
+2020-09-07 16:24:23,229 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:24:23,300 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:24:55,914 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0cea90ea90bdff5af9124473fb73d718)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:24:58,808 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (0cea90ea90bdff5af9124473fb73d718)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-07 16:25:01,441 - CBooster -INFO - Clicked on SLA  button and SLA page displayed:true
+2020-09-07 16:25:04,504 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:25:04,506 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:25:31,668 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9f2c1e83ee1b2da176b21678eebf170a)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:25:34,932 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9f2c1e83ee1b2da176b21678eebf170a)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-07 16:25:39,266 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9f2c1e83ee1b2da176b21678eebf170a)] -> css selector: input[name=sla_title]]
+2020-09-07 16:25:39,432 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9f2c1e83ee1b2da176b21678eebf170a)] -> css selector: input[name=description]]
+2020-09-07 16:25:39,603 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9f2c1e83ee1b2da176b21678eebf170a)] -> css selector: input[name=days]]
+2020-09-07 16:25:39,768 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9f2c1e83ee1b2da176b21678eebf170a)] -> css selector: input[name=hours]]
+2020-09-07 16:25:39,910 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (9f2c1e83ee1b2da176b21678eebf170a)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-07 16:25:51,469 - CBooster -INFO - It looks like data you are trying to insert already exist in the grid
+2020-09-07 16:25:53,624 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:25:53,636 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:26:23,985 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6636d9887a899cd607b52a517c087caf)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:26:26,763 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6636d9887a899cd607b52a517c087caf)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-07 16:26:29,573 - CBooster -INFO - Test case passed,verified product in the grid is:SLA1
+2020-09-07 16:26:31,337 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:26:31,357 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:26:57,825 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4b5477db1ba94a5ff888c8c88512aa6d)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:27:00,573 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4b5477db1ba94a5ff888c8c88512aa6d)] -> xpath: //a[contains(text(),'SLA')]]
+2020-09-07 16:27:03,251 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (4b5477db1ba94a5ff888c8c88512aa6d)] -> xpath: //button[contains(text(),'Add')]]
+2020-09-07 16:27:03,542 - CBooster -INFO - Clicking on add button without entering the product type detailstrue
+2020-09-07 16:27:07,821 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:27:07,862 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:27:36,348 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (eb80e2182bda7f4ca1563567c79d45e8)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:27:38,957 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (eb80e2182bda7f4ca1563567c79d45e8)] -> xpath: //a[contains(text(),'Currency')]]
+2020-09-07 16:27:41,509 - CBooster -INFO - Clicked on Currency  button and Currency Add page displayed:true
+2020-09-07 16:27:43,500 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:27:43,503 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:28:08,839 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6d5fae7f5e7784ed28fe9a14f885e9be)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:28:12,196 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6d5fae7f5e7784ed28fe9a14f885e9be)] -> xpath: //a[contains(text(),'Currency')]]
+2020-09-07 16:28:14,894 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6d5fae7f5e7784ed28fe9a14f885e9be)] -> css selector: input[name=currency_title]]
+2020-09-07 16:28:15,098 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6d5fae7f5e7784ed28fe9a14f885e9be)] -> css selector: input[name=description]]
+2020-09-07 16:28:15,234 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6d5fae7f5e7784ed28fe9a14f885e9be)] -> css selector: input[name=round_factor]]
+2020-09-07 16:28:15,377 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6d5fae7f5e7784ed28fe9a14f885e9be)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-07 16:28:26,507 - CBooster -INFO - It looks like data you are trying to insert already exist in the grid
+2020-09-07 16:28:28,245 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:28:28,257 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:28:55,264 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ad4a4824928703eae9e78dce0acc77c9)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:28:58,033 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (ad4a4824928703eae9e78dce0acc77c9)] -> xpath: //a[contains(text(),'Currency')]]
+2020-09-07 16:29:00,913 - CBooster -INFO - Test case passed,verified Currency in the grid is:Rs
+2020-09-07 16:29:04,079 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:29:04,163 - CBooster -INFO - Chrome browser is started..
+2020-09-07 16:29:30,533 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6787194c8ac18c8a3c98991768a8d3c6)] -> xpath: //span[contains(text(),'Configure')]]
+2020-09-07 16:29:33,181 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6787194c8ac18c8a3c98991768a8d3c6)] -> xpath: //a[contains(text(),'Currency')]]
+2020-09-07 16:29:36,262 - CBooster -INFO - This element is displayed,proceeding with further actions...[[ChromeDriver: chrome on WINDOWS (6787194c8ac18c8a3c98991768a8d3c6)] -> xpath: //button[contains(text(),'ADD')]]
+2020-09-07 16:29:36,484 - CBooster -INFO - Clicking on add button without entering the details
+2020-09-07 16:29:39,912 - CBooster -INFO - Clean up activity: Closed all browser instances..
+2020-09-07 16:50:35,577 - CBooster -INFO - Firefox browser is started..
+2020-09-07 16:50:47,726 - CBooster -INFO - Firefox browser is started..
+2020-09-07 16:51:50,971 - CBooster -INFO - Firefox browser is started..
+2020-09-07 16:53:25,763 - CBooster -INFO - Firefox browser is started..
+2020-09-07 16:53:50,695 - CBooster -INFO - Firefox browser is started..
